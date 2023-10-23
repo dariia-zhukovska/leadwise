@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "MonumentExtended";
+  src: url("/fonts/MonumentExtended-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "MonumentExtended-Ultrabold";
+  src: url("/fonts/MonumentExtended-Ultrabold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url("/fonts/ProximaNova-Regular.woff") format("woff");
+}
+
+////////////////////
+
+@mixin button-20-400 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32x;
+}
+
+@mixin button-16-400 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+////////////////////
+
+@mixin text-28-400 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+@mixin text-16-400 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+@mixin text-20-400 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+////////////////////
+
+@mixin heading-170-400 {
+  font-family: "MonumentExtended-Ultrabold", sans-serif;
+  font-size: 170px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+@mixin heading-44-600 {
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+}
+// @mixin heading-34-500 {
+//   font-size: 34px;
+//   font-weight: 500;
+//   line-height: 40.8px;
+// }
+
+// @mixin heading-24-700 {
+//   font-size: 24px;
+//   font-weight: 700;
+//   line-height: 36px;
+//   letter-spacing: 0.48px;
+// }
+
+// @mixin heading-24-500 {
+//   font-size: 24px;
+//   font-weight: 500;
+//   line-height: 36px;
+//   letter-spacing: 0.48px;
+// }
+
+// @mixin heading-22-700 {
+//   font-size: 22px;
+//   font-weight: 700;
+//   line-height: 33px;
+//   letter-spacing: 0.44px;
+// }
+
+// @mixin heading-20-700 {
+//   font-size: 20px;
+//   font-weight: 700;
+//   line-height: 30px;
+//   letter-spacing: 0.4px;
+// }
+
+// @mixin heading-18-500 {
+//   font-size: 18px;
+//   font-weight: 5 00;
+//   line-height: 25.2px;
+//   letter-spacing: 0.36px;
+//   text-transform: uppercase;
+// }

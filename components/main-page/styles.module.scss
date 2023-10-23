@@ -1,0 +1,26 @@
+@use "@styles/typography.scss";
+@use "@styles/colors.scss";
+
+.wrapper {
+  padding: 64px 120px;
+  background-color: colors.$black;
+
+  .title {
+    margin-bottom: 16px;
+    @include typography.heading-170-400;
+    color: colors.$white;
+  }
+
+  .subTitle {
+    max-width: 734px;
+    @include typography.text-28-400;
+    color: colors.$description;
+  }
+
+  .bookCall {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 64px;
+  }
+}

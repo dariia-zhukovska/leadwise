@@ -1,0 +1,43 @@
+@use "@styles/typography.scss";
+@use "@styles/colors.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 120px;
+  // background: rgb(95, 81, 222);
+  // background: linear-gradient(
+  //   90deg,
+  //   rgba(95, 81, 222, 1) 10%,
+  //   rgba(173, 93, 211, 1) 30%
+  // );
+
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      colors.$background-end-rgb
+    )
+    colors.$background-start-rgb;
+
+  .contentWrapper {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    max-width: 720px;
+
+    .title {
+      @include typography.heading-44-600;
+      color: colors.$white;
+      text-align: center;
+    }
+
+    .subTitle {
+      @include typography.text-20-400;
+      color: colors.$description;
+      text-align: center;
+    }
+  }
+}

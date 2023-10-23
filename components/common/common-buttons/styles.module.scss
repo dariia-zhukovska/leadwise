@@ -1,0 +1,118 @@
+@use "@styles/typography.scss";
+@use "@styles/colors.scss";
+
+.button {
+  /* Common styles */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  // width: 100%;
+  white-space: nowrap;
+
+  /* Size variations */
+
+  &--M {
+    height: 56px;
+    @include typography.button-20-400;
+  }
+
+  &--S {
+    height: 40px;
+    @include typography.button-16-400;
+    gap: 12px;
+    svg {
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  /* Variant variations */
+  &--primary {
+    color: colors.$white;
+    background: linear-gradient(266.46deg, #5f51de 0%, #ad5dd3 100%);
+
+    &:hover {
+      background: colors.$primary;
+    }
+  }
+
+  &--outline {
+    color: colors.$primary;
+    border: 1px solid colors.$primary;
+    background: transparent;
+    svg path {
+      stroke: colors.$primary;
+    }
+
+    &:hover {
+      color: colors.$white;
+
+      background: transparent;
+      svg path {
+        stroke: colors.$white;
+      }
+    }
+  }
+
+  &--link {
+    color: colors.$primary;
+    background: transparent;
+
+    svg path {
+      stroke: colors.$primary;
+    }
+
+    &:hover {
+      color: colors.$white;
+
+      svg {
+        path {
+          stroke: colors.$white;
+        }
+      }
+    }
+  }
+
+  /* State variations */
+  &--primary-disabled {
+    color: colors.$disable;
+    background: transparent;
+    border: 1px solid colors.$disables-purpule;
+    cursor: not-allowed;
+    pointer-events: none;
+
+    svg path {
+      stroke: colors.$disable;
+    }
+  }
+
+  &--outline-disabled {
+    color: colors.$disable;
+    background: colors.$brown;
+    cursor: not-allowed;
+    pointer-events: none;
+
+    svg path {
+      stroke: colors.$disable;
+    }
+  }
+
+  &--link-disabled {
+    color: colors.$disable;
+    background: transparent;
+    cursor: not-allowed;
+    pointer-events: none;
+
+    svg path {
+      stroke: colors.$disable;
+    }
+  }
+}
