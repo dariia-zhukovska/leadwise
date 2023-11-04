@@ -1,0 +1,15 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+
+.wrapper {
+  background-color: colors.$black;
+  padding: 0 120px;
+  width: 100%;
+
+  .caseStudiesList {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 120px 0;
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "image": "/assets/images/memebrs/member-01.png",
+    "name": "Dmytro Ishler",
+    "description": "Founder at Lead Wise"
+  },
+  {
+    "id": "2",
+    "image": "/assets/images/memebrs/member-02.png",
+    "name": "Diana Ishler",
+    "description": "Lead Generation Specialist"
+  },
+  {
+    "id": "3",
+    "image": "/assets/images/memebrs/member-03.png",
+    "name": "Dariia Zhukovska",
+    "description": "Lead Generation Specialist"
+  }
+]

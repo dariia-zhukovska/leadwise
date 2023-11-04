@@ -1,0 +1,30 @@
+@use "/styles/colors.scss";
+@use "/styles/typography.scss";
+
+.serviceItemWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 410px;
+  padding: 48px 0 24px;
+  border-right: 1px solid colors.$description;
+  border-bottom: 1px solid colors.$description;
+
+  .serviseItemTop {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 24px;
+  }
+
+  .title {
+    @include typography.title-24-700;
+    color: colors.$white;
+  }
+
+  .description {
+    @include typography.text-16-400;
+    color: colors.$description;
+    height: 142px;
+  }
+}

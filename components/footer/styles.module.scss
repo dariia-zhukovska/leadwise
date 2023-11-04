@@ -1,0 +1,49 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: colors.$black;
+  padding: 80px 120px 120px;
+
+  .footerWrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .rights {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      span {
+        @include typography.text-16-400;
+        color: colors.$white;
+      }
+    }
+
+    .solutions,
+    .company {
+      h1 {
+        @include typography.title-24-700;
+        color: colors.$white;
+        margin-bottom: 24px;
+      }
+    }
+
+    .usefulLinks {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      .link {
+        @include typography.text-16-400;
+        color: colors.$white;
+      }
+    }
+  }
+
+  .socialLinks {
+    display: flex;
+    gap: 33px;
+  }
+}

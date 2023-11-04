@@ -1,0 +1,40 @@
+[
+  {
+    "id": "1",
+    "slug": "",
+    "casePicture": "/assets/images/case-studies/case-card-1.png",
+    "data": "12/07/23",
+    "time": "10 min read",
+    "cardTitle": "80+ appointments in 4 months and a chock-full pipeline for AI and Blochain company",
+    "cardDescription": "In the medical field, AI is aiding in disease diagnosis, drug discovery, and the creation of personalized treatment plans. Machine learning models analyze vast amounts of medical data, offering precise insights."
+  },
+
+  {
+    "id": "2",
+    "slug": "",
+    "casePicture": "/assets/images/case-studies/case-card-1.png",
+    "data": "12/07/23",
+    "time": "10 min read",
+    "cardTitle": "From Leads to Wins: How LeadWise Transformed Cowchain Sales Pipeline with Lead Generation",
+    "cardDescription": "In the medical field, AI is aiding in disease diagnosis, drug discovery, and the creation of personalized treatment plans. Machine learning models analyze vast amounts of medical data, offering precise insights."
+  },
+
+  {
+    "id": "3",
+    "slug": "",
+    "casePicture": "/assets/images/case-studies/case-card-1.png",
+    "data": "",
+    "time": "",
+    "cardTitle": "116 appointments in 4 months and a chock-full pipeline for a cloud-based remote patient App",
+    "cardDescription": ""
+  },
+  {
+    "id": "4",
+    "slug": "",
+    "casePicture": "/assets/images/case-studies/case-card-1.png",
+    "data": "",
+    "time": "",
+    "cardTitle": "116 appointments in 4 months and a chock-full pipeline for a cloud-based remote patient App",
+    "cardDescription": ""
+  }
+]

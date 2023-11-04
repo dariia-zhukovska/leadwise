@@ -1,0 +1,80 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+
+.mainWrapper {
+  background-color: colors.$black;
+  color: colors.$white;
+  padding: 120px;
+}
+
+.servicesItemsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 120px 228px;
+
+  .itemWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+
+    .serviceItemTitle {
+      @include typography.heading-44-600;
+      color: colors.$white;
+    }
+
+    .serviceItemDescription {
+      @include typography.text-18-400;
+      color: colors.$white;
+    }
+  }
+
+  .servicesList {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .serviceListItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .serviceItemDetails {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 28px;
+      width: 50%;
+
+      .cardTitle {
+        @include typography.title-36-700;
+      }
+      .subtitle {
+        @include typography.title-20-700;
+      }
+      .cardList {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .cardItem {
+          padding-left: 40px;
+          @include typography.text-18-400;
+          background-image: url("/assets/images/svg/arrow.svg");
+          background-repeat: no-repeat;
+          background-position: left center;
+        }
+      }
+    }
+  }
+
+  .servicesList .serviceListItem:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+}
+
+.facts {
+  padding: 120px 0;
+}

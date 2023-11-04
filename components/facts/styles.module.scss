@@ -1,0 +1,50 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+
+.facts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 72px 70px;
+  gap: 20px;
+  // background-color: colors.$brown;
+  width: 100%;
+
+  .title {
+    @include typography.title-32-600;
+    color: colors.$white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    @include typography.text-16-400;
+    color: colors.$description;
+    // max-width: 556px;
+    text-align: center;
+  }
+
+  .factsList {
+    display: flex;
+    gap: 120px;
+    margin-top: 28px;
+
+    .factItem {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      .number {
+        @include typography.heading-64-600;
+        color: colors.$primary;
+      }
+
+      .content {
+        @include typography.text-24-600;
+        color: colors.$white;
+      }
+    }
+  }
+}

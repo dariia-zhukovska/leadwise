@@ -14,7 +14,7 @@
   padding: 12px 20px;
   text-align: center;
   text-decoration: none;
-  // width: 100%;
+  width: fit-content;
   white-space: nowrap;
 
   /* Size variations */
@@ -84,8 +84,8 @@
   /* State variations */
   &--primary-disabled {
     color: colors.$disable;
-    background: transparent;
-    border: 1px solid colors.$disables-purpule;
+
+    background: colors.$brown;
     cursor: not-allowed;
     pointer-events: none;
 
@@ -96,9 +96,10 @@
 
   &--outline-disabled {
     color: colors.$disable;
-    background: colors.$brown;
+    background: transparent;
     cursor: not-allowed;
     pointer-events: none;
+    border: 1px solid colors.$disables-purpule;
 
     svg path {
       stroke: colors.$disable;

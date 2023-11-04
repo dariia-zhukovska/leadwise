@@ -1,0 +1,7 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+
+.container {
+  background-color: colors.$black;
+  width: 100%;
+}

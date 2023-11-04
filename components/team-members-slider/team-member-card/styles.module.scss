@@ -1,0 +1,37 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0 16px 40px;
+
+  .memberDetails {
+    position: absolute;
+    bottom: -3%;
+    padding: 16px 28px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 80%;
+    &:hover {
+      background: var(
+        --gradient,
+        linear-gradient(266deg, #5f51de 0%, #ad5dd3 100%)
+      );
+    }
+    .memberName {
+      @include typography.title-24-700;
+      color: colors.$white;
+      margin-bottom: 8px;
+    }
+
+    .memberDescription {
+      @include typography.text-16-400;
+      color: colors.$white;
+      margin-bottom: 8px;
+    }
+  }
+}

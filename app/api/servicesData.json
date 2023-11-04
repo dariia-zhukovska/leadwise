@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "Appointment Setting",
+    "subtitle": "Forge meaningful connections with potential clients. Our experts secure high-value appointments, paving the way for lucrative partnerships.",
+    "shortSubtitle": "Efficiently Fill Your Calendar with Qualified Prospects",
+    "popular": true,
+    "slug": "appointment-setting"
+  },
+  {
+    "id": 2,
+    "title": "Demand Generation",
+    "subtitle": "Fuel your business with a constant stream of high-quality leads. Our data-driven approach ensures a receptive audience for your brand.",
+    "shortSubtitle": "Stoke the Fires of Demand for Your Offerings",
+    "slug": "demand-generation"
+  },
+  {
+    "id": 3,
+    "title": "Cold Email Outreach",
+    "subtitle": "Break through the noise with captivating cold email campaigns. Transform cold contacts into warm leads eager to explore your services.",
+    "shortSubtitle": "Unlock Cold Email's Potential for Lead Generation",
+    "slug": "email-outreach"
+  },
+  {
+    "id": 4,
+    "title": "LinkedIn Marketing",
+    "subtitle": "Elevate brand visibility and conversion rates with our result-oriented ad campaigns. we harness the power of diverse platforms for optimal results.",
+    "shortSubtitle": "Harness the Power of LinkedIn for Lead Generation",
+    "slug": "linkedin-marketing"
+  }
+]

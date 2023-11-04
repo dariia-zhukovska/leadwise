@@ -1,0 +1,31 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 0;
+  width: 100%;
+}
+.headerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+
+  .serviceTitle {
+    color: colors.$dark-purpule;
+    @include typography.title-14-400;
+  }
+
+  .serviceSubtitle {
+    color: colors.$white;
+    @include typography.heading-44-600;
+  }
+
+  .serviceDescription {
+    color: colors.$description;
+    @include typography.text-16-400;
+  }
+}

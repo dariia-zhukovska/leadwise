@@ -1,0 +1,35 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 88px;
+  padding: 120px 0;
+  height: 100%;
+
+  .itemWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+
+    .serviceItemTitle {
+      @include typography.heading-44-600;
+      color: colors.$white;
+    }
+
+    .serviceItemDescription {
+      @include typography.text-18-400;
+      color: colors.$white;
+    }
+  }
+
+  .matchCardsContainer {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./styles.module.scss";
 
 type ButtonProps = {
@@ -41,9 +40,9 @@ const Button: React.FC<ButtonProps> = ({
         <path
           d="M11.5 1L19 9M19 9L11.5 17M19 9L1 9"
           stroke="#F2F3F2"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     </button>

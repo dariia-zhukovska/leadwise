@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import ProximaNova from "next/font/local";
 import "@styles/globals.scss";
 import Nav from "@components/nav/Nav";
 import Footer from "@components/footer/Footer";
-const inter = Inter({ subsets: ["latin"] });
+
+const proximaNova = ProximaNova({
+  src: "../styles/fonts/ProximaNova-Regular.woff",
+});
 
 export const metadata: Metadata = {
   title: "Leadwise",
@@ -17,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={proximaNova.className}>
         <main>
           <Nav />
           {children}

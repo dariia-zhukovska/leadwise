@@ -1,0 +1,132 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: colors.$black;
+  padding: 0 120px;
+
+  .minicards {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0;
+  }
+
+  .mapContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding-bottom: 120px;
+
+    .title {
+      @include typography.heading-44-600;
+      color: colors.$white;
+    }
+  }
+
+  .howStarted {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    padding: 120px 0;
+
+    .title {
+      @include typography.heading-44-600;
+      color: colors.$white;
+      text-align: center;
+    }
+
+    .description {
+      @include typography.text-18-400;
+      color: colors.$description;
+      max-width: 840px;
+      text-align: center;
+    }
+
+    .timeline {
+      display: flex;
+      gap: 63px;
+
+      // .numbers {
+      //   display: flex;
+      //   justify-content: space-evenly;
+      //   align-items: center;
+      // }
+      .timeItems {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .timeStep {
+          // display: flex;
+          display: block;
+          width: 24px;
+          height: 24px;
+          align-self: center;
+          text-align: center;
+
+          @include typography.text-16-400;
+          color: colors.$white;
+          border-radius: 24px;
+          background-color: colors.$primary;
+        }
+
+        span {
+          @include typography.text-14-600;
+          color: colors.$white;
+          text-align: center;
+          margin-top: 8px;
+        }
+
+        p {
+          @include typography.text-14-400;
+          color: colors.$description;
+          text-align: center;
+        }
+      }
+    }
+
+    .facts {
+      background-color: colors.$brown;
+      width: 100%;
+    }
+    .customers {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 120px 0;
+
+      .title {
+        @include typography.heading-44-600;
+        color: colors.$white;
+        text-align: center;
+        margin-bottom: 16px;
+      }
+
+      .description {
+        @include typography.text-20-400;
+        color: colors.$description;
+        max-width: 720px;
+        text-align: center;
+      }
+
+      .partnersContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 88px;
+        gap: 90px;
+        flex-wrap: wrap;
+        max-width: 900px;
+      }
+    }
+  }
+}

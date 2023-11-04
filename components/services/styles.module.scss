@@ -1,0 +1,42 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+
+.servicesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 120px;
+  background-color: colors.$black;
+}
+
+.bookCallItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 410px;
+  padding: 40px 24px;
+  border-right: 1px solid colors.$description;
+  border-bottom: 1px solid colors.$description;
+
+  .serviseItemTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0 40px;
+  }
+
+  .description {
+    @include typography.title-24-700;
+    color: colors.$white;
+    height: 142px;
+    text-align: center;
+  }
+
+  button {
+    width: 220px;
+  }
+}

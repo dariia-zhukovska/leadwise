@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./styles.module.scss";
 import Button from "@components/common/common-buttons/Button";
+import { partnerIcons } from "@app/helpers/mockedData";
 
 const ClientsLayout = () => {
   return (
@@ -16,12 +17,17 @@ const ClientsLayout = () => {
       </div>
 
       <div className={styles.bookCall}>
-        <Image
-          src={"/assets/images/main-picture.png"}
-          alt={"main-picture"}
-          width={560}
-          height={364}
-        />
+        <div className={styles.partnersContainer}>
+          {partnerIcons.map((icon, index) => (
+            <Image
+              key={index}
+              src={icon}
+              alt={`Partner ${index + 1}`}
+              width={100}
+              height={50}
+            />
+          ))}
+        </div>
       </div>
       <div className={styles.contentWrapper}>
         <h2 className={styles.title}>

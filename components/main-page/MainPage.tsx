@@ -1,11 +1,21 @@
+"use client";
+
 import Image from "next/image";
 import styles from "./styles.module.scss";
 import Button from "@components/common/common-buttons/Button";
+import MonumentExtendedBold from "next/font/local";
+import clsx from "clsx";
+
+const monumentExtended = MonumentExtendedBold({
+  src: "../../styles/fonts/MonumentExtended-Regular.otf",
+});
 
 const MainPage = () => {
   return (
     <div className={styles.wrapper}>
-      <h1 className={styles.title}>Lead Wise</h1>
+      <h1 className={clsx(styles.title, monumentExtended.className)}>
+        Lead Wise
+      </h1>
       <p className={styles.subTitle}>
         B2B Lead Generation Agency for Software development, NFT and Blockchain
         Services

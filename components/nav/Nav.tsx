@@ -9,7 +9,7 @@ const Nav = () => {
     <nav className={styles.header}>
       <Link href={"/"} className={styles.logoWrapper}>
         <Image
-          src={"/public/assets/images/svg/logo.svg"}
+          src={"/assets/images/svg/logo.svg"}
           alt={"logo"}
           width={68}
           height={40}
@@ -17,7 +17,7 @@ const Nav = () => {
         />
       </Link>
       <div className={styles.navWrapper}>
-        <Link href={"/services"}>Services</Link>
+        <Link href={`/services`}>Services</Link>
         <Link href={"/case-studies"}>Case Studies</Link>
         <Link href={"/blog"}>Blog</Link>
         <Link href={"/about-us"}>About Us</Link>
