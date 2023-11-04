@@ -8,7 +8,29 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  background-color: colors.$disables-purpule;
+  background: rgb(0, 0, 0);
+  // background: radial-gradient(
+  //   circle,
+  //   rgba(0, 0, 0, 1) 0%,
+  //   rgba(95, 81, 222, 1) 300%
+  // );
+
+  // background: rgb(95, 81, 222);
+  // background: linear-gradient(
+  //   329deg,
+  //   rgba(95, 81, 222, 1) 0%,
+  //   rgba(0, 0, 0, 0.510329131652661) 100%,
+  //   rgba(95, 81, 222, 1) 200%
+  // );
+
+  background: rgb(95, 81, 222, 0.2);
+  background: linear-gradient(
+    329deg,
+    rgb(95, 81, 222) -171%,
+    rgba(0, 0, 0, 0.5103291317) 29%,
+    rgb(95, 81, 222) 801%
+  );
+
   border-radius: 20px;
 
   .title {
