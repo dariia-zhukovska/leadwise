@@ -3,15 +3,23 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import Button from "@components/common/common-buttons/Button";
+import Link from "next/link";
 
 interface IProps {
   title: string;
   description: string;
-  onClick: () => void;
+
   isPopular?: boolean;
+  slug: string;
 }
 
-const ServiceItem = ({ title, description, onClick, isPopular }: IProps) => {
+const ServiceItem = ({
+  title,
+  description,
+
+  isPopular,
+  slug,
+}: IProps) => {
   return (
     <div className={styles.serviceItemWrapper}>
       <div className={styles.serviseItemTop}>
@@ -19,13 +27,15 @@ const ServiceItem = ({ title, description, onClick, isPopular }: IProps) => {
         <h1 className={styles.title}>{title}</h1>
         <p className={styles.description}>{description}</p>
       </div>
-      <Button
-        size={"S"}
-        variant={"link"}
-        state={"default"}
-        onClick={() => onClick}
-        placeholder={"Read more"}
-      />
+      <Link href={`/services/${slug}`}>
+  
+        <Button
+          size={"S"}
+          variant={"link"}
+          state={"default"}
+          placeholder={"Read more"}
+        />
+      </Link>
     </div>
   );
 };

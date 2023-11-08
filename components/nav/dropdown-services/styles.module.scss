@@ -1,0 +1,105 @@
+@use "@styles/typography.scss";
+@use "@styles/colors.scss";
+
+.serviceDropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 50;
+}
+
+.flipped {
+  transform: rotate(180deg);
+}
+
+.selectedService {
+  display: flex;
+  gap: 8px;
+  border-radius: 100px;
+  user-select: none;
+
+  color: colors.$white;
+  @include typography.text-16-400;
+}
+
+.dropdownOptions {
+  position: absolute;
+  top: 230%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 48px 64px;
+  max-width: 1110px;
+  width: max-content;
+  display: flex;
+
+  .dropdownOption {
+    display: flex;
+
+    row-gap: 32px;
+    column-gap: 64px;
+    flex-wrap: wrap;
+
+    flex-grow: 2;
+  }
+
+  background-color: colors.$brown;
+  border-radius: 12px;
+
+  color: colors.$white;
+  @include typography.text-16-400; // You can specify your own text color here
+  z-index: 200;
+
+  .dropdownOptionItem {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px 20px;
+
+    .name {
+      @include typography.title-24-700;
+      color: colors.$white;
+    }
+
+    .subtitle {
+      @include typography.text-16-400;
+      color: colors.$description;
+      max-width: 270px;
+    }
+    cursor: pointer;
+    &:hover {
+      background: colors.$primary;
+      border-radius: 8px;
+      .subtitle {
+        color: colors.$white;
+      }
+    }
+  }
+}
+
+.bookCallItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 284px;
+  padding: 0 30px;
+
+  .serviseItemTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .description {
+    @include typography.title-24-700;
+    color: colors.$white;
+    height: 142px;
+    text-align: center;
+  }
+
+  button {
+    width: 220px;
+  }
+}

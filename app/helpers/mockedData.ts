@@ -45,3 +45,31 @@ export const notMatchList = [
   { id: "3", content: "We use an approach that won’t work without your online presence (website, proven track record, and marketing materials at least)." },
   { id: "4", content: "Personalized features upon request" }
 ]
+
+export const services = [
+  {
+    id: 1,
+    name: "Appointment Settings",
+    subtitle: "Efficiently Fill Your Calendar with Qualified Prospects",
+    slug: "linkedin-marketing"
+  },
+  {
+    id: 2,
+    name: "Demand Generation",
+    subtitle: "Stoke the Fires of Demand for Your Offerings",
+    slug: "demand-generation"
+  },
+  {
+    id: 3,
+    name: "Cold Email Outreach",
+    subtitle: "Unlock Cold Email's Potential for Lead Generation",
+    slug: "email-outreach"
+  },
+
+  {
+    id: 4,
+    name: "LinkedIn Marketing",
+    subtitle: "Harness the Power of LinkedIn for Lead Generation",
+    slug: "linkedin-marketing"
+  },
+];

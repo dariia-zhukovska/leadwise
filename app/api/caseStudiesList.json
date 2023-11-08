@@ -1,9 +1,9 @@
 [
   {
     "id": "1",
-    "slug": "",
+    "slug": "zfort",
     "casePicture": "/assets/images/case-studies/case-card-1.png",
-    "data": "12/07/23",
+    "data": "11/10/23",
     "time": "10 min read",
     "cardTitle": "80+ appointments in 4 months and a chock-full pipeline for AI and Blochain company",
     "cardDescription": "In the medical field, AI is aiding in disease diagnosis, drug discovery, and the creation of personalized treatment plans. Machine learning models analyze vast amounts of medical data, offering precise insights."
@@ -11,9 +11,9 @@
 
   {
     "id": "2",
-    "slug": "",
-    "casePicture": "/assets/images/case-studies/case-card-1.png",
-    "data": "12/07/23",
+    "slug": "cowchain",
+    "casePicture": "/assets/images/case-studies/case-card-2.png",
+    "data": "23/07/23",
     "time": "10 min read",
     "cardTitle": "From Leads to Wins: How LeadWise Transformed Cowchain Sales Pipeline with Lead Generation",
     "cardDescription": "In the medical field, AI is aiding in disease diagnosis, drug discovery, and the creation of personalized treatment plans. Machine learning models analyze vast amounts of medical data, offering precise insights."
@@ -21,20 +21,20 @@
 
   {
     "id": "3",
-    "slug": "",
-    "casePicture": "/assets/images/case-studies/case-card-1.png",
-    "data": "",
-    "time": "",
-    "cardTitle": "116 appointments in 4 months and a chock-full pipeline for a cloud-based remote patient App",
-    "cardDescription": ""
+    "slug": "people-force",
+    "casePicture": "/assets/images/case-studies/case-card-3.png",
+    "data": "13/05/23",
+    "time": "10 min read",
+    "cardTitle": "203 appointments and 150% KPIs: How LeadWise helped HR platform expand and grow",
+    "cardDescription": "Dive into a remarkable case study where LeadWise orchestrated 203 appointments and exceeded KPIs by an impressive 150%. Witness how our collaboration empowered an HR platform to expand and flourish."
   },
   {
     "id": "4",
-    "slug": "",
-    "casePicture": "/assets/images/case-studies/case-card-1.png",
-    "data": "",
-    "time": "",
-    "cardTitle": "116 appointments in 4 months and a chock-full pipeline for a cloud-based remote patient App",
-    "cardDescription": ""
+    "slug": "one-click-code",
+    "casePicture": "/assets/images/case-studies/case-card-4.png",
+    "data": "12/02/23",
+    "time": "10 min read",
+    "cardTitle": "100% KPI performance for a Roofing Application and 24+ appointments in 3 month",
+    "cardDescription": "Explore a case study highlighting the exceptional performance of a Roofing Application, achieving 100% KPI fulfillment and securing 24+ appointments in just three months. Discover the strategies that drove this remarkable success."
   }
 ]

@@ -13,7 +13,7 @@ const ServicesLayout = () => {
           key={service.id}
           title={service.title}
           description={service.subtitle}
-          onClick={() => console.log(service.title)}
+          slug={service.slug}
         />
       ))}
       <div className={styles.bookCallItem}>

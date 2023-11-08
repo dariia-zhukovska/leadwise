@@ -1,0 +1,469 @@
+[
+  {
+    "id": "1",
+    "name": "zfort",
+    "mainPicture": "",
+    "icon": "/public/assets/images/case-studies/case-zfort.svg",
+    "mainTitle": "80+ appointments in 4 months and a chock-full pipeline for AI and Blochain company",
+    "numbers": [
+      {
+        "id": "1",
+        "title": "80",
+        "description": "Appointments booked in 4 months"
+      },
+      {
+        "id": "2",
+        "title": "130%",
+        "description": "Avg. KPIs reached"
+      }
+    ],
+    "category": "Appointment Setting",
+    "industry": "Software Development",
+    "company-size": "201-500 employees",
+    "headquarters": "New York, USA",
+    "about": "About Zfort",
+    "aboutImage": "/public/assets/images/case-studies/case-01-main.png",
+    "description": "Zfort is a distinguished software development company with a passion for solving complex business challenges. With a focus on innovation and cutting-edge technology, Zfort sought to enhance their lead generation and sales strategies to drive business growth.",
+
+    "challengeDescription": "Zfort Group faced specific challenges in their lead generation and sales efforts, which required a strategic approach to overcome:",
+    "challengeList": [
+      {
+        "id": "1",
+        "title": "Inconsistent Lead Generation:",
+        "description": " Zfort was facing issues with the consistency of lead generation, leading to fluctuations in their sales pipeline."
+      },
+      {
+        "id": "2",
+        "title": "Title research:",
+        "description": "Conversion Rate Concerns: Maintaining a satisfactory conversion rate from leads to customers was proving to be a challenge."
+      },
+      {
+        "id": "3",
+        "title": "Sales Team Alignment:",
+        "description": "Zfort needed to align their sales team with changing market dynamics and effectively communicate their unique value proposition."
+      }
+    ],
+    "solutionDescription": "To address the challenges faced by Zfort Group, LeadWise implemented strategic solutions to revamp their lead generation and sales processes:",
+    "solutionList": [
+      {
+        "id": "1",
+        "title": "Data-Driven Lead Generation:",
+        "description": "LeadWise implemented a data-driven approach, leveraging industry-specific insights to identify potential clients and engage them effectively."
+      },
+      {
+        "id": "2",
+        "title": "Streamlined Sales Process:",
+        "description": "LeadWise introduced a streamlined sales process to ensure that all leads were nurtured effectively and provided with the information they needed."
+      },
+      {
+        "id": "3",
+        "title": "Targeted Outreach:",
+        "description": "By creating personalized and industry-specific outreach campaigns, LeadWise maximized Zfort's reach and appeal to potential clients."
+      }
+    ],
+    "implementationDescription": "In the implementation phase, LeadWise: ",
+    "implementationList": [
+      {
+        "id": "1",
+        "description": "Conducted in-depth market research to identify target industries and key decision-makers."
+      },
+      {
+        "id": "2",
+        "description": "Crafted customized email and content marketing campaigns tailored to Zfort's unique value proposition."
+      },
+      {
+        "id": "3",
+        "description": "Introduced lead nurturing strategies to guide prospects through the sales funnel, providing them with the necessary information and support."
+      }
+    ],
+    "resultImage": "/public/assets/images/case-studies/case-01-2-main.png",
+    "resultsList": [
+      {
+        "id": "1",
+        "title": "80+",
+        "description": "Appointments booked"
+      },
+      {
+        "id": "2",
+        "title": "125%",
+        "description": "Avg. KPIs achieved"
+      },
+      {
+        "id": "3",
+        "title": "63%",
+        "description": "Cold email open rate"
+      }
+    ],
+    "resultDescription": "The collaboration with LeadWise led to remarkable results for Zfort Group:",
+    "resultDescriptionList": [
+      {
+        "id": "1",
+        "description": "Consistent Lead Generation: The data-driven approach provided Zfort Group with a steady flow of leads, ensuring a more predictable sales pipeline."
+      },
+      {
+        "id": "2",
+        "description": "Improved Conversion Rates: The streamlined sales process and targeted outreach campaigns resulted in a significant increase in conversion rates."
+      },
+      {
+        "id": "3",
+        "description": "Enhanced Sales Team Alignment: The guidance and training provided by LeadWise empowered Zfort Group's sales team to effectively communicate the company's unique value proposition."
+      }
+    ],
+    "resultsEnding": "These results effectively addressed the identified challenges and positioned Zfort Group for continued growth and success in their software development endeavors."
+  },
+  {
+    "id": "2",
+    "name": "cowchain",
+    "mainPicture": "",
+    "icon": "/public/assets/images/case-studies/case-zfort.svg",
+    "mainTitle": "ABM strategy for a Blockchain company that brought 97 appointments and 144% KPI",
+    "numbers": [
+      {
+        "id": "1",
+        "title": "97",
+        "description": "Appointments booked in 4 months"
+      },
+      {
+        "id": "2",
+        "title": "144%",
+        "description": "Avg. KPIs reached"
+      }
+    ],
+    "category": "Appointment Setting",
+    "industry": "Information Technology & Services",
+    "company-size": "11-50 employees",
+    "headquarters": "London, UK",
+    "about": "About Zfort",
+    "description": "Cowchain is a forward-thinking Software and Blockchain Development company dedicated to providing innovative solutions that address real business challenges. With a strong commitment to technology and blockchain, Cowchain distinguishes itself not only through what it creates but also through how it innovates. Their services encompass a wide range of solutions, including asset marketplaces, decentralized exchanges, inventory management systems, coins management, and custom user profiles with unique fitness track records. Cowchain prides itself on exceeding client expectations, going beyond conventional software development practices.",
+    "aboutImage": "/public/assets/images/case-studies/case-02-main.png",
+
+    "challengeDescription": "Cowchain faced specific challenges in their lead generation and sales efforts, requiring a strategic approach to overcome:",
+    "challengeList": [
+      {
+        "id": "1",
+        "title": "Need for growth.",
+        "description": "The client`s No. 1 challenge was promoting their portable router, GO, to new markets since they had little experience in expansion."
+      },
+      {
+        "id": "2",
+        "title": "Limited in-house resources.",
+        "description": "The client didn`t have a lead prospecting strategy that would cover all titles interested in the product. As most OTH customers came from referrals, the sales team hadn’t yet developed a specific ideal customer profile (ICP) that could be worked out into several customer personas and result in an effective title research."
+      },
+      {
+        "id": "3",
+        "title": "Covering new acquisition channels.",
+        "description": "They covered multiple acquisition channels like referral and events but wanted to go outbound. This is why the client started looking for agencies to outsource their lead generation. They chose LeadWise after receiving a lead sample: Our leads were within scope, and our onboarding process and campaign timelines were transparent and clear."
+      }
+    ],
+    "solutionDescription": "To address these challenges, LeadWise implemented strategic solutions to revamp Cowchain's lead generation and sales processes:",
+    "solutionList": [
+      {
+        "id": "1",
+        "title": "Data-Driven Lead Generation.",
+        "description": "LeadWise introduced a data-driven approach, utilizing industry-specific insights to ensure a consistent flow of leads and a more predictable sales pipeline for Cowchain."
+      },
+      {
+        "id": "2",
+        "title": "Streamlined Sales Process and Targeted Outreach.",
+        "description": "LeadWise optimized Cowchain's sales process by conducting comprehensive research to identify and target key decision-makers. Additionally, personalized outreach campaigns were designed and executed to nurture leads, ensuring prospects received the necessary information for informed decision-making."
+      }
+    ],
+    "implementationDescription": "To implement these solutions, LeadWise executed a series of strategic steps:",
+    "implementationList": [
+      {
+        "id": "1",
+        "description": "Conducted in-depth market research to identify target industries and key decision-makers."
+      },
+      {
+        "id": "2",
+        "description": "Crafted customized email and content marketing campaigns to engage and inform potential clients effectively."
+      },
+      {
+        "id": "3",
+        "description": "Introduced lead nurturing strategies to guide prospects seamlessly through the sales funnel."
+      }
+    ],
+    "resultImage": "/public/assets/images/case-studies/case-02-2-main.png",
+    "resultsList": [
+      {
+        "id": "1",
+        "title": "97",
+        "description": "Appointments booked "
+      },
+      {
+        "id": "2",
+        "title": "144%",
+        "description": "Avg. KPIs achieved"
+      },
+      {
+        "id": "3",
+        "title": "65%",
+        "description": "Cold email open rate"
+      }
+    ],
+    "resultDescription": "The collaboration with LeadWise led to remarkable results for Cowchain:",
+    "resultDescriptionList": [
+      {
+        "id": "1",
+        "description": "97 booked appointments in 10 months, 56 of which were marked as either a very good or a perfect fit by the client."
+      },
+      {
+        "id": "2",
+        "description": "10 booked appointments from 200 leads within one of the event campaigns."
+      },
+      {
+        "id": "3",
+        "description": "20 highly tailored cold outreach campaigns launched."
+      },
+      {
+        "id": "4",
+        "description": "Up to 65% open rate reached, with an average above 60%."
+      },
+      {
+        "id": "5",
+        "description": "Highest reply rate of 14%, twice higher than the industry average."
+      },
+      {
+        "id": "6",
+        "description": "Average KPI of 137% over 6 months, reaching 144% in the last quarter."
+      }
+    ],
+    "resultsEnding": ""
+  },
+  {
+    "id": "",
+    "name": "",
+    "mainPicture": "",
+    "icon": "",
+    "mainTitle": "",
+    "numbers": [
+      {
+        "id": "1",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "category": "",
+    "industry": "",
+    "company-size": "",
+    "headquarters": "",
+    "about": "",
+    "aboutImage": "",
+    "description": "",
+
+    "challengeDescription": "",
+    "challengeList": [
+      {
+        "id": "1",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "3",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "solutionDescription": "",
+    "solutionList": [
+      {
+        "id": "1",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "3",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "implementationDescription": "",
+    "implementationList": [
+      {
+        "id": "1",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "3",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "resultImage": "",
+    "resultsList": [
+      {
+        "id": "1",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "3",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "resultDescription": "",
+    "resultDescriptionList": [
+      {
+        "id": "1",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "3",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "resultsEnding": ""
+  },
+  {
+    "id": "",
+    "name": "",
+    "mainPicture": "",
+    "icon": "",
+    "mainTitle": "",
+    "numbers": [
+      {
+        "id": "1",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "category": "",
+    "industry": "",
+    "company-size": "",
+    "headquarters": "",
+    "about": "",
+    "aboutImage": "",
+    "description": "",
+
+    "challengeDescription": "",
+    "challengeList": [
+      {
+        "id": "1",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "3",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "solutionDescription": "",
+    "solutionList": [
+      {
+        "id": "1",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "3",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "implementationDescription": "",
+    "implementationList": [
+      {
+        "id": "1",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "3",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "resultImage": "",
+    "resultsList": [
+      {
+        "id": "1",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "3",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "resultDescription": "",
+    "resultDescriptionList": [
+      {
+        "id": "1",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "2",
+        "title": "",
+        "description": ""
+      },
+      {
+        "id": "3",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "resultsEnding": ""
+  }
+]

@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import styles from "./styles.module.scss";
 import Button from "@components/common/common-buttons/Button";
+import ServiceDropdown from "./dropdown-services/ServiceDropdown";
 
 const Nav = () => {
   return (
@@ -17,7 +18,8 @@ const Nav = () => {
         />
       </Link>
       <div className={styles.navWrapper}>
-        <Link href={`/services`}>Services</Link>
+        {/* <Link href={`/services`}>Services</Link> */}
+        <ServiceDropdown />
         <Link href={"/case-studies"}>Case Studies</Link>
         <Link href={"/blog"}>Blog</Link>
         <Link href={"/about-us"}>About Us</Link>

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 import styles from "./styles.module.scss";
@@ -11,9 +11,14 @@ import serviceDetails from "@app/api/serviceDetails.json";
 import TopInfo from "@components/top-info/TopInfo";
 import PerfectMatch from "@components/perfect-match/PerfectMatch";
 import Facts from "@components/facts/Facts";
+import { ServiceItem } from "@interfaces/interfaces";
 
-const ServiceItem = () => {
-  const router = useRouter();
+interface Iprops {
+  data: ServiceItem[];
+}
+
+const ServiceItem = ({ data }: Iprops) => {
+  // const router = useRouter();
 
   const urlParts = window.location.pathname.split("/");
 
@@ -21,7 +26,7 @@ const ServiceItem = () => {
 
   return (
     <main className={styles.mainWrapper}>
-      {serviceDetails.map((item) => {
+      {data?.map((item: ServiceItem) => {
         if (serviceItemSlug === item.slug) {
           return (
             <>
@@ -51,7 +56,7 @@ const ServiceItem = () => {
                           {card.cardDescription}
                         </span>
                         <ul className={styles.cardList}>
-                          {card["`cardItems"].map((item) => (
+                          {card["cardItems"].map((item) => (
                             <li className={styles.cardItem} key={item.id}>
                               {item.text}
                             </li>
@@ -81,5 +86,15 @@ const ServiceItem = () => {
     </main>
   );
 };
+
+export async function getData() {
+  const data = require("@app/api/serviceDetails.json");
+
+  return {
+    props: {
+      data,
+    },
+  };
+}
 
 export default ServiceItem;

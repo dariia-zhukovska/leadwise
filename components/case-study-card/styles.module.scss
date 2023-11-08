@@ -14,6 +14,7 @@
     gap: 32px;
     @include typography.text-14-600;
     color: colors.$description;
+    text-align: center;
     margin-left: 24px;
 
     .date {
