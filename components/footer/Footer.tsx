@@ -60,7 +60,7 @@ const Footer = () => {
               <Link className={styles.link} href={"/services"}>
                 Services{" "}
               </Link>
-              <Link className={styles.link} href={"/case-study"}>
+              <Link className={styles.link} href={"/case-studies"}>
                 Case study
               </Link>
               <Link className={styles.link} href={"/blog"}>

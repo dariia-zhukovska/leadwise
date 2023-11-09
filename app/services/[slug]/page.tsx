@@ -12,6 +12,7 @@ import TopInfo from "@components/top-info/TopInfo";
 import PerfectMatch from "@components/perfect-match/PerfectMatch";
 import Facts from "@components/facts/Facts";
 import { ServiceItem } from "@interfaces/interfaces";
+import ReachOut from "@components/reach-out-us/ReachOut";
 
 interface Iprops {
   data: ServiceItem[];
@@ -26,7 +27,7 @@ const ServiceItem = ({ data }: Iprops) => {
 
   return (
     <main className={styles.mainWrapper}>
-      {data?.map((item: ServiceItem) => {
+      {serviceDetails?.map((item) => {
         if (serviceItemSlug === item.slug) {
           return (
             <>
@@ -83,18 +84,20 @@ const ServiceItem = ({ data }: Iprops) => {
         }
         return null;
       })}
+
+      <ReachOut />
     </main>
   );
 };
 
-export async function getData() {
-  const data = require("@app/api/serviceDetails.json");
+// export async function getData() {
+//   const data = require("@app/api/serviceDetails.json");
 
-  return {
-    props: {
-      data,
-    },
-  };
-}
+//   return {
+//     props: {
+//       data,
+//     },
+//   };
+// }
 
 export default ServiceItem;

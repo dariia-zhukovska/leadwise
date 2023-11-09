@@ -13,7 +13,7 @@
         "cardId": "1",
         "cardTitle": "01. Lead research",
         "cardDescription": "Preliminary analysis, search, and qualification",
-        "`cardItems": [
+        "cardItems": [
           {
             "id": "1",
             "text": "To make targeting precise, we review your ICP and analyze TAM to define whether there are matching decision-makers."
@@ -33,7 +33,7 @@
         "cardId": "2",
         "cardTitle": "02. LinkedIn outreach",
         "cardDescription": "Preliminary analysis, search, and qualification",
-        "`cardItems": [
+        "cardItems": [
           {
             "id": "1",
             "text": "Based on your ICP and research data, we develop outreach strategy and prepare templates of personalized emails."
@@ -53,7 +53,7 @@
         "cardId": "3",
         "cardTitle": "03. Email outreach",
         "cardDescription": "Designing and launching tailored campaigns",
-        "`cardItems": [
+        "cardItems": [
           {
             "id": "1",
             "text": "Designing and launching tailored campaigns."
@@ -73,7 +73,7 @@
         "cardId": "4",
         "cardTitle": "04. Appointment scheduling",
         "cardDescription": "Booking meetings with ready-to-buy leads",
-        "`cardItems": [
+        "cardItems": [
           {
             "id": "1",
             "text": "SDRs get in touch with the leads who respond to emails and suggest scheduling a call at your available time slots."
@@ -105,7 +105,7 @@
         "cardId": "1",
         "cardTitle": "01. Defining audience",
         "cardDescription": "Shaping your TAM, ICP, and value prop",
-        "`cardItems": [
+        "cardItems": [
           {
             "id": "1",
             "text": "First, we study your market, service or product, core pain points you address, and your distinctive features."
@@ -125,7 +125,7 @@
         "cardId": "2",
         "cardTitle": "02. Pilot campaigns",
         "cardDescription": "Creating and testing tailored email campaigns",
-        "`cardItems": [
+        "cardItems": [
           {
             "id": "1",
             "text": "Experienced writers craft several sequences of emails for each group of ICPs, addressing their pain points."
@@ -145,7 +145,7 @@
         "cardId": "3",
         "cardTitle": "03. Full-fledged outreach",
         "cardDescription": "Launching mass campaigns and booking appointments",
-        "`cardItems": [
+        "cardItems": [
           {
             "id": "1",
             "text": "After the pilot campaigns are over, our SDRs provide you with a detailed report on prospects` engagement, basic KPIs of email outreach, and the most popular positive/negative replies."
@@ -177,7 +177,7 @@
         "cardId": "1",
         "cardTitle": "01. Audit and tech setup",
         "cardDescription": "Analyzing current situation and configuring infrastructure",
-        "`cardItems": [
+        "cardItems": [
           {
             "id": "1",
             "text": "We study your history of outreach, database quality, email templates, and follow-up tactics to find points of improvement."
@@ -197,7 +197,7 @@
         "cardId": "2",
         "cardTitle": "02. Mass mailings",
         "cardDescription": "Developing and delivering personalized templates",
-        "`cardItems": [
+        "cardItems": [
           {
             "id": "1",
             "text": "Our writers take into account your ICP and prospects' pain points to craft tailored and catchy emails. They prepare the sequences that consist of 1 intro and at least 4 follow-ups."
@@ -217,7 +217,7 @@
         "cardId": "3",
         "cardTitle": "03. Tracking and A/B testing",
         "cardDescription": "Monitoring cadences performance and testing approaches",
-        "`cardItems": [
+        "cardItems": [
           {
             "id": "1",
             "text": "When the campaigns are active, our delivery team tracks KPIs of each and reports on the results to you."
@@ -249,7 +249,7 @@
         "cardId": "1",
         "cardTitle": "01. LinkedIn lead generation",
         "cardDescription": "Establishing your expertise and increasing your audience",
-        "`cardItems": [
+        "cardItems": [
           {
             "id": "1",
             "text": "Before starting looking for leads, we analyze and upgrade info on your LinkedIn profile to give it professional look and feel."
@@ -269,7 +269,7 @@
         "cardId": "2",
         "cardTitle": "02. LinkedIn outreach",
         "cardDescription": "Engaging into meaningful conversations with your connections",
-        "`cardItems": [
+        "cardItems": [
           {
             "id": "1",
             "text": "We define decision-makers who interact with your profile, qualify them, and send connection requests."
@@ -289,7 +289,7 @@
         "cardId": "3",
         "cardTitle": "03. Thought-leadership content",
         "cardDescription": "",
-        "`cardItems": [
+        "cardItems": [
           {
             "id": "1",
             "text": "First, we research your TAM and competitors, as well as get acquainted with your ICP and their pain points to create a stellar content strategy and plan."

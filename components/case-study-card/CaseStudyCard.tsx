@@ -3,6 +3,7 @@
 import Button from "@components/common/common-buttons/Button";
 import styles from "./styles.module.scss";
 import Image from "next/image";
+import Link from "next/link";
 
 interface IProps {
   casePicture: string;
@@ -37,12 +38,14 @@ const CaseStudyCard = ({
           <h2 className={styles.title}>{cardTitle}</h2>
           <p className={styles.description}>{cardDescription}</p>
         </div>
-        <Button
-          size={"M"}
-          variant={"link"}
-          state={"default"}
-          placeholder={"Read more"}
-        />
+        <Link href={`/case-studies/${slug}`}>
+          <Button
+            size={"M"}
+            variant={"link"}
+            state={"default"}
+            placeholder={"Read more"}
+          />
+        </Link>
       </div>
     </div>
   );

@@ -2,8 +2,8 @@
   {
     "id": "1",
     "name": "zfort",
-    "mainPicture": "",
-    "icon": "/public/assets/images/case-studies/case-zfort.svg",
+    "mainPicture": "/assets/images/case-studies/case-card-1.png",
+    "icon": "/assets/images/case-studies/case-zfort.svg",
     "mainTitle": "80+ appointments in 4 months and a chock-full pipeline for AI and Blochain company",
     "numbers": [
       {
@@ -22,7 +22,7 @@
     "company-size": "201-500 employees",
     "headquarters": "New York, USA",
     "about": "About Zfort",
-    "aboutImage": "/public/assets/images/case-studies/case-01-main.png",
+    "aboutImage": "/assets/images/case-studies/case-01-main.png",
     "description": "Zfort is a distinguished software development company with a passion for solving complex business challenges. With a focus on innovation and cutting-edge technology, Zfort sought to enhance their lead generation and sales strategies to drive business growth.",
 
     "challengeDescription": "Zfort Group faced specific challenges in their lead generation and sales efforts, which required a strategic approach to overcome:",
@@ -76,7 +76,7 @@
         "description": "Introduced lead nurturing strategies to guide prospects through the sales funnel, providing them with the necessary information and support."
       }
     ],
-    "resultImage": "/public/assets/images/case-studies/case-01-2-main.png",
+    "resultImage": "/assets/images/case-studies/case-01-2-main.png",
     "resultsList": [
       {
         "id": "1",
@@ -114,8 +114,8 @@
   {
     "id": "2",
     "name": "cowchain",
-    "mainPicture": "",
-    "icon": "/public/assets/images/case-studies/case-zfort.svg",
+    "mainPicture": "/assets/images/case-studies/case-card-2.png",
+    "icon": "/assets/images/case-studies/case-zfort.svg",
     "mainTitle": "ABM strategy for a Blockchain company that brought 97 appointments and 144% KPI",
     "numbers": [
       {
@@ -135,7 +135,7 @@
     "headquarters": "London, UK",
     "about": "About Zfort",
     "description": "Cowchain is a forward-thinking Software and Blockchain Development company dedicated to providing innovative solutions that address real business challenges. With a strong commitment to technology and blockchain, Cowchain distinguishes itself not only through what it creates but also through how it innovates. Their services encompass a wide range of solutions, including asset marketplaces, decentralized exchanges, inventory management systems, coins management, and custom user profiles with unique fitness track records. Cowchain prides itself on exceeding client expectations, going beyond conventional software development practices.",
-    "aboutImage": "/public/assets/images/case-studies/case-02-main.png",
+    "aboutImage": "/assets/images/case-studies/case-02-main.png",
 
     "challengeDescription": "Cowchain faced specific challenges in their lead generation and sales efforts, requiring a strategic approach to overcome:",
     "challengeList": [
@@ -183,12 +183,12 @@
         "description": "Introduced lead nurturing strategies to guide prospects seamlessly through the sales funnel."
       }
     ],
-    "resultImage": "/public/assets/images/case-studies/case-02-2-main.png",
+    "resultImage": "/assets/images/case-studies/case-02-2-main.png",
     "resultsList": [
       {
         "id": "1",
         "title": "97",
-        "description": "Appointments booked "
+        "description": "Appointments booked"
       },
       {
         "id": "2",
@@ -231,239 +231,222 @@
     "resultsEnding": ""
   },
   {
-    "id": "",
-    "name": "",
-    "mainPicture": "",
-    "icon": "",
-    "mainTitle": "",
+    "id": "3",
+    "name": "people-force",
+    "mainPicture": "/assets/images/case-studies/case-card-3.png",
+    "icon": "/assets/images/case-studies/case-peopleforce.svg",
+    "mainTitle": "203 appointments and 150% KPIs: How LeadWise helped HR platform expand and grow",
     "numbers": [
       {
         "id": "1",
-        "title": "",
-        "description": ""
+        "title": "203",
+        "description": "Appointments booked in 17 months"
       },
       {
         "id": "2",
-        "title": "",
-        "description": ""
+        "title": "150%",
+        "description": "Avg. KPIs reached"
       }
     ],
-    "category": "",
-    "industry": "",
-    "company-size": "",
-    "headquarters": "",
-    "about": "",
-    "aboutImage": "",
-    "description": "",
+    "category": "Appointment Setting",
+    "industry": "Human Resources",
+    "company-size": "11-50 employees",
+    "headquarters": "London, UK",
+    "about": "About PeopleForce",
+    "aboutImage": "PeopleForce is a cutting-edge all-in-one HR platform designed to cater to modern business needs. With a vision to streamline HR processes and shift the focus to people, PeopleForce offers a comprehensive solution that simplifies and enhances the employee experience.",
+    "description": "/assets/images/case-studies/case-03-main.png",
 
-    "challengeDescription": "",
+    "challengeDescription": "PeopleForce faced a series of challenges when it came to generating leads and growing its user base:",
     "challengeList": [
       {
         "id": "1",
-        "title": "",
-        "description": ""
+        "title": "Unsuccessful Previous Partnership.",
+        "description": "While PeopleForce had a revolutionary HR platform, they needed a reliable method to attract potential users and convert them into leads."
       },
       {
         "id": "2",
-        "title": "",
-        "description": ""
+        "title": "Establishing Market Presence.",
+        "description": "In a competitive HR technology landscape, PeopleForce struggled to differentiate itself and establish a strong presence."
       },
       {
         "id": "3",
-        "title": "",
-        "description": ""
+        "title": "Scalability.",
+        "description": "With aspirations to scale their user base, PeopleForce needed a sustainable lead generation strategy to fuel their growth."
       }
     ],
-    "solutionDescription": "",
+    "solutionDescription": "LeadWise stepped in to help PeopleForce address these challenges through tailored solutions:",
     "solutionList": [
       {
         "id": "1",
-        "title": "",
-        "description": ""
+        "title": "Targeted Lead Generation Campaigns.",
+        "description": "LeadWise developed targeted lead generation campaigns to attract potential users who would benefit from PeopleForce's HR platform."
       },
       {
         "id": "2",
-        "title": "",
-        "description": ""
+        "title": "Differentiation Strategy.",
+        "description": "A differentiation strategy was implemented to highlight PeopleForce's unique features and value proposition, setting them apart in the competitive market."
       },
       {
         "id": "3",
-        "title": "",
-        "description": ""
+        "title": "Scalable Lead Acquisition.",
+        "description": "LeadWise designed a scalable lead acquisition plan to ensure consistent growth over time, aligning with PeopleForce's expansion goals."
       }
     ],
-    "implementationDescription": "",
+    "implementationDescription": "The successful implementation of these solutions involved:",
     "implementationList": [
       {
-        "id": "1",
-        "title": "",
-        "description": ""
+        "id": 1,
+        "description": "To capture the interest of HR professionals and businesses seeking a comprehensive HR solution."
       },
       {
-        "id": "2",
-        "title": "",
-        "description": ""
+        "id": 2,
+        "description": "That emphasized the unique advantages of PeopleForce."
       },
       {
-        "id": "3",
-        "title": "",
-        "description": ""
+        "id": 3,
+        "description": "That accommodated the need for scalability, ensuring sustained growth."
       }
     ],
-    "resultImage": "",
+    "resultImage": "/assets/images/case-studies/case-03-2-main.png",
     "resultsList": [
       {
         "id": "1",
-        "title": "",
-        "description": ""
+        "title": "203%",
+        "description": "Appointments booked"
       },
       {
         "id": "2",
-        "title": "",
-        "description": ""
+        "title": "150%",
+        "description": "Avg. KPIs achieved"
       },
       {
         "id": "3",
-        "title": "",
-        "description": ""
+        "title": "84%",
+        "description": "Cold email open rate"
       }
     ],
-    "resultDescription": "",
+    "resultDescription": "The collaboration between LeadWise and PeopleForce led to impressive outcomes:",
     "resultDescriptionList": [
       {
-        "id": "1",
-        "title": "",
-        "description": ""
+        "id": 1,
+        "description": "LeadWise's targeted campaigns delivered a steady flow of qualified leads, allowing PeopleForce to grow its user base."
       },
       {
-        "id": "2",
-        "title": "",
-        "description": ""
+        "id": 2,
+        "description": "PeopleForce successfully carved out a niche in the competitive HR technology market by highlighting their unique features and benefits."
       },
       {
-        "id": "3",
-        "title": "",
-        "description": ""
+        "id": 3,
+        "description": "The scalable lead acquisition strategy ensured PeopleForce's long-term growth ambitions were met."
       }
     ],
     "resultsEnding": ""
   },
   {
-    "id": "",
-    "name": "",
-    "mainPicture": "",
-    "icon": "",
-    "mainTitle": "",
+    "id": "4",
+    "name": "one-click-code",
+    "mainPicture": "/assets/images/case-studies/case-card-4.png",
+    "icon": "/assets/images/case-studies/case-occ.svg.svg",
+    "mainTitle": "100% KPI performance for a Roofing Application and 24+ appointments in 3 month",
     "numbers": [
       {
         "id": "1",
-        "title": "",
-        "description": ""
+        "title": "24+",
+        "description": "Appointments booked in 3 months"
       },
       {
         "id": "2",
-        "title": "",
-        "description": ""
+        "title": "100%",
+        "description": "Avg. KPIs reached"
       }
     ],
-    "category": "",
-    "industry": "",
-    "company-size": "",
-    "headquarters": "",
-    "about": "",
+    "category": "Appointment Setting",
+    "industry": "Building and Construction",
+    "company-size": "11-50 employees",
+    "headquarters": "Colorado, USA",
+    "about": "About OCC",
     "aboutImage": "",
-    "description": "",
+    "description": "OneClick Code is a revolutionary application that provides quick and accurate access to address-specific roofing codes, facilitating code compliance for construction professionals.",
 
-    "challengeDescription": "",
+    "challengeDescription": "OneClick Code faced several challenges in terms of expanding its user base and promoting its unique offering:",
     "challengeList": [
       {
         "id": "1",
-        "title": "",
-        "description": ""
+        "title": "Negative experience collaborating with another lead generation company.",
+        "description": " Within a year of cooperation with an outsourced team, OCC Marketing Group dealt with unqualified leads, which resulted in zero booked appointments. The main reason for that was a misunderstanding of the client’s business specifics and needs."
       },
       {
         "id": "2",
-        "title": "",
-        "description": ""
+        "title": "A need for a consistent flow of qualified leads.",
+        "description": " TA client required not only validated leads but their nonstop flow on a regular basis."
       },
       {
         "id": "3",
-        "title": "",
-        "description": ""
+        "title": "Need for multiple leads in a narrow niche",
+        "description": " in a highly competitive market."
       }
     ],
-    "solutionDescription": "",
     "solutionList": [
       {
-        "id": "1",
-        "title": "",
-        "description": ""
+        "id": 1,
+        "title": "Implementation of the local outreach campaign.",
+        "description": "We launched a face-to-face outreach campaign to target only local businesses based in Colorado in a limited range of industries. The main concept of the cold outreach was to target companies in the internal market, aiming to facilitate the growth of local businesses."
       },
       {
-        "id": "2",
-        "title": "",
-        "description": ""
+        "id": 2,
+        "title": "Leads segmenting according to specific industry and applying a F2F approach.",
+        "description": "According to the client`s requests, we applied only a F2F approach to foster deal closing. Our email writers crafted highly personalized templates targeting particular industries and incorporated social proofs and the company’s achievements that addressed specific prospects’ pain points."
       },
       {
-        "id": "3",
-        "title": "",
-        "description": ""
+        "id": 3,
+        "title": "Management and support of real-time meetings with prospects.",
+        "description": "Since the F2F approach requires intensive communication with the client and the prospect, we facilitated this process with our active engagement and support at each step of the journey."
       }
     ],
-    "implementationDescription": "",
-    "implementationList": [
-      {
-        "id": "1",
-        "title": "",
-        "description": ""
-      },
-      {
-        "id": "2",
-        "title": "",
-        "description": ""
-      },
-      {
-        "id": "3",
-        "title": "",
-        "description": ""
-      }
-    ],
-    "resultImage": "",
+    "resultImage": "/assets/images/case-studies/case-04-2-main.png",
     "resultsList": [
       {
         "id": "1",
-        "title": "",
-        "description": ""
+        "title": "24+",
+        "description": "Appointments booked"
       },
       {
         "id": "2",
-        "title": "",
-        "description": ""
+        "title": "144%",
+        "description": "Avg. KPIs achieved"
       },
       {
         "id": "3",
-        "title": "",
-        "description": ""
+        "title": "65%",
+        "description": "Cold email open rate"
       }
     ],
-    "resultDescription": "",
+    "resultDescription": "The collaboration with LeadWise led to remarkable results for OCC:",
     "resultDescriptionList": [
       {
-        "id": "1",
-        "title": "",
-        "description": ""
+        "id": 1,
+        "description": "We set up approximately 10 appointments each month, which resulted in 24+ F2F meetings in 3 months in total."
       },
       {
-        "id": "2",
-        "title": "",
-        "description": ""
+        "id": 2,
+        "description": "So far, the total number of deals closed is 5."
       },
       {
-        "id": "3",
-        "title": "",
-        "description": ""
+        "id": 3,
+        "description": "KPI benchmarks reached 100%."
+      },
+      {
+        "id": 4,
+        "description": "The highest open rate reached 54%, while the reply rate was 6–7%."
+      },
+      {
+        "id": 5,
+        "description": "In total, we generated 4k+ leads."
+      },
+      {
+        "id": 6,
+        "description": "The client`s active involvement in in-person meetings with prospects and LeadWise handcrafted approach toward lead qualification ensured an approximate 20% of the closed rate."
       }
-    ],
-    "resultsEnding": ""
+    ]
   }
 ]

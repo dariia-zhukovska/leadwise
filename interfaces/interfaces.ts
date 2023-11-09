@@ -76,7 +76,7 @@ export interface caseStudy {
     description: string;
   }[];
   implementationDescription: string;
-  implementationList: {
+  implementationList?: {
     id: string;
     description: string;
   }[];
