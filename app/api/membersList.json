@@ -16,5 +16,11 @@
     "image": "/assets/images/memebrs/member-03.png",
     "name": "Dariia Zhukovska",
     "description": "Lead Generation Specialist"
+  },
+  {
+    "id": "4",
+    "image": "/assets/images/memebrs/member-02.png",
+    "name": "Olekandra Perovskykh",
+    "description": "Lead Generation Specialist"
   }
 ]

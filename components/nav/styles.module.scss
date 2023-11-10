@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 120px;
+  padding: 24px 120px;
   height: 72px;
   background-color: colors.$black;
 }
@@ -15,8 +15,13 @@
   gap: 40px;
   align-items: center;
 
-  a {
+  .sidebarItem {
     @include typography.text-16-400;
     color: colors.$white;
+  }
+
+  .open {
+    padding: 24px 0;
+    border-bottom: 2px solid colors.$primary;
   }
 }

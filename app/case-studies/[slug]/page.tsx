@@ -4,19 +4,20 @@ import styles from "./styles.module.scss";
 import Link from "next/link";
 import Image from "next/image";
 import caseStudyData from "@app/api/caseStudyData.json";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
+import clsx from "clsx";
 
 const CaseStudy = () => {
+  const pathname = usePathname();
   const router = useRouter();
-
-  const urlParts = window.location.pathname.split("/");
-
-  const urlSlug = urlParts[urlParts.length - 1];
+  // const sidebarClass = clsx(styles.sidebarItem, {
+  //   [styles.open]: pathname === `/${slug}`,
+  // });
 
   return (
     <div className={styles.container}>
       {caseStudyData?.map((item) => {
-        if (urlSlug === item.name) {
+        if (pathname === `/case-studies/${item.name}`) {
           return (
             <>
               <div onClick={() => router.back()}>

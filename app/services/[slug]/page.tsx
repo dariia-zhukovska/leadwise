@@ -4,31 +4,22 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 import styles from "./styles.module.scss";
-import Button from "@components/common/common-buttons/Button";
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 import serviceDetails from "@app/api/serviceDetails.json";
 import TopInfo from "@components/top-info/TopInfo";
 import PerfectMatch from "@components/perfect-match/PerfectMatch";
 import Facts from "@components/facts/Facts";
-import { ServiceItem } from "@interfaces/interfaces";
+// import { ServiceItem } from "@interfaces/interfaces";
 import ReachOut from "@components/reach-out-us/ReachOut";
 
-interface Iprops {
-  data: ServiceItem[];
-}
-
-const ServiceItem = ({ data }: Iprops) => {
-  // const router = useRouter();
-
-  const urlParts = window.location.pathname.split("/");
-
-  const serviceItemSlug = urlParts[urlParts.length - 1];
+const ServiceItem = () => {
+  const pathname = usePathname();
 
   return (
     <main className={styles.mainWrapper}>
       {serviceDetails?.map((item) => {
-        if (serviceItemSlug === item.slug) {
+        if (pathname === `/services/${item.slug}`) {
           return (
             <>
               <TopInfo

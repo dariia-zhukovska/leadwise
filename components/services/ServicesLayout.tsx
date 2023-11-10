@@ -4,6 +4,7 @@ import Image from "next/image";
 import servicesData from "@app/api/servicesData.json";
 import styles from "./styles.module.scss";
 import Button from "@components/common/common-buttons/Button";
+import Link from "next/link";
 
 const ServicesLayout = () => {
   return (
@@ -30,13 +31,15 @@ const ServicesLayout = () => {
             <span style={{ color: "#7D56E7" }}>services</span>
           </p>
         </div>
-        <Button
-          size={"S"}
-          variant={"primary"}
-          state={"default"}
-          onClick={() => console.log("call")}
-          placeholder={"Book a Call"}
-        />
+        <Link href={"https://calendly.com/dariia-zhukovska/30min"}>
+          <Button
+            size={"S"}
+            variant={"primary"}
+            state={"default"}
+            onClick={() => console.log("call")}
+            placeholder={"Book a Call"}
+          />
+        </Link>
       </div>
     </div>
   );

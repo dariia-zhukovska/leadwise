@@ -5,6 +5,7 @@ import styles from "./styles.module.scss";
 import Button from "@components/common/common-buttons/Button";
 import MonumentExtendedBold from "next/font/local";
 import clsx from "clsx";
+import Link from "next/link";
 
 const monumentExtended = MonumentExtendedBold({
   src: "../../styles/fonts/MonumentExtended-Regular.otf",
@@ -21,12 +22,15 @@ const MainPage = () => {
         Services
       </p>
       <div className={styles.bookCall}>
-        <Button
-          size={"M"}
-          variant={"primary"}
-          state={"default"}
-          placeholder={"Book a Call"}
-        />
+        <Link href={"https://calendly.com/dariia-zhukovska/30min"}>
+          <Button
+            size={"M"}
+            variant={"primary"}
+            state={"default"}
+            placeholder={"Book a Call"}
+          />
+        </Link>
+
         <Image
           src={"/assets/images/main-picture.png"}
           alt={"main-picture"}

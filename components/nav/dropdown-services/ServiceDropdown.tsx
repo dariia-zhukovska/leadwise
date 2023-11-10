@@ -12,7 +12,7 @@ const ServiceDropdown: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
-    setIsOpen((prev) => !prev);
+    setIsOpen(!isOpen);
   };
 
   const renderDropdownOptions = () => {
@@ -22,7 +22,7 @@ const ServiceDropdown: React.FC = () => {
 
     return (
       <div className={styles.dropdownOptions}>
-        <div className={styles.dropdownOption}>
+        <div className={styles.dropdownOption} onClick={() => setIsOpen(false)}>
           {services.map((service) => (
             <Link href={`/services/${service.slug}`} key={service.id}>
               <div className={styles.dropdownOptionItem}>
@@ -47,13 +47,16 @@ const ServiceDropdown: React.FC = () => {
               <span style={{ color: "#7D56E7" }}> Services</span>
             </p>
           </div>
-          <Button
-            size={"S"}
-            variant={"primary"}
-            state={"default"}
-            onClick={() => console.log("call")}
-            placeholder={"Book a Call"}
-          />
+          <Link href={"https://calendly.com/dariia-zhukovska/30min"}>
+            {" "}
+            <Button
+              size={"S"}
+              variant={"primary"}
+              state={"default"}
+              onClick={() => console.log("call")}
+              placeholder={"Book a Call"}
+            />
+          </Link>
         </div>
       </div>
     );
@@ -64,12 +67,12 @@ const ServiceDropdown: React.FC = () => {
       <div className={styles.selectedService} onClick={toggleDropdown}>
         Services
         <Image
-          src={"/images/svg/down.svg"}
+          src={"/assets/images/svg/down.svg"}
           alt={"lang"}
           width={12}
           height={6}
           className={clsx(styles.icon, {
-            [styles.flipped]: !isOpen,
+            [styles.flipped]: isOpen,
           })}
         />
       </div>

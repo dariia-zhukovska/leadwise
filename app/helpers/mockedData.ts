@@ -51,7 +51,7 @@ export const services = [
     id: 1,
     name: "Appointment Settings",
     subtitle: "Efficiently Fill Your Calendar with Qualified Prospects",
-    slug: "linkedin-marketing"
+    slug: "appointment-setting"
   },
   {
     id: 2,

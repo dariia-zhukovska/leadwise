@@ -1,11 +1,22 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 
 import styles from "./styles.module.scss";
 import Button from "@components/common/common-buttons/Button";
 import ServiceDropdown from "./dropdown-services/ServiceDropdown";
+import { usePathname } from "next/navigation";
+import clsx from "clsx";
+
+const navItems = [
+  { id: 2, name: "Case Studies", slug: "case-studies" },
+  { id: 3, name: "Blog", slug: "blog" },
+  { id: 4, name: "About Us", slug: "about-us" },
+];
 
 const Nav = () => {
+  const pathname = usePathname();
   return (
     <nav className={styles.header}>
       <Link href={"/"} className={styles.logoWrapper}>
@@ -18,12 +29,19 @@ const Nav = () => {
         />
       </Link>
       <div className={styles.navWrapper}>
-        {/* <Link href={`/services`}>Services</Link> */}
         <ServiceDropdown />
-        <Link href={"/case-studies"}>Case Studies</Link>
-        <Link href={"/blog"}>Blog</Link>
-        <Link href={"/about-us"}>About Us</Link>
-        <Link href={"/"}>
+        {navItems.map((item) => (
+          <Link
+            href={`/${item.slug}`}
+            key={item.id}
+            className={clsx(styles.sidebarItem, {
+              [styles.open]: pathname === `/${item.slug}`,
+            })}
+          >
+            {item.name}
+          </Link>
+        ))}
+        <Link href={"https://calendly.com/dariia-zhukovska/30min"}>
           <Button
             size={"S"}
             variant={"primary"}
