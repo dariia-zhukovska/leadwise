@@ -30,7 +30,7 @@
       {
         "id": "1",
         "title": "Inconsistent Lead Generation:",
-        "description": " Zfort was facing issues with the consistency of lead generation, leading to fluctuations in their sales pipeline."
+        "description": "Zfort was facing issues with the consistency of lead generation, leading to fluctuations in their sales pipeline."
       },
       {
         "id": "2",
@@ -115,7 +115,7 @@
     "id": "2",
     "name": "cowchain",
     "mainPicture": "/assets/images/case-studies/case-card-2.png",
-    "icon": "/assets/images/case-studies/case-zfort.svg",
+    "icon": "/assets/images/case-studies/case-cowchain.svg",
     "mainTitle": "ABM strategy for a Blockchain company that brought 97 appointments and 144% KPI",
     "numbers": [
       {
@@ -142,12 +142,12 @@
       {
         "id": "1",
         "title": "Need for growth.",
-        "description": "The client`s No. 1 challenge was promoting their portable router, GO, to new markets since they had little experience in expansion."
+        "description": "The client&rsquo;s No. 1 challenge was promoting their portable router, GO, to new markets since they had little experience in expansion."
       },
       {
         "id": "2",
         "title": "Limited in-house resources.",
-        "description": "The client didn`t have a lead prospecting strategy that would cover all titles interested in the product. As most OTH customers came from referrals, the sales team hadn’t yet developed a specific ideal customer profile (ICP) that could be worked out into several customer personas and result in an effective title research."
+        "description": "The client didn&rsquo;t have a lead prospecting strategy that would cover all titles interested in the product. As most OTH customers came from referrals, the sales team hadn’t yet developed a specific ideal customer profile (ICP) that could be worked out into several customer personas and result in an effective title research."
       },
       {
         "id": "3",
@@ -253,8 +253,8 @@
     "company-size": "11-50 employees",
     "headquarters": "London, UK",
     "about": "About PeopleForce",
-    "aboutImage": "PeopleForce is a cutting-edge all-in-one HR platform designed to cater to modern business needs. With a vision to streamline HR processes and shift the focus to people, PeopleForce offers a comprehensive solution that simplifies and enhances the employee experience.",
-    "description": "/assets/images/case-studies/case-03-main.png",
+    "aboutImage": "/assets/images/case-studies/case-03-main.png",
+    "description": "PeopleForce is a cutting-edge all-in-one HR platform designed to cater to modern business needs. With a vision to streamline HR processes and shift the focus to people, PeopleForce offers a comprehensive solution that simplifies and enhances the employee experience.",
 
     "challengeDescription": "PeopleForce faced a series of challenges when it came to generating leads and growing its user base:",
     "challengeList": [
@@ -346,7 +346,7 @@
     "id": "4",
     "name": "one-click-code",
     "mainPicture": "/assets/images/case-studies/case-card-4.png",
-    "icon": "/assets/images/case-studies/case-occ.svg.svg",
+    "icon": "/assets/images/case-studies/case-occ.svg",
     "mainTitle": "100% KPI performance for a Roofing Application and 24+ appointments in 3 month",
     "numbers": [
       {
@@ -365,7 +365,7 @@
     "company-size": "11-50 employees",
     "headquarters": "Colorado, USA",
     "about": "About OCC",
-    "aboutImage": "",
+    "aboutImage": "/assets/images/case-studies/case-04-main.png",
     "description": "OneClick Code is a revolutionary application that provides quick and accurate access to address-specific roofing codes, facilitating code compliance for construction professionals.",
 
     "challengeDescription": "OneClick Code faced several challenges in terms of expanding its user base and promoting its unique offering:",
@@ -395,7 +395,7 @@
       {
         "id": 2,
         "title": "Leads segmenting according to specific industry and applying a F2F approach.",
-        "description": "According to the client`s requests, we applied only a F2F approach to foster deal closing. Our email writers crafted highly personalized templates targeting particular industries and incorporated social proofs and the company’s achievements that addressed specific prospects’ pain points."
+        "description": "According to the client&rsquo;s requests, we applied only a F2F approach to foster deal closing. Our email writers crafted highly personalized templates targeting particular industries and incorporated social proofs and the company’s achievements that addressed specific prospects’ pain points."
       },
       {
         "id": 3,
@@ -445,7 +445,7 @@
       },
       {
         "id": 6,
-        "description": "The client`s active involvement in in-person meetings with prospects and LeadWise handcrafted approach toward lead qualification ensured an approximate 20% of the closed rate."
+        "description": "The client&rsquo;s active involvement in in-person meetings with prospects and LeadWise handcrafted approach toward lead qualification ensured an approximate 20% of the closed rate."
       }
     ]
   }

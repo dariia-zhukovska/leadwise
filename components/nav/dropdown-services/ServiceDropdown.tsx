@@ -5,7 +5,7 @@ import clsx from "clsx";
 import styles from "./styles.module.scss";
 import Image from "next/image";
 import Button from "@components/common/common-buttons/Button";
-import { services } from "@app/helpers/mockedData";
+import { CALENDLY_LINK, services } from "@app/helpers/mockedData";
 import Link from "next/link";
 
 const ServiceDropdown: React.FC = () => {
@@ -47,8 +47,7 @@ const ServiceDropdown: React.FC = () => {
               <span style={{ color: "#7D56E7" }}> Services</span>
             </p>
           </div>
-          <Link href={"https://calendly.com/dariia-zhukovska/30min"}>
-            {" "}
+          <Link href={CALENDLY_LINK}>
             <Button
               size={"S"}
               variant={"primary"}

@@ -28,7 +28,6 @@ const ServiceItem = ({
         <p className={styles.description}>{description}</p>
       </div>
       <Link href={`/services/${slug}`}>
-  
         <Button
           size={"S"}
           variant={"link"}

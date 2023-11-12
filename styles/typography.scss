@@ -65,11 +65,25 @@
   line-height: 20px;
 }
 
+@mixin text-14-500 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
 @mixin text-14-600 {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
+}
+
+@mixin text-20-700 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
 }
 
 @mixin text-20-400 {

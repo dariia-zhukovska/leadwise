@@ -5,6 +5,7 @@ import servicesData from "@app/api/servicesData.json";
 import styles from "./styles.module.scss";
 import Button from "@components/common/common-buttons/Button";
 import Link from "next/link";
+import { CALENDLY_LINK } from "@app/helpers/mockedData";
 
 const ServicesLayout = () => {
   return (
@@ -31,7 +32,7 @@ const ServicesLayout = () => {
             <span style={{ color: "#7D56E7" }}>services</span>
           </p>
         </div>
-        <Link href={"https://calendly.com/dariia-zhukovska/30min"}>
+        <Link href={CALENDLY_LINK}>
           <Button
             size={"S"}
             variant={"primary"}

@@ -6,6 +6,7 @@ import Button from "@components/common/common-buttons/Button";
 import MonumentExtendedBold from "next/font/local";
 import clsx from "clsx";
 import Link from "next/link";
+import { CALENDLY_LINK } from "@app/helpers/mockedData";
 
 const monumentExtended = MonumentExtendedBold({
   src: "../../styles/fonts/MonumentExtended-Regular.otf",
@@ -22,7 +23,7 @@ const MainPage = () => {
         Services
       </p>
       <div className={styles.bookCall}>
-        <Link href={"https://calendly.com/dariia-zhukovska/30min"}>
+        <Link href={CALENDLY_LINK}>
           <Button
             size={"M"}
             variant={"primary"}

@@ -8,6 +8,7 @@ import Button from "@components/common/common-buttons/Button";
 import ServiceDropdown from "./dropdown-services/ServiceDropdown";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
+import { CALENDLY_LINK } from "@app/helpers/mockedData";
 
 const navItems = [
   { id: 2, name: "Case Studies", slug: "case-studies" },
@@ -41,7 +42,7 @@ const Nav = () => {
             {item.name}
           </Link>
         ))}
-        <Link href={"https://calendly.com/dariia-zhukovska/30min"}>
+        <Link href={CALENDLY_LINK}>
           <Button
             size={"S"}
             variant={"primary"}

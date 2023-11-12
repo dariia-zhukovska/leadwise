@@ -1,3 +1,5 @@
+export const CALENDLY_LINK = "https://calendly.com/dariia-zhukovska/30min"
+
 export const partnerIcons = [
   "/assets/images/icons/01.svg",
   "/assets/images/icons/02.svg",
@@ -73,3 +75,29 @@ export const services = [
     slug: "linkedin-marketing"
   },
 ];
+
+
+export const faqData = {
+  title: "FAQ (How it works)",
+  rows: [
+    {
+      title: "What are the contract lengths you offer?",
+      content: "Penetration testing, also known as ethical hacking, is a proactive cybersecurity practice that involves simulating real-world cyberattacks on an organization's systems, networks, or applications. The goal is to identify vulnerabilities, weaknesses, and potential entry points that malicious hackers could exploit. "
+    },
+    {
+      title: "What are the contract lengths you offer?",
+      content: "Penetration testing, also known as ethical hacking, is a proactive cybersecurity practice that involves simulating real-world cyberattacks on an organization's systems, networks, or applications. The goal is to identify vulnerabilities, weaknesses, and potential entry points that malicious hackers could exploit. "
+    },
+    {
+      title: "What are the contract lengths you offer?",
+      content: "Penetration testing, also known as ethical hacking, is a proactive cybersecurity practice that involves simulating real-world cyberattacks on an organization's systems, networks, or applications. The goal is to identify vulnerabilities, weaknesses, and potential entry points that malicious hackers could exploit. "
+    },
+    {
+      title: "What are the contract lengths you offer?",
+      content: "Penetration testing, also known as ethical hacking, is a proactive cybersecurity practice that involves simulating real-world cyberattacks on an organization's systems, networks, or applications. The goal is to identify vulnerabilities, weaknesses, and potential entry points that malicious hackers could exploit. "
+    },
+    {
+      title: "What are the contract lengths you offer?",
+      content: "Penetration testing, also known as ethical hacking, is a proactive cybersecurity practice that involves simulating real-world cyberattacks on an organization's systems, networks, or applications. The goal is to identify vulnerabilities, weaknesses, and potential entry points that malicious hackers could exploit. "
+    }]
+};

@@ -1,0 +1,39 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+
+@keyframes tickerAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: colors.$brown;
+  // overflow: hidden;
+  .title {
+    color: colors.$white;
+    @include typography.title-20-700;
+    width: 20em;
+    background-color: colors.$brown;
+    padding: 16px 0 16px 40px;
+  }
+}
+
+.wrapper {
+  overflow: hidden;
+  padding: 16px 40px;
+  background-color: colors.$brown;
+  height: 100%;
+}
+
+.ticker {
+  white-space: nowrap;
+  animation: tickerAnimation 50s linear infinite;
+  color: colors.$white;
+  @include typography.text-20-400;
+}

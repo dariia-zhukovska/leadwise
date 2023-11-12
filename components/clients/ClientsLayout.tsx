@@ -8,7 +8,7 @@ const ClientsLayout = () => {
     <div className={styles.wrapper}>
       <div className={styles.contentWrapper}>
         <h2 className={styles.title}>
-          Companies driving revenue with Lead Prime.
+          Companies driving revenue with Lead Wise.
         </h2>
         <p className={styles.subTitle}>
           500+ sales leaders, marketers, and founders across industries trust us

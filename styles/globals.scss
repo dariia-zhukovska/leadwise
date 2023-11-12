@@ -106,6 +106,9 @@
 //   }
 // }
 
+@use "/styles/colors.scss";
+@use "/styles/breakpoint.scss";
+
 *,
 *::before,
 *::after {
@@ -151,4 +154,22 @@ input:-webkit-autofill {
 
 input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 50px white inset;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: colors.$primary;
+  margin-right: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: darken(colors.$primary, 10%);
+}
+
+::-webkit-scrollbar-track {
+  background-color: lighten(colors.$brown, 10%);
 }

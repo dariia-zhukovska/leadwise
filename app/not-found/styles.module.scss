@@ -1,0 +1,29 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: colors.$black;
+
+  h1 {
+    @include typography.heading-170-400;
+    color: colors.$white;
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    @include typography.title-36-700;
+    color: colors.$description;
+    max-width: 734px;
+  }
+  p {
+    @include typography.text-16-400;
+    color: colors.$description;
+    max-width: 734px;
+    margin-bottom: 40px;
+  }
+}
