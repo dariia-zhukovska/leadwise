@@ -1,4 +1,4 @@
-export const CALENDLY_LINK = "https://calendly.com/dariia-zhukovska/30min"
+export const CALENDLY_LINK = "https://calendly.com/dmytroishler/30min"
 
 export const partnerIcons = [
   "/assets/images/icons/01.svg",
