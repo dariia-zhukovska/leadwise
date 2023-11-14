@@ -1,9 +1,7 @@
 @use "/styles/typography.scss";
 @use "/styles/colors.scss";
 @use "/styles/breakpoint.scss";
-
-.container {
-  width: 100%;
-  padding: 120px 0;
-  background-color: black;
+.title {
+  @include typography.heading-44-600;
+  color: colors.$white;
 }

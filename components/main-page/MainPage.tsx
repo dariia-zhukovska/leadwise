@@ -13,6 +13,8 @@ const monumentExtended = MonumentExtendedBold({
 });
 
 const MainPage = () => {
+  const isMobile = window.innerWidth < 768;
+
   return (
     <div className={styles.wrapper}>
       <h1 className={clsx(styles.title, monumentExtended.className)}>
@@ -25,7 +27,7 @@ const MainPage = () => {
       <div className={styles.bookCall}>
         <Link href={CALENDLY_LINK}>
           <Button
-            size={"M"}
+            size={isMobile ? "S" : "M"}
             variant={"primary"}
             state={"default"}
             placeholder={"Book a Call"}
@@ -35,8 +37,10 @@ const MainPage = () => {
         <Image
           src={"/assets/images/main-picture.png"}
           alt={"main-picture"}
-          width={560}
-          height={364}
+          // width={560}
+          // height={364}
+          width={347}
+          height={226}
         />
       </div>
     </div>

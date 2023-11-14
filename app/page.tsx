@@ -17,7 +17,7 @@ export default function Home() {
       <Ticker items={tickerItems} interval={tickerInterval} />
       <ClientsLayout />
       <ServicesLayout />
-      <TeamMemberSlider />
+      {/* <TeamMemberSlider /> */}
       <ReachOut padding="120px" />
     </main>
   );

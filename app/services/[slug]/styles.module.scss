@@ -1,6 +1,6 @@
 @use "/styles/typography.scss";
 @use "/styles/colors.scss";
-
+@use "/styles/breakpoint.scss";
 .mainWrapper {
   background-color: colors.$black;
   color: colors.$white;

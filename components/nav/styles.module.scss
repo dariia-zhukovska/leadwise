@@ -1,19 +1,29 @@
-@use "@styles/typography.scss";
-@use "@styles/colors.scss";
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+@use "/styles/breakpoint.scss";
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 120px;
+  padding: 0 20px;
+
   height: 72px;
   background-color: colors.$black;
+
+  @include breakpoint.mq(lax) {
+    padding: 24px 120px;
+  }
 }
 
 .navWrapper {
-  display: flex;
-  gap: 40px;
-  align-items: center;
+  display: none;
+
+  @include breakpoint.mq(lax) {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
 
   .sidebarItem {
     @include typography.text-16-400;

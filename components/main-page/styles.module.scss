@@ -1,26 +1,58 @@
-@use "@styles/typography.scss";
-@use "@styles/colors.scss";
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+@use "/styles/breakpoint.scss";
 
 .wrapper {
-  padding: 64px 120px 0;
+  padding: 20px;
   background-color: colors.$black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  @include breakpoint.mq(md) {
+    display: block;
+    padding: 64px 120px 0;
+  }
 
   .title {
     margin-bottom: 16px;
-    @include typography.heading-170-400;
+    @include typography.heading-46-400;
     color: colors.$white;
+
+    @include breakpoint.mq(md) {
+      @include typography.heading-90-400;
+    }
+
+    @include breakpoint.mq(lax) {
+      @include typography.heading-170-400;
+    }
   }
 
   .subTitle {
-    max-width: 734px;
-    @include typography.text-28-400;
+    max-width: 100%;
+    @include typography.text-16-400;
+    text-align: center;
+
     color: colors.$description;
+
+    @include breakpoint.mq(md) {
+      @include typography.text-28-400;
+      max-width: 734px;
+      text-align: start;
+    }
   }
 
   .bookCall {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 64px;
+    flex-direction: column;
+    gap: 20px;
+
+    @include breakpoint.mq(md) {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 64px;
+    }
   }
 }

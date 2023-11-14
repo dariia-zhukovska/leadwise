@@ -1,12 +1,11 @@
-@use "@styles/typography.scss";
-@use "@styles/colors.scss";
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
 
 .serviceDropdown {
   position: relative;
   display: inline-block;
   cursor: pointer;
   z-index: 50;
-  
 }
 
 .flipped {

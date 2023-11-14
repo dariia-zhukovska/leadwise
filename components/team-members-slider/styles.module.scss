@@ -1,8 +1,15 @@
 @use "/styles/typography.scss";
 @use "/styles/colors.scss";
-
+@use "/styles/breakpoint.scss";
 .sliderContainer {
-  display: flex;
-  gap: 20px;
+  // display: flex;
+  // flex-direction: row;
+  // gap: 20px;
   background-color: colors.$brown;
+}
+
+.memberList {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
