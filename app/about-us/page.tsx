@@ -1,3 +1,4 @@
+"use client";
 import TopInfo from "@components/top-info/TopInfo";
 import styles from "./styles.module.scss";
 import MiniCard from "@components/mini-card/MiniCard";
@@ -5,8 +6,11 @@ import Image from "next/image";
 import { miniCards, partnerIcons, timeline } from "@app/helpers/mockedData";
 import ReachOut from "@components/reach-out-us/ReachOut";
 import Facts from "@components/facts/Facts";
+import useMediaQuery from "@hooks/useMediaQuery";
+import CommonSlider from "@components/common/slider/Slider";
 
 const AboutUs = () => {
+  const isMobile = useMediaQuery(768);
   return (
     <main className={styles.container}>
       <TopInfo
@@ -27,8 +31,8 @@ const AboutUs = () => {
         <Image
           src={"/assets/images/map.svg"}
           alt={"map"}
-          width={1272}
-          height={535}
+          width={isMobile ? 352 : 1272}
+          height={isMobile ? 174 : 535}
         />
       </div>
       <div className={styles.howStarted}>

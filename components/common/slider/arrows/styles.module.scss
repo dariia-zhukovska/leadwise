@@ -1,0 +1,38 @@
+@use "/styles/colors.scss";
+
+@mixin buttons {
+  height: 50px;
+  width: 50px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+
+}
+
+.nextArrowCotainer {
+  position: absolute;
+  right: 50px;
+  top: -150px;
+  .nextButton {
+    @include buttons;
+    border-right: 1px solid colors.$primary;
+    border-top: 1px solid colors.$primary;
+    border-bottom: 1px solid colors.$primary;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+}
+
+.prevArrowCotainer {
+  position: absolute;
+  right: 100px;
+  top: -150px;
+  .prevButton {
+    @include buttons;
+    border-left: 1px solid colors.$primary;
+    border-top: 1px solid colors.$primary;
+    border-bottom: 1px solid colors.$primary;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+}

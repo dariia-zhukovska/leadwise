@@ -4,14 +4,22 @@
 .mainWrapper {
   background-color: colors.$black;
   color: colors.$white;
-  padding: 0 120px 120px;
+  padding: 20px;
+  @include breakpoint.mq(md) {
+    padding: 0 120px 120px;
+  }
 }
 
 .servicesItemsContainer {
   display: flex;
   flex-direction: column;
   gap: 64px;
-  padding: 120px 0;
+  padding: 40px 0;
+
+  @include breakpoint.mq(md) {
+    gap: 64px;
+    padding: 120px 0;
+  }
 
   .itemWrapper {
     display: flex;
@@ -21,13 +29,20 @@
     gap: 26px;
 
     .serviceItemTitle {
-      @include typography.heading-44-600;
+      @include typography.title-24-700;
       color: colors.$white;
+      @include breakpoint.mq(md) {
+        @include typography.heading-44-600;
+      }
     }
 
     .serviceItemDescription {
-      @include typography.text-18-400;
+      @include typography.text-16-400;
       color: colors.$white;
+      text-align: center;
+      @include breakpoint.mq(md) {
+        @include typography.text-18-400;
+      }
     }
   }
 
@@ -39,16 +54,22 @@
 
   .serviceListItem {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 28px;
+
+    @include breakpoint.mq(md) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
 
     .serviceItemDetails {
       display: flex;
       flex-direction: column;
       justify-content: center;
       gap: 28px;
-      width: 50%;
-
+      @include breakpoint.mq(md) {
+        width: 50%;
+      }
       .cardTitle {
         @include typography.title-36-700;
       }
@@ -61,20 +82,29 @@
         gap: 20px;
         .cardItem {
           padding-left: 40px;
-          @include typography.text-18-400;
+          @include typography.text-16-400;
           background-image: url("/assets/images/svg/arrow.svg");
           background-repeat: no-repeat;
           background-position: left center;
+          @include breakpoint.mq(md) {
+            @include typography.text-18-400;
+          }
         }
       }
     }
   }
 
   .servicesList .serviceListItem:nth-child(2n) {
-    flex-direction: row-reverse;
+    flex-direction: column;
+
+    @include breakpoint.mq(md) {
+      flex-direction: row-reverse;
+    }
   }
 }
 
 .facts {
-  padding: 120px 0;
+  @include breakpoint.mq(md) {
+    padding: 120px 0;
+  }
 }

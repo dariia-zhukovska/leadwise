@@ -6,8 +6,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 40px;
-  padding: 120px;
+  padding: 32px;
   background-color: colors.$black;
+  @include breakpoint.mq(md) {
+    padding: 120px;
+  }
 }
 
 .bookCallItem {
@@ -17,9 +20,13 @@
   align-items: center;
   gap: 40px;
   width: 410px;
-  padding: 40px 24px;
-  border-right: 1px solid colors.$description;
+  padding-bottom: 40px;
+  border-right: none;
   border-bottom: 1px solid colors.$description;
+  @include breakpoint.mq(md) {
+    border-right: 1px solid colors.$description;
+    padding: 40px 24px;
+  }
 
   .serviseItemTop {
     display: flex;

@@ -6,24 +6,45 @@
   flex-direction: column;
   width: 100%;
   background-color: colors.$black;
-  padding: 0 120px;
+  padding: 0 20px;
+  @include breakpoint.mq(md) {
+    padding: 0 120px;
+  }
 
   .minicards {
     display: flex;
-    justify-content: space-between;
-    padding: 120px 0;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0;
+    @include breakpoint.mq(md) {
+      padding: 120px 0;
+      flex-direction: row;
+      justify-content: space-between;
+    }
   }
 
   .mapContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
-    padding-bottom: 120px;
+    gap: 40px;
+    padding: 40px 0;
+    @include breakpoint.mq(md) {
+      padding: 0 0 120px;
+      flex-direction: row;
+      justify-content: space-between;
+    }
 
     .title {
-      @include typography.heading-44-600;
+      text-align: center;
+      @include typography.title-24-700;
       color: colors.$white;
+      padding: 0 40px;
+
+      @include breakpoint.mq(md) {
+        @include typography.heading-44-600;
+        padding: 0;
+      }
     }
   }
 
@@ -34,12 +55,17 @@
     justify-content: center;
     gap: 40px;
     width: 100%;
-    padding: 120px 0;
-
+    padding: 40px 0;
     .title {
-      @include typography.heading-44-600;
-      color: colors.$white;
       text-align: center;
+      @include typography.title-24-700;
+      color: colors.$white;
+      padding: 0 40px;
+
+      @include breakpoint.mq(md) {
+        @include typography.heading-44-600;
+        padding: 0;
+      }
     }
 
     .description {
@@ -53,11 +79,6 @@
       display: flex;
       gap: 63px;
 
-      // .numbers {
-      //   display: flex;
-      //   justify-content: space-evenly;
-      //   align-items: center;
-      // }
       .timeItems {
         display: flex;
         flex-direction: column;
@@ -94,21 +115,34 @@
     }
 
     .facts {
-      background-color: colors.$brown;
       width: 100%;
+      @include breakpoint.mq(md) {
+        background-color: colors.$brown;
+      }
     }
+
     .customers {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      padding: 120px 0;
+      padding: 20px 0;
+
+      @include breakpoint.mq(md) {
+        padding: 120px 0;
+      }
 
       .title {
-        @include typography.heading-44-600;
-        color: colors.$white;
         text-align: center;
+        @include typography.title-24-700;
+        color: colors.$white;
+        padding: 0 40px;
         margin-bottom: 16px;
+
+        @include breakpoint.mq(md) {
+          @include typography.heading-44-600;
+          padding: 0;
+        }
       }
 
       .description {
@@ -123,9 +157,13 @@
         justify-content: center;
         align-items: center;
         margin-top: 88px;
-        gap: 90px;
+        gap: 50px;
         flex-wrap: wrap;
         max-width: 900px;
+
+        @include breakpoint.mq(md) {
+          gap: 90px;
+        }
       }
     }
   }

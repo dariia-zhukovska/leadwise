@@ -18,23 +18,35 @@
   // overflow: hidden;
   .title {
     color: colors.$white;
-    @include typography.title-20-700;
-    width: 20em;
+    @include typography.text-16-400;
+    width: 100em;
     background-color: colors.$brown;
-    padding: 16px 0 16px 40px;
+    padding: 12px;
+
+    @include breakpoint.mq(md) {
+      @include typography.title-20-700;
+      padding: 16px 0 16px 40px;
+      width: 36em;
+    }
   }
 }
 
 .wrapper {
   overflow: hidden;
-  padding: 16px 40px;
+  padding: 12px;
   background-color: colors.$brown;
   height: 100%;
+  @include breakpoint.mq(md) {
+    padding: 16px 40px;
+  }
 }
 
 .ticker {
   white-space: nowrap;
   animation: tickerAnimation 50s linear infinite;
   color: colors.$white;
-  @include typography.text-20-400;
+  @include typography.text-16-400;
+  @include breakpoint.mq(md) {
+    @include typography.text-20-400;
+  }
 }

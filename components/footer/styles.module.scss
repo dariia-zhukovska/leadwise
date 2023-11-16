@@ -4,13 +4,26 @@
 .footer {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  background-color: colors.$black;
-  padding: 80px 120px 120px;
+  gap: 40px;
+  background: rgb(0, 0, 0);
+
+  padding: 40px 52px;
+
+  @include breakpoint.mq(md) {
+    padding: 80px 120px 120px;
+    gap: 24px;
+    background-color: colors.$black;
+  }
 
   .footerWrapper {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+
+    @include breakpoint.mq(md) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
 
     .rights {
       display: flex;

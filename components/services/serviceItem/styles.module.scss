@@ -1,5 +1,6 @@
 @use "/styles/colors.scss";
 @use "/styles/typography.scss";
+@use "/styles/breakpoint.scss";
 
 .serviceItemWrapper {
   display: flex;
@@ -7,8 +8,11 @@
   gap: 10px;
   width: 410px;
   padding: 48px 0 24px;
-  border-right: 1px solid colors.$description;
+  // border-right: 1px solid colors.$description;
   border-bottom: 1px solid colors.$description;
+  @include breakpoint.mq(md) {
+    border-right: 1px solid colors.$description;
+  }
 
   .serviseItemTop {
     display: flex;

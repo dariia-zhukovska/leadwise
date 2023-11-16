@@ -7,13 +7,15 @@ import MonumentExtendedBold from "next/font/local";
 import clsx from "clsx";
 import Link from "next/link";
 import { CALENDLY_LINK } from "@app/helpers/mockedData";
+import useMediaQuery from "@hooks/useMediaQuery";
 
 const monumentExtended = MonumentExtendedBold({
   src: "../../styles/fonts/MonumentExtended-Regular.otf",
 });
 
 const MainPage = () => {
-  const isMobile = window.innerWidth < 768;
+  const isMobile = useMediaQuery(768);
+  const isTablet = useMediaQuery(1024);
 
   return (
     <div className={styles.wrapper}>
@@ -37,10 +39,11 @@ const MainPage = () => {
         <Image
           src={"/assets/images/main-picture.png"}
           alt={"main-picture"}
-          // width={560}
-          // height={364}
-          width={347}
-          height={226}
+          width={isTablet ? 347 : 560}
+          height={isTablet ? 226 : 364}
+          // // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          // fill
+          // layout={"fill"}
         />
       </div>
     </div>

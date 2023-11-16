@@ -4,9 +4,14 @@
 .container {
   display: flex;
   flex-direction: column;
-  gap: 88px;
-  padding: 120px 0;
+  gap: 40px;
+  padding: 40px 0;
   height: 100%;
+
+  @include breakpoint.mq(md) {
+    gap: 88px;
+    padding: 120px 0;
+  }
 
   .itemWrapper {
     display: flex;
@@ -16,20 +21,34 @@
     gap: 26px;
 
     .serviceItemTitle {
-      @include typography.heading-44-600;
+      @include typography.title-24-700;
       color: colors.$white;
+
+      @include breakpoint.mq(md) {
+        @include typography.heading-44-600;
+      }
     }
 
     .serviceItemDescription {
-      @include typography.text-18-400;
+      @include typography.text-16-400;
+      text-align: center;
       color: colors.$white;
+      @include breakpoint.mq(md) {
+        @include typography.text-18-400;
+      }
     }
   }
 
   .matchCardsContainer {
     display: flex;
-    gap: 24px;
+    gap: 40px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
+    @include breakpoint.mq(md) {
+      flex-direction: row;
+      gap: 24px;
+    }
   }
 }

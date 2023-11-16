@@ -4,12 +4,18 @@
 
 .container {
   display: flex;
-  width: 304px;
+  width: 100%;
+
   padding: 20px 16px;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
   background-color: colors.$brown;
+  border-radius: 8px;
+
+  @include breakpoint.mq(md) {
+    width: 304px;
+  }
 
   .number {
     @include typography.title-36-700;

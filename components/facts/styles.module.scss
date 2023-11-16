@@ -6,10 +6,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 72px 70px;
+  padding: 40px 0px;
   gap: 20px;
-  // background-color: colors.$brown;
   width: 100%;
+
+  @include breakpoint.mq(md) {
+    padding: 72px 70px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   .title {
     @include typography.title-32-600;
@@ -27,8 +32,14 @@
 
   .factsList {
     display: flex;
-    gap: 120px;
+    flex-direction: column;
+    gap: 32px;
     margin-top: 28px;
+
+    @include breakpoint.mq(md) {
+      gap: 120px;
+      flex-direction: row;
+    }
 
     .factItem {
       display: flex;
@@ -37,13 +48,19 @@
       gap: 20px;
 
       .number {
-        @include typography.heading-64-600;
+        @include typography.title-36-700;
         color: colors.$primary;
+        @include breakpoint.mq(md) {
+          @include typography.heading-64-600;
+        }
       }
 
       .content {
-        @include typography.text-24-600;
+        @include typography.text-16-400;
         color: colors.$white;
+        @include breakpoint.mq(md) {
+          @include typography.text-24-600;
+        }
       }
     }
   }

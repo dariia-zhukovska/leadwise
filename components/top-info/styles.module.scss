@@ -3,10 +3,17 @@
 @use "/styles/breakpoint.scss";
 .headerContainer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 40px;
   align-items: center;
-  padding: 120px 0;
+  padding-top: 20px;
   width: 100%;
+
+  @include breakpoint.mq(md) {
+    padding: 120px 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 .headerInfo {
   display: flex;
@@ -22,6 +29,12 @@
   .serviceSubtitle {
     color: colors.$white;
     @include typography.heading-44-600;
+    max-width: 60%;
+    margin-bottom: 20px;
+    @include breakpoint.mq(md) {
+      max-width: none;
+      margin-bottom: 0;
+    }
   }
 
   .serviceDescription {

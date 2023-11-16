@@ -1,7 +1,16 @@
 @use "/styles/typography.scss";
 @use "/styles/colors.scss";
 @use "/styles/breakpoint.scss";
+
+.relative {
+  overflow-x: hidden;
+  height: min-content;
+  color: colors.$white;
+}
+
 .title {
   @include typography.heading-44-600;
   color: colors.$white;
+  margin-bottom: 88px;
+  max-width: 690px;
 }

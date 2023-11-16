@@ -5,11 +5,13 @@
   // display: flex;
   // flex-direction: row;
   // gap: 20px;
-  background-color: colors.$brown;
 }
 
 .memberList {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
+  padding: 120px;
+  background-color: colors.$brown;
+  overflow-x: hidden;
+  //   display: flex;
+  //   flex-direction: row;
+  //   gap: 20px;
 }
