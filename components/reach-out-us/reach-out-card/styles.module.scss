@@ -33,7 +33,7 @@
 
   border-radius: 20px;
 
-  @include breakpoint.mq(md) {
+  @include breakpoint.mq(lax) {
     padding: 72px 155px;
   }
 
@@ -41,7 +41,7 @@
     @include typography.title-24-700;
     color: colors.$white;
     text-align: center;
-    @include breakpoint.mq(md) {
+    @include breakpoint.mq(lax) {
       @include typography.heading-44-600;
     }
   }

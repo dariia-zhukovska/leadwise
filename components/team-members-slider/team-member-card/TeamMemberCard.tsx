@@ -10,7 +10,14 @@ interface IProps {
 const TeamMemberCard = ({ image, memberName, memberDescription }: IProps) => {
   return (
     <div className={styles.cardWrapper}>
-      <Image src={image} alt="team-member-image" width={380} height={510} />
+      <Image
+        src={image}
+        alt="team-member-image"
+        width="0"
+        height="0"
+        sizes="100vw"
+        style={{ width: "100%", height: "auto" }}
+      />
       <div className={styles.memberDetails}>
         <h5 className={styles.memberName}>{memberName}</h5>
         <p className={styles.memberDescription}>{memberDescription}</p>

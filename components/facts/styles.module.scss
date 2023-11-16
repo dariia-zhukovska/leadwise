@@ -10,7 +10,7 @@
   gap: 20px;
   width: 100%;
 
-  @include breakpoint.mq(md) {
+  @include breakpoint.mq(lax) {
     padding: 72px 70px;
     flex-direction: row;
     justify-content: space-between;
@@ -36,7 +36,7 @@
     gap: 32px;
     margin-top: 28px;
 
-    @include breakpoint.mq(md) {
+    @include breakpoint.mq(lax) {
       gap: 120px;
       flex-direction: row;
     }
@@ -50,7 +50,7 @@
       .number {
         @include typography.title-36-700;
         color: colors.$primary;
-        @include breakpoint.mq(md) {
+        @include breakpoint.mq(lax) {
           @include typography.heading-64-600;
         }
       }
@@ -58,7 +58,7 @@
       .content {
         @include typography.text-16-400;
         color: colors.$white;
-        @include breakpoint.mq(md) {
+        @include breakpoint.mq(lax) {
           @include typography.text-24-600;
         }
       }

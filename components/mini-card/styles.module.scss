@@ -13,7 +13,7 @@
   background-color: colors.$brown;
   border-radius: 8px;
 
-  @include breakpoint.mq(md) {
+  @include breakpoint.mq(lax) {
     width: 304px;
   }
 

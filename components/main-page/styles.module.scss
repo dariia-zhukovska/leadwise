@@ -11,7 +11,7 @@
   align-items: center;
   gap: 20px;
 
-  @include breakpoint.mq(md) {
+  @include breakpoint.mq(lax) {
     display: block;
     padding: 64px 120px 0;
   }
@@ -21,7 +21,7 @@
     @include typography.heading-46-400;
     color: colors.$white;
 
-    @include breakpoint.mq(md) {
+    @include breakpoint.mq(lax) {
       @include typography.heading-90-400;
     }
 
@@ -37,7 +37,7 @@
 
     color: colors.$description;
 
-    @include breakpoint.mq(md) {
+    @include breakpoint.mq(lax) {
       @include typography.text-28-400;
       max-width: 734px;
       text-align: start;
@@ -49,7 +49,7 @@
     flex-direction: column;
     gap: 20px;
 
-    @include breakpoint.mq(md) {
+    @include breakpoint.mq(lax) {
       flex-direction: row;
       justify-content: space-between;
       margin-top: 64px;

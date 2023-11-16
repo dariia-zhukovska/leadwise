@@ -10,7 +10,7 @@
   padding: 48px 0 24px;
   // border-right: 1px solid colors.$description;
   border-bottom: 1px solid colors.$description;
-  @include breakpoint.mq(md) {
+  @include breakpoint.mq(lax) {
     border-right: 1px solid colors.$description;
   }
 

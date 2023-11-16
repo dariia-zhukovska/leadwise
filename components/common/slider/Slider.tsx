@@ -11,6 +11,7 @@ import NextArrow from "./arrows/NextArrow";
 interface IProps {
   children: React.ReactNode;
   title?: string;
+  isMembers?: boolean;
 }
 
 interface ArrowProps {
@@ -19,13 +20,14 @@ interface ArrowProps {
   onClick?: () => void;
 }
 
-const CommonSlider = ({ children, title }: IProps) => {
+const CommonSlider = ({ children, title, isMembers }: IProps) => {
+  const numOfSlides = isMembers ? 3 : 1;
   const settings = {
     arrows: true,
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: numOfSlides,
     slidesToScroll: 1,
     nextArrow: <NextArrow onClick={() => console.log("next")} />,
     prevArrow: <PrevArrow onClick={() => console.log("prev")} />,
@@ -49,18 +51,7 @@ const CommonSlider = ({ children, title }: IProps) => {
   return (
     <div className={styles.relative}>
       <h2 className={styles.title}> {title} </h2>
-      <Slider {...settings}>
-        {membersList.map((item) => {
-          return (
-            <TeamMemberCard
-              key={item.id}
-              image={item.image}
-              memberName={item.name}
-              memberDescription={item.description}
-            />
-          );
-        })}
-      </Slider>
+      <Slider {...settings}>{children}</Slider>
     </div>
   );
 };

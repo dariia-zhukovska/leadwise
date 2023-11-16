@@ -9,8 +9,21 @@
 }
 
 .title {
-  @include typography.heading-44-600;
+  display: flex;
+  align-items: center;
+  @include typography.title-24-700;
   color: colors.$white;
-  margin-bottom: 88px;
-  max-width: 690px;
+  height: 62px;
+
+  @include breakpoint.mq(md) {
+    @include typography.title-24-700;
+    margin-bottom: 24px;
+    max-width: 400px;
+  }
+
+  @include breakpoint.mq(lax) {
+    @include typography.heading-44-600;
+    margin-bottom: 88px;
+    max-width: 690px;
+  }
 }

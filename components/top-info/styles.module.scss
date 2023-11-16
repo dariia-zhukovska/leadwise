@@ -9,7 +9,7 @@
   padding-top: 20px;
   width: 100%;
 
-  @include breakpoint.mq(md) {
+  @include breakpoint.mq(lax) {
     padding: 120px 0;
     flex-direction: row;
     justify-content: space-between;
@@ -31,7 +31,7 @@
     @include typography.heading-44-600;
     max-width: 60%;
     margin-bottom: 20px;
-    @include breakpoint.mq(md) {
+    @include breakpoint.mq(lax) {
       max-width: none;
       margin-bottom: 0;
     }

@@ -19,14 +19,14 @@
   .title {
     color: colors.$white;
     @include typography.text-16-400;
-    width: 100em;
+    min-width: max-content;
     background-color: colors.$brown;
     padding: 12px;
 
-    @include breakpoint.mq(md) {
+    @include breakpoint.mq(lax) {
       @include typography.title-20-700;
       padding: 16px 0 16px 40px;
-      width: 36em;
+      // min-width: max-content;
     }
   }
 }
@@ -36,7 +36,7 @@
   padding: 12px;
   background-color: colors.$brown;
   height: 100%;
-  @include breakpoint.mq(md) {
+  @include breakpoint.mq(lax) {
     padding: 16px 40px;
   }
 }
@@ -46,7 +46,7 @@
   animation: tickerAnimation 50s linear infinite;
   color: colors.$white;
   @include typography.text-16-400;
-  @include breakpoint.mq(md) {
+  @include breakpoint.mq(lax) {
     @include typography.text-20-400;
   }
 }

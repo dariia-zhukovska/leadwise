@@ -7,7 +7,7 @@
   width: 100%;
   background-color: colors.$black;
   padding: 0 20px;
-  @include breakpoint.mq(md) {
+  @include breakpoint.mq(lax) {
     padding: 0 120px;
   }
 
@@ -16,7 +16,7 @@
     flex-direction: column;
     gap: 20px;
     padding: 40px 0;
-    @include breakpoint.mq(md) {
+    @include breakpoint.mq(lax) {
       padding: 120px 0;
       flex-direction: row;
       justify-content: space-between;
@@ -29,7 +29,7 @@
     align-items: center;
     gap: 40px;
     padding: 40px 0;
-    @include breakpoint.mq(md) {
+    @include breakpoint.mq(lax) {
       padding: 0 0 120px;
       flex-direction: row;
       justify-content: space-between;
@@ -41,7 +41,7 @@
       color: colors.$white;
       padding: 0 40px;
 
-      @include breakpoint.mq(md) {
+      @include breakpoint.mq(lax) {
         @include typography.heading-44-600;
         padding: 0;
       }
@@ -62,7 +62,7 @@
       color: colors.$white;
       padding: 0 40px;
 
-      @include breakpoint.mq(md) {
+      @include breakpoint.mq(lax) {
         @include typography.heading-44-600;
         padding: 0;
       }
@@ -116,7 +116,7 @@
 
     .facts {
       width: 100%;
-      @include breakpoint.mq(md) {
+      @include breakpoint.mq(lax) {
         background-color: colors.$brown;
       }
     }
@@ -128,7 +128,7 @@
       flex-direction: column;
       padding: 20px 0;
 
-      @include breakpoint.mq(md) {
+      @include breakpoint.mq(lax) {
         padding: 120px 0;
       }
 
@@ -139,7 +139,7 @@
         padding: 0 40px;
         margin-bottom: 16px;
 
-        @include breakpoint.mq(md) {
+        @include breakpoint.mq(lax) {
           @include typography.heading-44-600;
           padding: 0;
         }
@@ -161,7 +161,7 @@
         flex-wrap: wrap;
         max-width: 900px;
 
-        @include breakpoint.mq(md) {
+        @include breakpoint.mq(lax) {
           gap: 90px;
         }
       }

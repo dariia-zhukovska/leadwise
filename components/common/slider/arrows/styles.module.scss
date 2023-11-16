@@ -1,4 +1,5 @@
 @use "/styles/colors.scss";
+@use "/styles/breakpoint.scss";
 
 @mixin buttons {
   height: 50px;
@@ -6,13 +7,12 @@
   display: grid;
   place-items: center;
   cursor: pointer;
-
 }
 
 .nextArrowCotainer {
   position: absolute;
-  right: 50px;
-  top: -150px;
+  right: 16px;
+  top: -60px;
   .nextButton {
     @include buttons;
     border-right: 1px solid colors.$primary;
@@ -21,12 +21,17 @@
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
   }
+
+  @include breakpoint.mq(lax) {
+    top: -150px;
+    right: 0px;
+  }
 }
 
 .prevArrowCotainer {
   position: absolute;
-  right: 100px;
-  top: -150px;
+  right: 66px;
+  top: -60px;
   .prevButton {
     @include buttons;
     border-left: 1px solid colors.$primary;
@@ -34,5 +39,9 @@
     border-bottom: 1px solid colors.$primary;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
+  }
+  @include breakpoint.mq(lax) {
+    top: -150px;
+    right: 50px;
   }
 }

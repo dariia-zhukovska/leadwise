@@ -6,7 +6,7 @@
 
 .memberList {
   padding: 40px 20px;
-  background-color: colors.$brown;
+  background-color: colors.$black;
   overflow-x: hidden;
   @include breakpoint.mq(lax) {
     padding: 120px;

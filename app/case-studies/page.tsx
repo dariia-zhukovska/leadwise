@@ -1,4 +1,4 @@
-import CaseStudyCard from "@components/case-study-card/CaseStudyCard";
+import CaseStudyCard from "@components/sliders/case-stydies-slider/case-study-card/CaseStudyCard";
 import ReachOut from "@components/reach-out-us/ReachOut";
 import TopInfo from "@components/top-info/TopInfo";
 import React from "react";
