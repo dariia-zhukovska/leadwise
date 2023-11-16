@@ -6,7 +6,7 @@ import ServicesLayout from "@components/services/ServicesLayout";
 import Ticker from "@components/ticker/Ticker";
 import useMediaQuery from "../hooks/useMediaQuery";
 
-import TeamMemberSlider from "@components/team-members-slider/TeamMemberSlider";
+import TeamMemberSlider from "@components/sliders/team-members-slider/TeamMemberSlider";
 import CaseStudySlider from "@components/sliders/case-stydies-slider/CaseStudySlider";
 
 export default function Home() {
@@ -16,13 +16,6 @@ export default function Home() {
   ];
   const tickerInterval = 2;
 
-  // useEffect(() => {
-  //   (async () => {
-  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
-
-  //     const locomotiveScroll = new LocomotiveScroll();
-  //   })();
-  // }, []);
   return (
     <>
       <main>
