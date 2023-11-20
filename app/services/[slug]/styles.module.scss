@@ -4,9 +4,12 @@
 .mainWrapper {
   background-color: colors.$black;
   color: colors.$white;
-  padding: 20px;
-  @include breakpoint.mq(lax) {
-    padding: 0 120px 120px;
+
+  .slugContainer {
+    padding: 20px;
+    @include breakpoint.mq(lax) {
+      padding: 0 120px 120px;
+    }
   }
 }
 
@@ -105,6 +108,6 @@
 
 .facts {
   @include breakpoint.mq(lax) {
-    padding: 120px 0;
+    margin: 120px 0;
   }
 }

@@ -12,7 +12,9 @@ interface IProps {
 }
 
 const CommonSlider = ({ children, title, isMembers }: IProps) => {
+  const numOfSlidesLg = isMembers ? 4 : 1;
   const numOfSlides = isMembers ? 3 : 1;
+  const numOfSlidesMd = isMembers ? 2 : 1;
   const settings = {
     arrows: true,
     dots: false,
@@ -24,11 +26,11 @@ const CommonSlider = ({ children, title, isMembers }: IProps) => {
     prevArrow: <PrevArrow onClick={() => console.log("prev")} />,
     responsive: [
       {
-        breakpoint: 768,
-        settings: { slidesToShow: 2 },
+        breakpoint: 1000,
+        settings: { slidesToShow: numOfSlidesMd },
       },
       {
-        breakpoint: 576,
+        breakpoint: 710,
         settings: { slidesToShow: 1 },
       },
     ],

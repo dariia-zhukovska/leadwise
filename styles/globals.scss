@@ -174,13 +174,16 @@ input:-webkit-autofill:focus {
   background-color: lighten(colors.$brown, 10%);
 }
 
-.slick-slide > div {
-  // margin: 0 30px;
+.slick-slide {
 }
 
-.slick-slide > div:nth-child(1) {
-  margin-left: 0;
+.slick-slide > div {
+  // width: fit-content;
 }
+
+// .slick-slide > div:nth-child(1) {
+//   margin-left: 0;
+// }
 
 // .slick-list {
 //   margin-right: -30px;

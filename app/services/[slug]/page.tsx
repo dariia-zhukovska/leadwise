@@ -12,16 +12,19 @@ import PerfectMatch from "@components/perfect-match/PerfectMatch";
 import Facts from "@components/facts/Facts";
 // import { ServiceItem } from "@interfaces/interfaces";
 import ReachOut from "@components/reach-out-us/ReachOut";
+import TeamMemberSlider from "@components/sliders/team-members-slider/TeamMemberSlider";
+import useMediaQuery from "@hooks/useMediaQuery";
 
 const ServiceItem = () => {
   const pathname = usePathname();
+  const isMobile = useMediaQuery(768);
 
   return (
     <main className={styles.mainWrapper}>
       {serviceDetails?.map((item) => {
         if (pathname === `/services/${item.slug}`) {
           return (
-            <>
+            <div className={styles.slugContainer} key={item.id}>
               <TopInfo
                 mainTitle={item.mainTitle}
                 subtitle={item.subtitle}
@@ -61,22 +64,24 @@ const ServiceItem = () => {
                         alt={"card-image"}
                         width={410}
                         height={412}
+                        loading="lazy"
                       />
                     </li>
                   ))}
                 </ul>
               </div>
               <PerfectMatch />
-              <div className={styles.facts}>
-                <Facts />
-              </div>
-            </>
+            </div>
           );
         }
+
         return null;
       })}
-
-      <ReachOut />
+      <div className={styles.facts}>
+        <Facts />
+      </div>
+      <TeamMemberSlider />
+      <ReachOut padding={isMobile ? "40px 20px" : "120px"} />
     </main>
   );
 };

@@ -9,15 +9,24 @@ import ServiceDropdown from "./dropdown-services/ServiceDropdown";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { CALENDLY_LINK } from "@app/helpers/mockedData";
+import useMediaQuery from "@hooks/useMediaQuery";
+import SideBar from "@components/sidebar/Sidebar";
+import { useState } from "react";
 
 const navItems = [
-  { id: 2, name: "Case Studies", slug: "case-studies" },
-  { id: 3, name: "Blog", slug: "blog" },
-  { id: 4, name: "About Us", slug: "about-us" },
+  { id: 1, name: "Case Studies", slug: "case-studies" },
+  // { id: 2, name: "Blog", slug: "blog" },
+  { id: 3, name: "About Us", slug: "about-us" },
 ];
 
 const Nav = () => {
   const pathname = usePathname();
+  const isTablet = useMediaQuery(1025);
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!isSidebarOpen);
+  };
   return (
     <nav className={styles.header}>
       <Link href={"/"} className={styles.logoWrapper}>
@@ -27,30 +36,45 @@ const Nav = () => {
           width={68}
           height={40}
           className={styles.logo}
+          loading="lazy"
         />
       </Link>
-      <div className={styles.navWrapper}>
-        <ServiceDropdown />
-        {navItems.map((item) => (
-          <Link
-            href={`/${item.slug}`}
-            key={item.id}
-            className={clsx(styles.sidebarItem, {
-              [styles.open]: pathname === `/${item.slug}`,
-            })}
-          >
-            {item.name}
+      {!isTablet ? (
+        <div className={styles.navWrapper}>
+          <ServiceDropdown />
+          {navItems.map((item) => (
+            <Link
+              href={`/${item.slug}`}
+              key={item.id}
+              className={clsx(styles.sidebarItem, {
+                [styles.open]: pathname === `/${item.slug}`,
+              })}
+            >
+              {item.name}
+            </Link>
+          ))}
+          <Link href={CALENDLY_LINK}>
+            <Button
+              size={"S"}
+              variant={"primary"}
+              state={"default"}
+              placeholder={"Book a Call"}
+            />
           </Link>
-        ))}
-        <Link href={CALENDLY_LINK}>
-          <Button
-            size={"S"}
-            variant={"primary"}
-            state={"default"}
-            placeholder={"Book a Call"}
+        </div>
+      ) : (
+        <>
+          {" "}
+          <Image
+            src={"/assets/images/icons/menu.svg"}
+            alt={"menu-icon"}
+            width={48}
+            height={48}
+            onClick={toggleSidebar}
           />
-        </Link>
-      </div>
+          <SideBar isOpen={isSidebarOpen} onClose={toggleSidebar} />
+        </>
+      )}
     </nav>
   );
 };

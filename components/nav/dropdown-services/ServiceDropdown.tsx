@@ -41,6 +41,7 @@ const ServiceDropdown: React.FC = () => {
               width={68}
               height={40}
               className={styles.logo}
+              loading="lazy"
             />
             <p className={styles.description}>
               Unleash your sales potential with our marketing
@@ -73,6 +74,7 @@ const ServiceDropdown: React.FC = () => {
           className={clsx(styles.icon, {
             [styles.flipped]: isOpen,
           })}
+          loading="lazy"
         />
       </div>
       {renderDropdownOptions()}

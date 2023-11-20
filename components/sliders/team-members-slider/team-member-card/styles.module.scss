@@ -8,14 +8,20 @@
   align-items: center;
   position: relative;
   padding: 0 16px 40px;
-  width: auto;
+  // width: auto;
+  width: 350px;
+  height: 499px;
 
+  @include breakpoint.mq(xl) {
+    width: 411px;
+    height: 550px;
+  }
   .memberDetails {
     position: absolute;
     bottom: 0;
     padding: 16px 28px;
     background: rgba(255, 255, 255, 0.1);
-    width: 80%;
+    width: 70%;
     &:hover {
       background: var(
         --gradient,

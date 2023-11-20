@@ -6,6 +6,7 @@ import { partnerIcons } from "@app/helpers/mockedData";
 const ClientsLayout = () => {
   return (
     <div className={styles.wrapper}>
+      <div className={styles.background}></div>
       <div className={styles.contentWrapper}>
         <h2 className={styles.title}>
           Companies driving revenue with Lead Wise.
@@ -25,6 +26,7 @@ const ClientsLayout = () => {
               alt={`Partner ${index + 1}`}
               width={100}
               height={50}
+              loading="lazy"
             />
           ))}
         </div>

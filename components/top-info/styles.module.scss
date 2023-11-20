@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  align-items: center;
+  // align-items: center;
   padding-top: 20px;
   width: 100%;
 
@@ -13,6 +13,7 @@
     padding: 120px 0;
     flex-direction: row;
     justify-content: space-between;
+    justify-content: center;
   }
 }
 .headerInfo {
@@ -29,11 +30,12 @@
   .serviceSubtitle {
     color: colors.$white;
     @include typography.heading-44-600;
-    max-width: 60%;
+
     margin-bottom: 20px;
     @include breakpoint.mq(lax) {
       max-width: none;
       margin-bottom: 0;
+      max-width: 80%;
     }
   }
 

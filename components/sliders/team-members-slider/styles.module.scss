@@ -8,7 +8,12 @@
   padding: 40px 20px;
   background-color: colors.$brown;
   overflow-x: hidden;
-  @include breakpoint.mq(lax) {
+
+  @include breakpoint.mq(xl) {
+    padding: 80px;
+  }
+
+  @include breakpoint.mq(xxl) {
     padding: 120px;
   }
 }

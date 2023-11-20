@@ -2,12 +2,17 @@
 @use "/styles/colors.scss";
 @use "/styles/breakpoint.scss";
 .footer {
+  position: relative;
   display: flex;
+  position: relative;
   flex-direction: column;
   gap: 40px;
   background: rgb(0, 0, 0);
 
   padding: 40px 52px;
+  overflow: hidden;
+  
+
 
   @include breakpoint.mq(lax) {
     padding: 80px 120px 120px;
@@ -59,4 +64,36 @@
     display: flex;
     gap: 33px;
   }
+}
+
+.background {
+  width: 470px;
+  height: 492.693px;
+  position: absolute;
+  left: -194px;
+
+  bottom: -129.692px;
+  border-radius: 492.693px;
+  background: rgba(173, 93, 211, 0.4);
+
+  filter: blur(300px);
+}
+
+.backgroundTop {
+  width: 470px;
+  height: 492.693px;
+  position: absolute;
+  right: -153px;
+
+  top: -256px;
+  border-radius: 492.693px;
+  background: linear-gradient(
+    0deg,
+    rgba(95, 81, 222, 0.4) 0%,
+    rgba(95, 81, 222, 0.4) 100%
+  );
+
+  background-size: 100%;
+
+  filter: blur(280px);
 }

@@ -46,6 +46,7 @@ const CaseStudy = () => {
                     width={134}
                     height={32}
                     alt="company-logo"
+                    loading="lazy"
                   />
                   <h1 className={styles.title}>{item.mainTitle}</h1>
                   <div className={styles.mainInfoNumbers}>
@@ -67,6 +68,7 @@ const CaseStudy = () => {
                   height={417}
                   alt="main-image"
                   style={{ borderRadius: "16px" }}
+                  loading="lazy"
                 />
               </div>
               <div className={styles.list}>
@@ -102,6 +104,7 @@ const CaseStudy = () => {
                     alt={"about-case-image"}
                     width={841}
                     height={473}
+                    loading="lazy"
                   />
                   <div className={styles.challangeWrapper}>
                     <h2 className={styles.title}>Client&rsquo;s challenges</h2>
@@ -154,6 +157,7 @@ const CaseStudy = () => {
                     alt={"result-image"}
                     width={841}
                     height={473}
+                    loading="lazy"
                   />
                   <div className={styles.resultsWrapper}>
                     <h3 className={styles.results}>Results:</h3>

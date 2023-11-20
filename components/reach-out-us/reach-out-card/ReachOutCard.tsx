@@ -13,6 +13,8 @@ interface IProps {
 const ReachOutCard = ({ title, description }: IProps) => {
   return (
     <div className={styles.container}>
+      <div className={styles.background}></div>
+      <div className={styles.backgroundTop}></div>
       <h1 className={styles.title}>{title}</h1>
       <p className={styles.description}>{description}</p>
       <Link href={CALENDLY_LINK}>

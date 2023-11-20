@@ -1,6 +1,7 @@
 @use "/styles/typography.scss";
 @use "/styles/colors.scss";
 @use "/styles/breakpoint.scss";
+
 .facts {
   display: flex;
   justify-content: center;
@@ -12,8 +13,8 @@
 
   @include breakpoint.mq(lax) {
     padding: 72px 70px;
-    flex-direction: row;
     justify-content: space-between;
+    background-color: colors.$brown;
   }
 
   .title {

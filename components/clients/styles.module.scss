@@ -3,27 +3,35 @@
 @use "/styles/breakpoint.scss";
 
 .wrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 32px;
-  background-color: colors.$black;
-  // background: rgb(95, 81, 222);
-  // background: linear-gradient(
-  //   90deg,
-  //   rgba(95, 81, 222, 1) 10%,
-  //   rgba(173, 93, 211, 1) 30%
-  // );
-
-  // background: linear-gradient(
-  //     to bottom,
-  //     transparent,
-  //     colors.$background-end-rgb
-  //   )
-  //   colors.$background-start-rgb;
+  background-color: black;
+  overflow: hidden;
 
   @include breakpoint.mq(lax) {
     padding: 0 120px;
+  }
+
+  .background {
+    position: absolute;
+    width: 470px;
+    height: 492.693px;
+    position: absolute;
+    right: -208px;
+
+    top: 46px;
+    border-radius: 492.693px;
+    // background: linear-gradient(
+    //   0deg,
+    //   rgba(95, 81, 222, 0.4) 0%,
+    //   rgba(95, 81, 222, 0.4) 100%
+    // );
+    background: rgba(173, 93, 211, 0.4);
+
+    filter: blur(250px);
   }
 
   .contentWrapper {

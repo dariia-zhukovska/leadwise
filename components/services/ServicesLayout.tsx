@@ -10,6 +10,7 @@ import { CALENDLY_LINK } from "@app/helpers/mockedData";
 const ServicesLayout = () => {
   return (
     <div className={styles.servicesContainer}>
+      <div className={styles.background}></div>
       {servicesData.map((service) => (
         <ServiceItem
           key={service.id}
@@ -26,6 +27,7 @@ const ServicesLayout = () => {
             width={68}
             height={40}
             className={styles.logo}
+            loading="lazy"
           />
           <p className={styles.description}>
             Unleash your sales potential with our marketing

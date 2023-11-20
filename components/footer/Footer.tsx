@@ -6,6 +6,8 @@ const Footer = () => {
   return (
     <div>
       <footer className={styles.footer}>
+        <div className={styles.background}></div>
+        <div className={styles.backgroundTop}></div>
         <Link href={"/"} className={styles.logoWrapper}>
           <Image
             src={"/assets/images/svg/logo.svg"}
@@ -13,6 +15,7 @@ const Footer = () => {
             width={68}
             height={40}
             className={styles.logo}
+            loading="lazy"
           />
         </Link>
 
@@ -57,15 +60,15 @@ const Footer = () => {
           <div className={styles.company}>
             <h1>Company</h1>
             <div className={styles.usefulLinks}>
-              <Link className={styles.link} href={"/services"}>
+              {/* <Link className={styles.link} href={"/services"}>
                 Services{" "}
-              </Link>
+              </Link> */}
               <Link className={styles.link} href={"/case-studies"}>
                 Case study
               </Link>
-              <Link className={styles.link} href={"/blog"}>
+              {/* <Link className={styles.link} href={"/blog"}>
                 Blog{" "}
-              </Link>
+              </Link> */}
               <Link className={styles.link} href={"/about-us"}>
                 About us
               </Link>
@@ -78,6 +81,7 @@ const Footer = () => {
                 alt={"social-network-logo"}
                 width={24}
                 height={24}
+                loading="lazy"
               />
             </Link>
             <Link href="https://www.twitter.com/">
@@ -86,6 +90,7 @@ const Footer = () => {
                 alt={"social-network-logo"}
                 width={24}
                 height={24}
+                loading="lazy"
               />
             </Link>
             <Link href="https://www.instagram.com/">
@@ -94,6 +99,7 @@ const Footer = () => {
                 alt={"social-network-logo"}
                 width={24}
                 height={24}
+                loading="lazy"
               />
             </Link>
             <Link href="https://www.linkedin.com/">
@@ -102,6 +108,7 @@ const Footer = () => {
                 alt={"social-network-logo"}
                 width={24}
                 height={24}
+                loading="lazy"
               />
             </Link>
           </div>

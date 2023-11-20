@@ -42,8 +42,18 @@ const TopInfo = ({
       <Image
         src={imageSrc}
         alt={"service-item-title"}
-        width={627}
-        height={417}
+        // width={627}
+        // height={417}
+        height={0}
+        width={0}
+        sizes="100vw"
+        style={{
+          width: "100%",
+          height: "auto",
+          maxWidth: "626px",
+          maxHeight: "392px",
+        }}
+        loading="lazy"
       />
     </div>
   );

@@ -33,6 +33,7 @@ const AboutUs = () => {
           alt={"map"}
           width={isMobile ? 352 : 1272}
           height={isMobile ? 174 : 535}
+          loading="lazy"
         />
       </div>
       <div className={styles.howStarted}>
@@ -72,6 +73,7 @@ const AboutUs = () => {
                 alt={`Partner ${index + 1}`}
                 width={100}
                 height={50}
+                loading="lazy"
               />
             ))}
           </div>
