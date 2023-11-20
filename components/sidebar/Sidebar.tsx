@@ -15,9 +15,15 @@ const SideBar = ({ isOpen, onClose }: IProps) => {
   const toggleServicesDropdown = () => {
     setServicesDropdownOpen(!servicesDropdownOpen);
   };
+
+  const closeMenu = () => {
+    setServicesDropdownOpen(false);
+    onClose();
+  };
+
   return (
     <div className={`${styles.mobileSidebar} ${isOpen ? styles.open : ""}`}>
-      <div className={styles.closeButton} onClick={onClose}>
+      <div className={styles.closeButton} onClick={closeMenu}>
         <span>&times;</span>
       </div>
       <nav>
@@ -35,28 +41,32 @@ const SideBar = ({ isOpen, onClose }: IProps) => {
         </div>
         {servicesDropdownOpen && (
           <div className={styles.dropdownContent}>
-            <Link href="/services/appointment-settings" onClick={onClose}>
+            <Link href="/services/appointment-settings" onClick={closeMenu}>
               Appointment Settings
             </Link>
-            <Link href="/services/demand-generation" onClick={onClose}>
+            <Link href="/services/demand-generation" onClick={closeMenu}>
               Demand Generation
             </Link>
-            <Link href="/services/email-outreach" onClick={onClose}>
+            <Link href="/services/email-outreach" onClick={closeMenu}>
               Cold Email Outreach
             </Link>
-            <Link href="/services/linkedin-marketing" onClick={onClose}>
+            <Link href="/services/linkedin-marketing" onClick={closeMenu}>
               LinkedIn Marketing
             </Link>
           </div>
         )}
-        <Link href="/case-studies" onClick={onClose}>
+        <Link
+          href="/case-studies"
+          onClick={closeMenu}
+          className={styles.menuItem}
+        >
           Case Studies
         </Link>
-        {/* <Link href="/blog" onClick={onClose}>
+        {/* <Link href="/blog" onClick={closeMenu}  className={styles.menuItem}>
           Blog
         </Link> */}
 
-        <Link href="/about-us" onClick={onClose}>
+        <Link href="/about-us" onClick={closeMenu} className={styles.menuItem}>
           About Us
         </Link>
       </nav>

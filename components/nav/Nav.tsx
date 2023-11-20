@@ -27,6 +27,7 @@ const Nav = () => {
   const toggleSidebar = () => {
     setSidebarOpen(!isSidebarOpen);
   };
+
   return (
     <nav className={styles.header}>
       <Link href={"/"} className={styles.logoWrapper}>
@@ -64,14 +65,7 @@ const Nav = () => {
         </div>
       ) : (
         <>
-          {" "}
-          <Image
-            src={"/assets/images/icons/menu.svg"}
-            alt={"menu-icon"}
-            width={48}
-            height={48}
-            onClick={toggleSidebar}
-          />
+          <div className={styles.burgerMenu} onClick={toggleSidebar}></div>
           <SideBar isOpen={isSidebarOpen} onClose={toggleSidebar} />
         </>
       )}
