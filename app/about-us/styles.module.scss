@@ -1,6 +1,8 @@
 @use "/styles/typography.scss";
 @use "/styles/colors.scss";
 @use "/styles/breakpoint.scss";
+
+
 .container {
   display: flex;
   flex-direction: column;

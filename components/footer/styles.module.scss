@@ -11,8 +11,6 @@
 
   padding: 40px 52px;
   overflow: hidden;
-  
-
 
   @include breakpoint.mq(lax) {
     padding: 80px 120px 120px;
@@ -24,6 +22,7 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    z-index: 5;
 
     @include breakpoint.mq(lax) {
       flex-direction: row;
@@ -77,6 +76,7 @@
   background: rgba(173, 93, 211, 0.4);
 
   filter: blur(300px);
+  z-index: 1;
 }
 
 .backgroundTop {
@@ -96,4 +96,5 @@
   background-size: 100%;
 
   filter: blur(280px);
+  // z-index: -1;
 }

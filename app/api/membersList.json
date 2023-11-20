@@ -22,5 +22,17 @@
     "image": "/assets/images/memebrs/member-02.png",
     "name": "Olekandra Perovskykh",
     "description": "Lead Generation Specialist"
+  },
+  {
+    "id": "5",
+    "image": "/assets/images/memebrs/member-03.png",
+    "name": "Yuliia Antoniuk",
+    "description": "Lead Generation Specialist"
+  },
+  {
+    "id": "6",
+    "image": "/assets/images/memebrs/member-01.png",
+    "name": "Jack Pearson",
+    "description": "Lead Generation Specialist"
   }
 ]

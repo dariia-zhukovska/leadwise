@@ -14,6 +14,7 @@ import Facts from "@components/facts/Facts";
 import ReachOut from "@components/reach-out-us/ReachOut";
 import TeamMemberSlider from "@components/sliders/team-members-slider/TeamMemberSlider";
 import useMediaQuery from "@hooks/useMediaQuery";
+import FaQ from "@components/faq/FaQ";
 
 const ServiceItem = () => {
   const pathname = usePathname();
@@ -80,20 +81,11 @@ const ServiceItem = () => {
       <div className={styles.facts}>
         <Facts />
       </div>
+      <FaQ />
       <TeamMemberSlider />
       <ReachOut padding={isMobile ? "40px 20px" : "120px"} />
     </main>
   );
 };
-
-// export async function getData() {
-//   const data = require("@app/api/serviceDetails.json");
-
-//   return {
-//     props: {
-//       data,
-//     },
-//   };
-// }
 
 export default ServiceItem;

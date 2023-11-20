@@ -174,6 +174,10 @@ input:-webkit-autofill:focus {
   background-color: lighten(colors.$brown, 10%);
 }
 
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
 .slick-slide {
 }
 

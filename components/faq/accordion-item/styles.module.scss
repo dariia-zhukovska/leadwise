@@ -1,0 +1,25 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+@use "/styles/breakpoint.scss";
+
+.wrapper {
+  // padding: 32px;
+  border-bottom: 1px solid colors.$description;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+    cursor: pointer;
+    @include typography.text-18-400;
+    color: colors.$white;
+  }
+}
+
+.description {
+  padding-bottom: 32px;
+  cursor: pointer;
+  @include typography.text-16-400;
+  color: colors.$description;
+}
