@@ -55,6 +55,7 @@ const SideBar = ({ isOpen, onClose }: IProps) => {
         {/* <Link href="/blog" onClick={onClose}>
           Blog
         </Link> */}
+
         <Link href="/about-us" onClick={onClose}>
           About Us
         </Link>
