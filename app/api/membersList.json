@@ -1,38 +1,32 @@
 [
   {
     "id": "1",
-    "image": "/assets/images/memebrs/member-01.png",
+    "image": "/assets/images/memebrs/member-01.jpg",
     "name": "Dmytro Ishler",
     "description": "Founder at Lead Wise"
   },
   {
     "id": "2",
-    "image": "/assets/images/memebrs/member-02.png",
+    "image": "/assets/images/memebrs/member-02.jpg",
     "name": "Diana Ishler",
     "description": "Lead Generation Specialist"
   },
   {
     "id": "3",
-    "image": "/assets/images/memebrs/member-03.png",
-    "name": "Dariia Zhukovska",
+    "image": "/assets/images/memebrs/member-03.jpg",
+    "name": "Sandra Perovskykh",
     "description": "Lead Generation Specialist"
   },
   {
     "id": "4",
-    "image": "/assets/images/memebrs/member-02.png",
-    "name": "Olekandra Perovskykh",
-    "description": "Lead Generation Specialist"
-  },
-  {
-    "id": "5",
-    "image": "/assets/images/memebrs/member-03.png",
+    "image": "/assets/images/memebrs/member-04.jpg",
     "name": "Yuliia Antoniuk",
     "description": "Lead Generation Specialist"
   },
   {
-    "id": "6",
-    "image": "/assets/images/memebrs/member-01.png",
-    "name": "Jack Pearson",
-    "description": "Lead Generation Specialist"
+    "id": "5",
+    "image": "/assets/images/memebrs/member-05.jpg",
+    "name": "Dariia Zhukovska",
+    "description": "Web developer"
   }
 ]
