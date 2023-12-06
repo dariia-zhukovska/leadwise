@@ -8,25 +8,25 @@
   {
     "id": "2",
     "image": "/assets/images/memebrs/member-02.jpg",
-    "name": "Diana Ishler",
+    "name": "Yuliia Antoniuk",
     "description": "Lead Generation Specialist"
   },
   {
     "id": "3",
     "image": "/assets/images/memebrs/member-03.jpg",
-    "name": "Sandra Perovskykh",
+    "name": "Diana Ishler",
     "description": "Lead Generation Specialist"
   },
   {
     "id": "4",
     "image": "/assets/images/memebrs/member-04.jpg",
-    "name": "Yuliia Antoniuk",
-    "description": "Lead Generation Specialist"
+    "name": "Dariia Zhukovska",
+    "description": "Web developer"
   },
   {
     "id": "5",
     "image": "/assets/images/memebrs/member-05.jpg",
-    "name": "Dariia Zhukovska",
-    "description": "Web developer"
+    "name": "Sandra Perovskykh",
+    "description": "Lead Generation Specialist"
   }
 ]
