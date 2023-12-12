@@ -4,11 +4,11 @@
     "name": "zfort",
     "mainPicture": "/assets/images/case-studies/case-card-1.png",
     "icon": "/assets/images/case-studies/case-zfort.svg",
-    "mainTitle": "80+ appointments in 4 months and a chock-full pipeline for AI and Blochain company",
+    "mainTitle": "52 appointments in 4 months and a chock-full pipeline for Blochain company",
     "numbers": [
       {
         "id": "1",
-        "title": "80",
+        "title": "52",
         "description": "Appointments booked in 4 months"
       },
       {
@@ -20,7 +20,7 @@
     "category": "Appointment Setting",
     "industry": "Software Development",
     "company-size": "201-500 employees",
-    "headquarters": "New York, USA",
+    "headquarters": "Kharkiv, Ukraine",
     "about": "About Zfort",
     "aboutImage": "/assets/images/case-studies/case-01-main.png",
     "description": "Zfort is a distinguished software development company with a passion for solving complex business challenges. With a focus on innovation and cutting-edge technology, Zfort sought to enhance their lead generation and sales strategies to drive business growth.",
@@ -80,12 +80,12 @@
     "resultsList": [
       {
         "id": "1",
-        "title": "80+",
+        "title": "52",
         "description": "Appointments booked"
       },
       {
         "id": "2",
-        "title": "125%",
+        "title": "130%",
         "description": "Avg. KPIs achieved"
       },
       {
@@ -116,11 +116,11 @@
     "name": "cowchain",
     "mainPicture": "/assets/images/case-studies/case-card-2.png",
     "icon": "/assets/images/case-studies/case-cowchain.svg",
-    "mainTitle": "ABM strategy for a Blockchain company that brought 97 appointments and 144% KPI",
+    "mainTitle": "ABM strategy for a Blockchain company that brought 35+ appointments and 144% KPI",
     "numbers": [
       {
         "id": "1",
-        "title": "97",
+        "title": "35+",
         "description": "Appointments booked in 4 months"
       },
       {
@@ -132,7 +132,7 @@
     "category": "Appointment Setting",
     "industry": "Information Technology & Services",
     "company-size": "11-50 employees",
-    "headquarters": "London, UK",
+    "headquarters": "Warsaw, Poland",
     "about": "About Zfort",
     "description": "Cowchain is a forward-thinking Software and Blockchain Development company dedicated to providing innovative solutions that address real business challenges. With a strong commitment to technology and blockchain, Cowchain distinguishes itself not only through what it creates but also through how it innovates. Their services encompass a wide range of solutions, including asset marketplaces, decentralized exchanges, inventory management systems, coins management, and custom user profiles with unique fitness track records. Cowchain prides itself on exceeding client expectations, going beyond conventional software development practices.",
     "aboutImage": "/assets/images/case-studies/case-02-main.png",
@@ -187,7 +187,7 @@
     "resultsList": [
       {
         "id": "1",
-        "title": "97",
+        "title": "35+",
         "description": "Appointments booked"
       },
       {
@@ -197,7 +197,7 @@
       },
       {
         "id": "3",
-        "title": "65%",
+        "title": "50%",
         "description": "Cold email open rate"
       }
     ],
@@ -232,19 +232,19 @@
   },
   {
     "id": "3",
-    "name": "people-force",
+    "name": "freshtech",
     "mainPicture": "/assets/images/case-studies/case-card-3.png",
     "icon": "/assets/images/case-studies/case-peopleforce.svg",
-    "mainTitle": "203 appointments and 150% KPIs: How LeadWise helped HR platform expand and grow",
+    "mainTitle": "20+ appointments and 120% KPIs: How LeadWise helped FreshTech expand and grow",
     "numbers": [
       {
         "id": "1",
-        "title": "203",
+        "title": "64",
         "description": "Appointments booked in 17 months"
       },
       {
         "id": "2",
-        "title": "150%",
+        "title": "120%",
         "description": "Avg. KPIs reached"
       }
     ],
@@ -252,44 +252,44 @@
     "industry": "Human Resources",
     "company-size": "11-50 employees",
     "headquarters": "London, UK",
-    "about": "About PeopleForce",
+    "about": "About Freshtech",
     "aboutImage": "/assets/images/case-studies/case-03-main.png",
-    "description": "PeopleForce is a cutting-edge all-in-one HR platform designed to cater to modern business needs. With a vision to streamline HR processes and shift the focus to people, PeopleForce offers a comprehensive solution that simplifies and enhances the employee experience.",
+    "description": "FreshTech stands at the forefront of innovative IT solutions, providing a holistic approach to meet the evolving demands of contemporary businesses. Our vision is centered on simplifying work, business, and life through cutting-edge technologies. FreshTech offers a comprehensive suite of solutions designed to bring a fresh perspective to IT challenges, empowering individuals and businesses alike.",
 
-    "challengeDescription": "PeopleForce faced a series of challenges when it came to generating leads and growing its user base:",
+    "challengeDescription": "FreshTech faced a series of challenges when it came to generating leads and growing its user base:",
     "challengeList": [
       {
         "id": "1",
         "title": "Unsuccessful Previous Partnership.",
-        "description": "While PeopleForce had a revolutionary HR platform, they needed a reliable method to attract potential users and convert them into leads."
+        "description": "While FreshTech had a revolutionary HR platform, they needed a reliable method to attract potential users and convert them into leads."
       },
       {
         "id": "2",
         "title": "Establishing Market Presence.",
-        "description": "In a competitive HR technology landscape, PeopleForce struggled to differentiate itself and establish a strong presence."
+        "description": "In a competitive HR technology landscape, FreshTech struggled to differentiate itself and establish a strong presence."
       },
       {
         "id": "3",
         "title": "Scalability.",
-        "description": "With aspirations to scale their user base, PeopleForce needed a sustainable lead generation strategy to fuel their growth."
+        "description": "With aspirations to scale their user base, FreshTech needed a sustainable lead generation strategy to fuel their growth."
       }
     ],
-    "solutionDescription": "LeadWise stepped in to help PeopleForce address these challenges through tailored solutions:",
+    "solutionDescription": "LeadWise stepped in to help FreshTech address these challenges through tailored solutions:",
     "solutionList": [
       {
         "id": "1",
         "title": "Targeted Lead Generation Campaigns.",
-        "description": "LeadWise developed targeted lead generation campaigns to attract potential users who would benefit from PeopleForce's HR platform."
+        "description": "LeadWise developed targeted lead generation campaigns to attract potential users who would benefit from FreshTech's HR platform."
       },
       {
         "id": "2",
         "title": "Differentiation Strategy.",
-        "description": "A differentiation strategy was implemented to highlight PeopleForce's unique features and value proposition, setting them apart in the competitive market."
+        "description": "A differentiation strategy was implemented to highlight FreshTech's unique features and value proposition, setting them apart in the competitive market."
       },
       {
         "id": "3",
         "title": "Scalable Lead Acquisition.",
-        "description": "LeadWise designed a scalable lead acquisition plan to ensure consistent growth over time, aligning with PeopleForce's expansion goals."
+        "description": "LeadWise designed a scalable lead acquisition plan to ensure consistent growth over time, aligning with FreshTech's expansion goals."
       }
     ],
     "implementationDescription": "The successful implementation of these solutions involved:",
@@ -300,7 +300,7 @@
       },
       {
         "id": 2,
-        "description": "That emphasized the unique advantages of PeopleForce."
+        "description": "That emphasized the unique advantages of FreshTech."
       },
       {
         "id": 3,
@@ -325,19 +325,19 @@
         "description": "Cold email open rate"
       }
     ],
-    "resultDescription": "The collaboration between LeadWise and PeopleForce led to impressive outcomes:",
+    "resultDescription": "The collaboration between LeadWise and FreshTech led to impressive outcomes:",
     "resultDescriptionList": [
       {
         "id": 1,
-        "description": "LeadWise's targeted campaigns delivered a steady flow of qualified leads, allowing PeopleForce to grow its user base."
+        "description": "Robust Lead Pipeline: LeadWise's targeted campaigns delivered a steady flow of qualified leads, allowing FreshTech to grow its user base."
       },
       {
         "id": 2,
-        "description": "PeopleForce successfully carved out a niche in the competitive HR technology market by highlighting their unique features and benefits."
+        "description": "Market Distinction: FreshTech successfully carved out a niche in the competitive HR technology market by highlighting their unique features and benefits."
       },
       {
         "id": 3,
-        "description": "The scalable lead acquisition strategy ensured PeopleForce's long-term growth ambitions were met."
+        "description": "Sustained Growth: The scalable lead acquisition strategy ensured FreshTech long-term growth ambitions were met."
       }
     ],
     "resultsEnding": ""
@@ -347,7 +347,7 @@
     "name": "one-click-code",
     "mainPicture": "/assets/images/case-studies/case-card-4.png",
     "icon": "/assets/images/case-studies/case-occ.svg",
-    "mainTitle": "100% KPI performance for a Roofing Application and 24+ appointments in 3 month",
+    "mainTitle": "100% KPI performance for a Roofing Application and 25+ appointments in 3 month",
     "numbers": [
       {
         "id": "1",
