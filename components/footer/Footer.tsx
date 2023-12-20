@@ -25,11 +25,10 @@ const Footer = () => {
               © 2023 LeadWise <br /> All rights reserved.
             </span>
             <span>
-              128 City Road <br />
-              London, EC1V 2NX
-              <br /> United Kingdom
+                Lviv, Lviv oblast
+              <br /> Ukraine
             </span>
-            <span>hello@leadwise.co</span>
+            <span>dmytroishler@leadwise.agency</span>
           </div>
           <div className={styles.solutions}>
             <h1>Solutions</h1>
@@ -75,7 +74,7 @@ const Footer = () => {
             </div>
           </div>
           <div className={styles.socialLinks}>
-            <Link href="https://www.facebook.com/">
+            <Link href="https://www.facebook.com/profile.php?id=61554688681769">
               <Image
                 src={"/assets/images/svg/facebook.svg"}
                 alt={"social-network-logo"}
@@ -84,7 +83,7 @@ const Footer = () => {
                 loading="lazy"
               />
             </Link>
-            <Link href="https://www.twitter.com/">
+            <Link href="https://twitter.com/LeadWiseAgency">
               <Image
                 src={"/assets/images/svg/twitter.svg"}
                 alt={"social-network-logo"}
@@ -93,18 +92,18 @@ const Footer = () => {
                 loading="lazy"
               />
             </Link>
-            <Link href="https://www.instagram.com/">
+            <Link href="https://www.linkedin.com/company/lwagency">
               <Image
-                src={"/assets/images/svg/instagram.svg"}
+                src={"/assets/images/svg/linkedin.svg"}
                 alt={"social-network-logo"}
                 width={24}
                 height={24}
                 loading="lazy"
               />
             </Link>
-            <Link href="https://www.linkedin.com/">
+            <Link href="https://www.instagram.com/leadwise_agency/">
               <Image
-                src={"/assets/images/svg/linkedin.svg"}
+                src={"/assets/images/svg/instagram.svg"}
                 alt={"social-network-logo"}
                 width={24}
                 height={24}

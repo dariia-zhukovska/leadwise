@@ -6,7 +6,7 @@ interface IProps {
   open: any;
   toggle: () => void;
   title: string;
-  description: string;
+  description: string | string[];
 }
 
 const AccordionItem = ({ open, toggle, title, description }: IProps) => {

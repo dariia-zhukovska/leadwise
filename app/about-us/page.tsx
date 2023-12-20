@@ -6,8 +6,9 @@ import Image from "next/image";
 import { miniCards, partnerIcons, timeline } from "@app/helpers/mockedData";
 import ReachOut from "@components/reach-out-us/ReachOut";
 import Facts from "@components/facts/Facts";
+// import TeamMemberSlider from "@components/sliders/team-members-slider/TeamMemberSlider";
 import useMediaQuery from "@hooks/useMediaQuery";
-import CommonSlider from "@components/common/slider/Slider";
+
 
 const AboutUs = () => {
   const isMobile = useMediaQuery(768);
@@ -54,16 +55,16 @@ const AboutUs = () => {
             </div>
           ))}
         </div>
-        <div className={styles.facts}>
-          <Facts />
-        </div>
+        {/* <div>
+            <TeamMemberSlider />
+        </div> */}
+      
 
         <div className={styles.customers}>
-          <h1 className={styles.title}> 40+ Satisfied Customers.</h1>
+          <h1 className={styles.title}> 4 Satisfied Customers.</h1>
           <p className={styles.description}>
-            We align our services with unique needs of our clients to deliver
-            the best results in our space. We employ driven professionals united
-            by our joint vision and mission.
+          We align our services with unique needs of our clients to deliver the best results in
+          our space. We employ driven professionals united by our joint vision and mission.
           </p>
           <div className={styles.partnersContainer}>
             {partnerIcons.map((icon, index) => (
@@ -77,6 +78,9 @@ const AboutUs = () => {
               />
             ))}
           </div>
+        </div>
+        <div className={styles.facts}>
+          <Facts />
         </div>
         <ReachOut />
       </div>

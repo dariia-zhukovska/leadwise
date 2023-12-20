@@ -8,7 +8,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 
 import TeamMemberSlider from "@components/sliders/team-members-slider/TeamMemberSlider";
 import CaseStudySlider from "@components/sliders/case-stydies-slider/CaseStudySlider";
-// import FaQ from "@components/faq/FaQ";
+import FaQ from "@components/faq/FaQ";
 
 export default function Home() {
   const isMobile = useMediaQuery(768);
@@ -26,7 +26,7 @@ export default function Home() {
         <ServicesLayout />
         <CaseStudySlider />
         <TeamMemberSlider />
-        {/* <FaQ /> */}
+        <FaQ />
         <ReachOut padding={isMobile ? "40px 20px" : "120px"} />
       </main>
     </>

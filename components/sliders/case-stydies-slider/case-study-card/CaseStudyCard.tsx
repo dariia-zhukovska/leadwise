@@ -36,6 +36,7 @@ const CaseStudyCard = ({
         width={544}
         height={306}
         loading="lazy"
+        className={styles.image}
       />
       <div className={styles.description}>
         <div className={styles.tags}>

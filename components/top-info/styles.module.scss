@@ -13,7 +13,8 @@
   @include breakpoint.mq(lax) {
     padding: 120px 0;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 400px;
+    
   }
 }
 .headerInfo {
