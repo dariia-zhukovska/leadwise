@@ -38,9 +38,9 @@ const AboutUs = () => {
         />
       </div>
       <div className={styles.howStarted}>
-        <h1 className={styles.title}> How It All Started in 2022</h1>
+        <h1 className={styles.title}> How It All Started in 2023</h1>
         <p className={styles.description}>
-          LeadWise was founded in 2022 by Dmytro Ishler. Founder shared an
+          LeadWise was founded in 2023 by Dmytro Ishler. Founder shared an
           extensive background in B2B sales and struck a partnership forged on a
           common idea - predictable, scaleable growth achieved through
           transparency, perseverance, experience, and creativity instead of

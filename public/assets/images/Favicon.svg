@@ -1,0 +1,18 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Favicon">
+<g clip-path="url(#clip0_1274_4731)">
+<rect width="56" height="56" rx="12" fill="black"/>
+<path id="W" d="M47.9747 18.0093H54.082L45.4378 39.6553H37.6391L31.1873 23.3589L24.7041 39.6553H16.9367L8.29248 18.0093H14.3685L20.8517 35.0168L27.7108 18.0093H34.6324L41.5228 35.0478L47.9747 18.0093Z" fill="url(#paint0_linear_1274_4731)"/>
+<path id="W_2" d="M20.8159 34.2851L11.1102 40.328L6.06585 37.1356L4.65391 36.242L6.97246 24.6281L9.29102 13.0142L14.3415 16.2105L10.4415 34.2985L18.6164 28.4675L20.8159 34.2851Z" fill="#F2F3F2"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1274_4731" x1="54.082" y1="18.0093" x2="6.27863" y2="24.2641" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5F51DE"/>
+<stop offset="1" stop-color="#AD5DD3"/>
+</linearGradient>
+<clipPath id="clip0_1274_4731">
+<rect width="56" height="56" rx="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>

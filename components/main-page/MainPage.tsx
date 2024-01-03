@@ -23,8 +23,7 @@ const MainPage = () => {
         Lead Wise
       </h1>
       <p className={styles.subTitle}>
-        B2B Lead Generation Agency for Software development, NFT and Blockchain
-        Services
+        Lead Generation agency for outsourcing and product companies operating in Software Development, AI, Blockchain, and UI/UX design.
       </p>
       <div className={styles.bookCall}>
         <Link href={CALENDLY_LINK}>

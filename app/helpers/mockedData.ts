@@ -19,9 +19,9 @@ export const miniCards = [
 ];
 
 export const timeline = [
-  { id: "1", number: "Mar 2022", content: "Foundation" },
-  { id: "2", number: "Jun 2022", content: "First Client" },
-  { id: "3", number: "Dec 2022", content: "20 clients" },
+  { id: "1", number: "Mar 2023", content: "Foundation" },
+  { id: "2", number: "Apr 2023", content: "First Client" },
+  { id: "3", number: "Dec 2023", content: "4 clients" },
 ];
 
 export const facts = [
