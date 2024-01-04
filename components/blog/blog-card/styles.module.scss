@@ -7,7 +7,7 @@
   flex-direction: column;
   gap: 20px;
   padding: 32px;
-  // min-height: 440px;
+  min-height: 320px;
   border-radius: 32px;
   border-radius: 32px;
   background: colors.$brown;
@@ -20,15 +20,25 @@
 
   .image {
     height: fit-content;
+    @include breakpoint.mq(xl) {
+      height: revert-layer;
+    }
   }
 
   .tags {
     display: flex;
-    gap: 32px;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
     @include typography.text-14-600;
     color: colors.$description;
-    text-align: center;
-    margin-left: 24px;
+
+    @include breakpoint.mq(md) {
+      flex-direction: row;
+      gap: 32px;
+      align-items: center;
+      margin-left: 24px;
+    }
 
     .date {
       padding-left: 27px;
@@ -38,6 +48,12 @@
     .time {
       padding-left: 27px;
       background-image: url("/assets/images/svg/clock.svg");
+      background-repeat: no-repeat;
+    }
+
+    .hashtag {
+      padding-left: 27px;
+      background-image: url("/assets/images/svg/hashtag.svg");
       background-repeat: no-repeat;
     }
   }
@@ -53,7 +69,10 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin-left: 24px;
+
+    @include breakpoint.mq(md) {
+      margin-left: 24px;
+    }
 
     .title {
       @include typography.title-24-700;

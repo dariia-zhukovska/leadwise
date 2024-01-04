@@ -1,0 +1,117 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+@use "/styles/breakpoint.scss";
+
+.topWrapper {
+  background-color: colors.$black;
+  width: 100%;
+  background-image: none;
+
+  padding: 40px 20px;
+
+  .topInfo {
+    width: 100%;
+  }
+
+  @include breakpoint.mq(lax) {
+    padding: 64px 0 64px 120px;
+    background-image: url("../../public/assets/images/blog/blog-main.png");
+    background-size: cover;
+    background-position: center;
+    .topInfo {
+      width: 50%;
+    }
+  }
+}
+
+.wrapper {
+  background-color: colors.$black;
+  padding: 0 20px 20px;
+  width: 100%;
+
+  @include breakpoint.mq(lax) {
+    padding: 0 120px 120px;
+  }
+
+  .caseStudiesList {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 120px 0;
+  }
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  @include typography.text-14-600;
+  color: colors.$description;
+  margin-left: 24px;
+
+  @include breakpoint.mq(md) {
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .date {
+    padding-left: 27px;
+    background-image: url("/assets/images/svg/calendar.svg");
+    background-repeat: no-repeat;
+  }
+  .time {
+    padding-left: 27px;
+    background-image: url("/assets/images/svg/clock.svg");
+    background-repeat: no-repeat;
+  }
+
+  .hashtag {
+    padding-left: 27px;
+    background-image: url("/assets/images/svg/hashtag.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: fit-content;
+}
+
+.textData {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 24px;
+
+  .title {
+    @include typography.title-24-700;
+    color: colors.$white;
+    max-height: 76px; // Set the maximum height for 2 lines
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; // Number of lines to show
+    -webkit-box-orient: vertical;
+
+    @include breakpoint.mq(md) {
+      // @include typography.title-28-700;
+      max-height: none;
+      overflow: unset;
+      display: -webkit-box;
+      -webkit-line-clamp: all;
+      -webkit-box-orient: unset;
+    }
+
+    @include breakpoint.mq(lax) {
+      @include typography.title-36-700;
+    }
+  }
+
+  .description {
+    @include typography.text-16-400;
+    color: colors.$description;
+  }
+}

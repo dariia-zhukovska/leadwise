@@ -10,11 +10,10 @@
   width: 100%;
   justify-content: center;
 
-  @include breakpoint.mq(lax) {
+  @include breakpoint.mq(xl) {
     padding: 120px 0;
     flex-direction: row;
-    gap: 400px;
-    
+    gap: 300px;
   }
 }
 .headerInfo {

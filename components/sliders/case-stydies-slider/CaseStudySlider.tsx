@@ -21,6 +21,7 @@ const CaseStudySlider = () => {
             cardTitle={item.cardTitle}
             casePicture={item.casePicture}
             slug={item.slug}
+
           />
         ))}
       </CommonSlider>

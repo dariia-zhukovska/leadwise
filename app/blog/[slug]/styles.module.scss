@@ -1,0 +1,116 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+@use "/styles/breakpoint.scss";
+
+@mixin challangeSolution {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  list-style-type: none;
+}
+
+.backButton {
+  background-color: colors.$black;
+
+  & svg {
+    position: absolute;
+    padding: 12px;
+    margin-top: 12px;
+    margin-left: 20px;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 70px;
+    background: colors.$brown;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 40px 15% 106px;
+
+  color: colors.$white;
+  background-color: colors.$black;
+
+  // @include breakpoint.mq(lax) {
+  //   padding: 40px;
+  // }
+
+  .mainInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    @include breakpoint.mq(lax) {
+      gap: 32px;
+    }
+
+    .description {
+      display: flex;
+      justify-content: space-between;
+      @include typography.text-14-400;
+
+      .blogTags {
+        padding: 0 15px;
+        border: 1px solid colors.$white;
+        border-radius: 48px;
+      }
+
+      .readingInfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+      }
+    }
+
+    .title {
+      @include typography.title-32-600;
+    }
+  }
+
+  .topCardWrapper {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .blogPostWrapper {
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+
+    section {
+      margin: 24px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      h2 {
+        @include typography.title-24-700;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      ol {
+        list-style-type: decimal;
+        list-style: red;
+      }
+    }
+
+    .paragraph {
+      @include typography.text-16-400;
+    }
+
+    .boldParagraph {
+      @include typography.text-16-700;
+    }
+  }
+}
