@@ -62,9 +62,9 @@ const SideBar = ({ isOpen, onClose }: IProps) => {
         >
           Case Studies
         </Link>
-        {/* <Link href="/blog" onClick={closeMenu}  className={styles.menuItem}>
+        <Link href="/blog" onClick={closeMenu} className={styles.menuItem}>
           Blog
-        </Link> */}
+        </Link>
 
         <Link href="/about-us" onClick={closeMenu} className={styles.menuItem}>
           About Us

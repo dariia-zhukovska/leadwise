@@ -25,7 +25,7 @@ const Footer = () => {
               © 2023 LeadWise <br /> All rights reserved.
             </span>
             <span>
-                Lviv, Lviv oblast
+              Lviv, Lviv oblast
               <br /> Ukraine
             </span>
             <span>dmytroishler@leadwise.agency</span>
@@ -65,9 +65,9 @@ const Footer = () => {
               <Link className={styles.link} href={"/case-studies"}>
                 Case study
               </Link>
-              {/* <Link className={styles.link} href={"/blog"}>
+              <Link className={styles.link} href={"/blog"}>
                 Blog{" "}
-              </Link> */}
+              </Link>
               <Link className={styles.link} href={"/about-us"}>
                 About us
               </Link>
