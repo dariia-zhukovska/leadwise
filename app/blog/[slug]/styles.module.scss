@@ -16,6 +16,7 @@
 
 .backButton {
   background-color: colors.$black;
+  cursor: pointer;
 
   & svg {
     padding: 12px;
