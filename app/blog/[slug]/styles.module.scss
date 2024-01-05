@@ -9,19 +9,18 @@
   list-style-type: none;
 }
 
+.topInfo {
+  display: flex;
+  gap: 60px;
+}
+
 .backButton {
   background-color: colors.$black;
 
   & svg {
-    position: absolute;
     padding: 12px;
-    margin-top: 12px;
-    margin-left: 20px;
     width: 44px;
     height: 44px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
     border-radius: 70px;
     background: colors.$brown;
   }
@@ -70,18 +69,28 @@
 
     .title {
       @include typography.title-32-600;
+      color: colors.$white;
     }
   }
 
   .topCardWrapper {
     display: flex;
-    margin: 0 auto;
+
+    & img {
+      color: transparent;
+      border-radius: 16px;
+      width: 100%;
+      object-fit: cover;
+      position: static !important;
+    }
   }
 
   .blogPostWrapper {
-    padding: 0 100px;
+    padding: 0;
     display: flex;
     flex-direction: column;
+    max-width: 650px;
+    margin: 0 auto;
 
     section {
       margin: 24px 0;
