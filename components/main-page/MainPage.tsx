@@ -26,7 +26,7 @@ const MainPage = () => {
         Lead Generation agency for outsourcing and product companies operating in Software Development, AI, Blockchain, and UI/UX design.
       </p>
       <div className={styles.bookCall}>
-        <Link href={CALENDLY_LINK}>
+        <Link href={CALENDLY_LINK} target="_blank">
           <Button
             size={isMobile ? "S" : "M"}
             variant={"primary"}

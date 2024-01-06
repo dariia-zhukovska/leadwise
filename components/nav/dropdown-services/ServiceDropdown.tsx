@@ -48,7 +48,7 @@ const ServiceDropdown: React.FC = () => {
               <span style={{ color: "#7D56E7" }}> Services</span>
             </p>
           </div>
-          <Link href={CALENDLY_LINK}>
+          <Link href={CALENDLY_LINK} target="_blank">
             <Button
               size={"S"}
               variant={"primary"}

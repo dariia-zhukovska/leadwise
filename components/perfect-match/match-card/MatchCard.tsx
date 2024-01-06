@@ -15,7 +15,7 @@ const MatchCard = () => {
           </li>
         ))}
       </ul>
-      <Link href={CALENDLY_LINK}>
+      <Link href={CALENDLY_LINK} target="_blank">
         {" "}
         <Button
           size={"M"}

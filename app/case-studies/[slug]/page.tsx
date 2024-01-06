@@ -218,7 +218,7 @@ const CaseStudy = () => {
                     <p>
                       Let&rsquo;s map your winning lead generation strategy.
                     </p>
-                    <Link href={CALENDLY_LINK}>
+                    <Link href={CALENDLY_LINK} target="_blank">
                       <Button
                         size={"S"}
                         variant={"primary"}

@@ -17,7 +17,7 @@ const ReachOutCard = ({ title, description }: IProps) => {
       <div className={styles.backgroundTop}></div>
       <h1 className={styles.title}>{title}</h1>
       <p className={styles.description}>{description}</p>
-      <Link href={CALENDLY_LINK}>
+      <Link href={CALENDLY_LINK} target="_blank">
         <Button
           size={"S"}
           variant={"primary"}

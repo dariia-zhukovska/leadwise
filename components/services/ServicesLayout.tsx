@@ -31,10 +31,10 @@ const ServicesLayout = () => {
           />
           <p className={styles.description}>
             Unleash your sales potential with our marketing
-            <span style={{ color: "#7D56E7" }}>services</span>
+            <span style={{ color: "#7D56E7" }}> services</span>
           </p>
         </div>
-        <Link href={CALENDLY_LINK}>
+        <Link href={CALENDLY_LINK} target="_blank">
           <Button
             size={"S"}
             variant={"primary"}
