@@ -1,12 +1,13 @@
 
 import Head from 'next/head';
+import Script from 'next/script';
 
 const GoogleAnalytics = () => (
   <>
     <Head>
-      {/* Google tag (gtag.js) */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-X89THH5F2F"></script>
-      <script>
+    <div className="container">
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-X89THH5F2F" />
+      <Script id="google-analytics">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -14,7 +15,8 @@ const GoogleAnalytics = () => (
   
           gtag('config', 'G-X89THH5F2F');
         `}
-      </script>
+      </Script>
+      </div>
     </Head>
   </>
 );
