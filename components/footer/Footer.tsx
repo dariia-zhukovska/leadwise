@@ -74,7 +74,7 @@ const Footer = () => {
             </div>
           </div>
           <div className={styles.socialLinks}>
-            <Link href="https://www.facebook.com/profile.php?id=61554688681769">
+            <Link href="https://www.facebook.com/profile.php?id=61554688681769" target="_blank">
               <Image
                 src={"/assets/images/svg/facebook.svg"}
                 alt={"social-network-logo"}
@@ -83,7 +83,7 @@ const Footer = () => {
                 loading="lazy"
               />
             </Link>
-            <Link href="https://twitter.com/LeadWiseAgency">
+            <Link href="https://twitter.com/LeadWiseAgency" target="_blank">
               <Image
                 src={"/assets/images/svg/twitter.svg"}
                 alt={"social-network-logo"}
@@ -92,7 +92,7 @@ const Footer = () => {
                 loading="lazy"
               />
             </Link>
-            <Link href="https://www.linkedin.com/company/lwagency">
+            <Link href="https://www.linkedin.com/company/lwagency" target="_blank">
               <Image
                 src={"/assets/images/svg/linkedin.svg"}
                 alt={"social-network-logo"}
@@ -101,7 +101,7 @@ const Footer = () => {
                 loading="lazy"
               />
             </Link>
-            <Link href="https://www.instagram.com/leadwise_agency/">
+            <Link href="https://www.instagram.com/leadwise_agency/" target="_blank">
               <Image
                 src={"/assets/images/svg/instagram.svg"}
                 alt={"social-network-logo"}

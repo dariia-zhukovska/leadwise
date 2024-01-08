@@ -10,16 +10,39 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 0;
-    cursor: pointer;
+    padding: 24px 0;
+    max-width: 90%;
+
     @include typography.text-18-400;
     color: colors.$white;
+    cursor: pointer;
+
+    & svg {
+      max-width: none;
+    }
   }
 }
 
 .description {
   padding-bottom: 32px;
-  cursor: pointer;
   @include typography.text-16-400;
   color: colors.$description;
+  cursor: pointer;
+}
+
+// .descriptionList {
+//   display: flex;
+//   flex-direction: column;
+//   gap: 8px;
+// }
+
+.descriptionListTitle {
+  @include typography.text-16-700;
+  color: colors.$description;
+}
+
+.descriptionListDescription {
+  @include typography.text-16-400;
+  color: colors.$description;
+  margin-bottom: 24px;
 }

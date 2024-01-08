@@ -11,7 +11,15 @@
 
 .container {
   background-color: colors.$black;
-  padding: 0 120px;
+  padding: 0 20px;
+
+  @include breakpoint.mq(lax) {
+    padding: 0 48px;
+  }
+
+  @include breakpoint.mq(xl) {
+    padding: 0 120px;
+  }
 
   .backButton {
     display: flex;
@@ -28,8 +36,15 @@
 
   .topCardWrapper {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+
     padding: 64px 0 32px 0;
+
+    @include breakpoint.mq(xl) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
 
     .topCardInfo {
       display: flex;
@@ -82,9 +97,16 @@
 
 .mainWrapper {
   display: flex;
-  padding: 120px 0;
-  gap: 128px;
+  flex-direction: column;
+  padding: 48px 0;
+  gap: 32px;
   color: colors.$white;
+
+  @include breakpoint.mq(xl) {
+    flex-direction: row;
+    padding: 120px 0;
+    gap: 128px;
+  }
 
   .title {
     @include typography.title-36-700;
@@ -228,7 +250,12 @@
 
       .resultsData {
         display: flex;
+        flex-direction: column;
         gap: 20px;
+
+        @include breakpoint.mq(lax) {
+          flex-direction: row;
+        }
 
         .resultsDataItem {
           display: flex;
