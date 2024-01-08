@@ -30,9 +30,11 @@ const AccordionItem = ({
         <div>{open ? <RxCross2 size={24} /> : <RxPlus size={24} />}</div>
       </div>
       <Collapse isOpened={open}>
-        <div className={styles.description}>{descriptionTitle}</div>
+        <div style={{ maxWidth: "90%" }} className={styles.description}>
+          {descriptionTitle}
+        </div>
         {descriptionList && (
-          <ul className={styles.descriptionList}>
+          <ul className={styles.descriptionList} style={{ maxWidth: "90%" }}>
             {descriptionList.map((item: any, index: number) => (
               <>
                 <li key={index} className={styles.descriptionListTitle}>
