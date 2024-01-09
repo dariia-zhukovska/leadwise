@@ -4,7 +4,7 @@ export const accordionData = [
     title: "What is lead generation?",
     description: {
       descriptionTitle:
-        "Penetration testing, also known as ethical hacking, is a proactive cybersecurity practice that involves simulating real-world cyberattacks on an organization&rsquo;s systems, networks, or applications.The goal is to identify vulnerabilities, weaknesses, and potential entry points that malicious hackers could exploit.",
+        "Lead generation is the process of identifying and nurturing potential customers for business growth. At LeadWise, we specialize in targeted lead generation using platforms like Apollo, Clutch, Crunch Base, and Sales Navigator and reach them through LinkedIn, and strategic email marketing.",
     },
   },
   {
