@@ -78,6 +78,7 @@ const BlogPost = () => {
                     sizes="100vw"
                     style={{ borderRadius: "16px" }}
                     loading="lazy"
+                    
                   />
                 </div>
                 <div className={styles.blogPostWrapper}>
