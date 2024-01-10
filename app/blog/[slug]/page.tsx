@@ -71,11 +71,11 @@ const BlogPost = () => {
                 <div className={styles.topCardWrapper}>
                   <Image
                     src={item.mainPicture}
-                    width={694}
-                    height={362}
+                    // width={694}
+                    // height={362}
                     alt="main-image"
-                    // fill={true}
-                    // sizes="80vw"
+                    fill={true}
+                    sizes="100vw"
                     style={{ borderRadius: "16px" }}
                     loading="lazy"
                   />
