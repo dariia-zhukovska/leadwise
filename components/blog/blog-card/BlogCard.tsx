@@ -35,8 +35,10 @@ const BlogCard = ({
       <Image
         src={casePicture}
         alt={"item-image"}
-        width={544}
-        height={306}
+        // width={520}
+        // height={293}
+        sizes="100vw"
+        fill={true}
         loading="lazy"
         className={styles.image}
       />

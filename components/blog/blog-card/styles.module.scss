@@ -3,6 +3,7 @@
 @use "/styles/breakpoint.scss";
 
 .wrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -18,8 +19,16 @@
     justify-content: space-between;
   }
 
+  & img {
+    position: relative !important;
+
+    width: auto;
+    color: transparent;
+    object-fit: contain;
+    width: 50% !important;
+  }
+
   .image {
-    height: fit-content;
     @include breakpoint.mq(xl) {
       height: revert-layer;
     }
