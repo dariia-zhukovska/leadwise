@@ -37,7 +37,15 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
-    padding: 120px 0;
+    padding: 32px 0;
+
+    @include breakpoint.mq(lax) {
+      padding: 64px 0;
+    }
+
+    @include breakpoint.mq(xl) {
+      padding: 120px 0;
+    }
   }
 }
 

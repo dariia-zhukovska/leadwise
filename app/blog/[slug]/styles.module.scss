@@ -11,7 +11,13 @@
 
 .topInfo {
   display: flex;
-  gap: 60px;
+  flex-direction: column;
+  gap: 24px;
+
+  @include breakpoint.mq(xxl) {
+    flex-direction: row;
+    gap: 60px;
+  }
 }
 
 .backButton {
@@ -31,7 +37,15 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding: 40px 15% 106px;
+  padding: 20px 20px 32px;
+
+  @include breakpoint.mq(lax) {
+    padding: 32px 5% 64px;
+  }
+
+  @include breakpoint.mq(xxl) {
+    padding: 40px 15% 106px;
+  }
 
   color: colors.$white;
   background-color: colors.$black;
@@ -51,8 +65,15 @@
 
     .description {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
+      gap: 16px;
+      width: fit-content;
       @include typography.text-14-400;
+
+      @include breakpoint.mq(sm) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
 
       .blogTags {
         padding: 0 15px;
@@ -95,8 +116,12 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    max-width: 650px;
-    margin: 0 auto;
+    max-width: 100%;
+
+    @include breakpoint.mq(sm) {
+      max-width: 650px;
+      margin: 0 auto;
+    }
 
     section {
       margin: 24px 0;

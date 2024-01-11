@@ -25,7 +25,11 @@
     width: auto;
     color: transparent;
     object-fit: contain;
-    width: 50% !important;
+    width: 100% !important;
+
+    @include breakpoint.mq(xl) {
+      width: 50% !important;
+    }
   }
 
   .image {

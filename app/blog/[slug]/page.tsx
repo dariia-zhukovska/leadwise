@@ -20,11 +20,6 @@ const BlogPost = () => {
 
   return (
     <>
-      <Head>
-        <title>{item.mainTitle}</title>
-        <meta property="og:title" content={item.mainTitle} />
-        <meta property="og:image" content={item.mainPicture} />
-      </Head>
       <div className={styles.container}>
         {blogPostData?.map((item) => {
           if (pathname === `/blog/${item.name}`) {
