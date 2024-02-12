@@ -14,7 +14,7 @@ import GoogleAnalytics from "@analitics/GoogleAnalitics";
 export default function Home() {
   const isMobile = useMediaQuery(768);
   const tickerItems = [
-    "Appointments for Mini PC Manufacturer  |  $1.2 deal and $3M pipeline for Retail Non-Broker Agency  |  $1.2 deal and $3M pipeline for Retail Non-Broker Agency  |  Appointments for Mini PC Manufacturer  |  $1.2 deal and $3M pipeline for Retail Non-Broker Agency  |  $1.2 deal and $3M pipeline for Retail Non-Broker Agency  | ",
+    "52 appointments in 4 months and a chock-full pipeline for AI and Blockchain company | HC strategy for a Blockchain company brought 35+ appointments and 144% KPI | 20+ appointments and 120% KPIs: How LeadWise helped FreshTech expand and grow | 100% KPI performance for a Roofing Application and 25+ appointments in 3 month ",
   ];
   const tickerInterval = 2;
 
