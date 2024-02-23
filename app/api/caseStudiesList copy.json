@@ -1,5 +1,15 @@
 [
   {
+    "id": "1",
+    "slug": "zfort",
+    "casePicture": "/assets/images/case-studies/case-card-1.png",
+    "data": "06/12/23",
+    "time": "10 min read",
+    "cardTitle": "52 appointments in 4 months and a chock-full pipeline for AI and Blochain company",
+    "cardDescription": "Discover the exceptional journey of an AI and Blockchain company, securing 52 appointments in just four months. Unveil the strategies behind their chock-full pipeline, rewriting the future of technology and lead generation."
+  },
+
+  {
     "id": "2",
     "slug": "cowchain",
     "casePicture": "/assets/images/case-studies/case-card-2.png",
@@ -7,6 +17,16 @@
     "time": "10 min read",
     "cardTitle": "HC strategy for a Blockchain company that brought 35+ appointments and 144% KPI",
     "cardDescription": "Explore a compelling case study showcasing how the HC strategy supercharged a Blockchain company, delivering 35 appointments and a remarkable 144% KPI achievement. Witness the strategic mastery that redefined success in the industry."
+  },
+
+  {
+    "id": "3",
+    "slug": "freshtech",
+    "casePicture": "/assets/images/case-studies/case-card-3.png",
+    "data": "23/11/23",
+    "time": "10 min read",
+    "cardTitle": "20+ appointments and 120% KPIs: How LeadWise helped FreshTech expand and grow",
+    "cardDescription": "Dive into a remarkable case study where LeadWise orchestrated 20+ appointments and exceeded KPIs by an impressive 150%. Witness how our collaboration empowered an FreshTech to expand and flourish."
   },
   {
     "id": "4",

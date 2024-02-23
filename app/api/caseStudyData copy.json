@@ -1,5 +1,117 @@
 [
   {
+    "id": "1",
+    "name": "zfort",
+    "mainPicture": "/assets/images/case-studies/case-card-1.png",
+    "icon": "/assets/images/case-studies/case-zfort.svg",
+    "mainTitle": "52 appointments in 4 months and a chock-full pipeline for Blochain company",
+    "numbers": [
+      {
+        "id": "1",
+        "title": "52",
+        "description": "Appointments booked in 4 months"
+      },
+      {
+        "id": "2",
+        "title": "130%",
+        "description": "Avg. KPIs reached"
+      }
+    ],
+    "category": "Appointment Setting",
+    "industry": "Software Development",
+    "company-size": "201-500 employees",
+    "headquarters": "Kharkiv, Ukraine",
+    "about": "About Zfort",
+    "aboutImage": "/assets/images/case-studies/case-01-main.png",
+    "description": "Zfort is a distinguished software development company with a passion for solving complex business challenges. With a focus on innovation and cutting-edge technology, Zfort sought to enhance their lead generation and sales strategies to drive business growth.",
+
+    "challengeDescription": "Zfort Group faced specific challenges in their lead generation and sales efforts, which required a strategic approach to overcome:",
+    "challengeList": [
+      {
+        "id": "1",
+        "title": "Inconsistent Lead Generation:",
+        "description": "Zfort was facing issues with the consistency of lead generation, leading to fluctuations in their sales pipeline."
+      },
+      {
+        "id": "2",
+        "title": "Title research:",
+        "description": "Conversion Rate Concerns: Maintaining a satisfactory conversion rate from leads to customers was proving to be a challenge."
+      },
+      {
+        "id": "3",
+        "title": "Sales Team Alignment:",
+        "description": "Zfort needed to align their sales team with changing market dynamics and effectively communicate their unique value proposition."
+      }
+    ],
+    "solutionDescription": "To address the challenges faced by Zfort Group, LeadWise implemented strategic solutions to revamp their lead generation and sales processes:",
+    "solutionList": [
+      {
+        "id": "1",
+        "title": "Data-Driven Lead Generation:",
+        "description": "LeadWise implemented a data-driven approach, leveraging industry-specific insights to identify potential clients and engage them effectively."
+      },
+      {
+        "id": "2",
+        "title": "Streamlined Sales Process:",
+        "description": "LeadWise introduced a streamlined sales process to ensure that all leads were nurtured effectively and provided with the information they needed."
+      },
+      {
+        "id": "3",
+        "title": "Targeted Outreach:",
+        "description": "By creating personalized and industry-specific outreach campaigns, LeadWise maximized Zfort's reach and appeal to potential clients."
+      }
+    ],
+    "implementationDescription": "In the implementation phase, LeadWise: ",
+    "implementationList": [
+      {
+        "id": "1",
+        "description": "Conducted in-depth market research to identify target industries and key decision-makers."
+      },
+      {
+        "id": "2",
+        "description": "Crafted customized email and content marketing campaigns tailored to Zfort's unique value proposition."
+      },
+      {
+        "id": "3",
+        "description": "Introduced lead nurturing strategies to guide prospects through the sales funnel, providing them with the necessary information and support."
+      }
+    ],
+    "resultImage": "/assets/images/case-studies/case-01-2-main.png",
+    "resultsList": [
+      {
+        "id": "1",
+        "title": "52",
+        "description": "Appointments booked"
+      },
+      {
+        "id": "2",
+        "title": "130%",
+        "description": "Avg. KPIs achieved"
+      },
+      {
+        "id": "3",
+        "title": "63%",
+        "description": "Cold email open rate"
+      }
+    ],
+    "resultDescription": "The collaboration with LeadWise led to remarkable results for Zfort Group:",
+    "resultDescriptionList": [
+      {
+        "id": "1",
+        "description": "Consistent Lead Generation: The data-driven approach provided Zfort Group with a steady flow of leads, ensuring a more predictable sales pipeline."
+      },
+      {
+        "id": "2",
+        "description": "Improved Conversion Rates: The streamlined sales process and targeted outreach campaigns resulted in a significant increase in conversion rates."
+      },
+      {
+        "id": "3",
+        "description": "Enhanced Sales Team Alignment: The guidance and training provided by LeadWise empowered Zfort Group's sales team to effectively communicate the company's unique value proposition."
+      }
+    ],
+    "resultsEnding": "These results effectively addressed the identified challenges and positioned Zfort Group for continued growth and success in their software development endeavors."
+  },
+  {
     "id": "2",
     "name": "cowchain",
     "mainPicture": "/assets/images/case-studies/case-card-2.png",
@@ -118,7 +230,118 @@
     ],
     "resultsEnding": ""
   },
+  {
+    "id": "3",
+    "name": "freshtech",
+    "mainPicture": "/assets/images/case-studies/case-card-3.png",
+    "icon": "/assets/images/case-studies/case-peopleforce.svg",
+    "mainTitle": "20+ appointments and 120% KPIs: How LeadWise helped FreshTech expand and grow",
+    "numbers": [
+      {
+        "id": "1",
+        "title": "64",
+        "description": "Appointments booked in 17 months"
+      },
+      {
+        "id": "2",
+        "title": "120%",
+        "description": "Avg. KPIs reached"
+      }
+    ],
+    "category": "Appointment Setting",
+    "industry": "Human Resources",
+    "company-size": "11-50 employees",
+    "headquarters": "London, UK",
+    "about": "About Freshtech",
+    "aboutImage": "/assets/images/case-studies/case-03-main.png",
+    "description": "FreshTech stands at the forefront of innovative IT solutions, providing a holistic approach to meet the evolving demands of contemporary businesses. Our vision is centered on simplifying work, business, and life through cutting-edge technologies. FreshTech offers a comprehensive suite of solutions designed to bring a fresh perspective to IT challenges, empowering individuals and businesses alike.",
 
+    "challengeDescription": "FreshTech faced a series of challenges when it came to generating leads and growing its user base:",
+    "challengeList": [
+      {
+        "id": "1",
+        "title": "Unsuccessful Previous Partnership.",
+        "description": "While FreshTech had a revolutionary HR platform, they needed a reliable method to attract potential users and convert them into leads."
+      },
+      {
+        "id": "2",
+        "title": "Establishing Market Presence.",
+        "description": "In a competitive HR technology landscape, FreshTech struggled to differentiate itself and establish a strong presence."
+      },
+      {
+        "id": "3",
+        "title": "Scalability.",
+        "description": "With aspirations to scale their user base, FreshTech needed a sustainable lead generation strategy to fuel their growth."
+      }
+    ],
+    "solutionDescription": "LeadWise stepped in to help FreshTech address these challenges through tailored solutions:",
+    "solutionList": [
+      {
+        "id": "1",
+        "title": "Targeted Lead Generation Campaigns.",
+        "description": "LeadWise developed targeted lead generation campaigns to attract potential users who would benefit from FreshTech's HR platform."
+      },
+      {
+        "id": "2",
+        "title": "Differentiation Strategy.",
+        "description": "A differentiation strategy was implemented to highlight FreshTech's unique features and value proposition, setting them apart in the competitive market."
+      },
+      {
+        "id": "3",
+        "title": "Scalable Lead Acquisition.",
+        "description": "LeadWise designed a scalable lead acquisition plan to ensure consistent growth over time, aligning with FreshTech's expansion goals."
+      }
+    ],
+    "implementationDescription": "The successful implementation of these solutions involved:",
+    "implementationList": [
+      {
+        "id": 1,
+        "description": "To capture the interest of HR professionals and businesses seeking a comprehensive HR solution."
+      },
+      {
+        "id": 2,
+        "description": "That emphasized the unique advantages of FreshTech."
+      },
+      {
+        "id": 3,
+        "description": "That accommodated the need for scalability, ensuring sustained growth."
+      }
+    ],
+    "resultImage": "/assets/images/case-studies/case-03-2-main.png",
+    "resultsList": [
+      {
+        "id": "1",
+        "title": "203%",
+        "description": "Appointments booked"
+      },
+      {
+        "id": "2",
+        "title": "150%",
+        "description": "Avg. KPIs achieved"
+      },
+      {
+        "id": "3",
+        "title": "84%",
+        "description": "Cold email open rate"
+      }
+    ],
+    "resultDescription": "The collaboration between LeadWise and FreshTech led to impressive outcomes:",
+    "resultDescriptionList": [
+      {
+        "id": 1,
+        "description": "Robust Lead Pipeline: LeadWise's targeted campaigns delivered a steady flow of qualified leads, allowing FreshTech to grow its user base."
+      },
+      {
+        "id": 2,
+        "description": "Market Distinction: FreshTech successfully carved out a niche in the competitive HR technology market by highlighting their unique features and benefits."
+      },
+      {
+        "id": 3,
+        "description": "Sustained Growth: The scalable lead acquisition strategy ensured FreshTech long-term growth ambitions were met."
+      }
+    ],
+    "resultsEnding": ""
+  },
   {
     "id": "4",
     "name": "one-click-code",
