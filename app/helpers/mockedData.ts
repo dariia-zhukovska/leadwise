@@ -6,8 +6,8 @@ export const CALENDLY_LINK = `https://calendly.com/dmytroishler/meeting?month=${
 export const partnerIcons = [
   // "/assets/images/icons/01.svg",
   "/assets/images/icons/02.svg",
-  // "/assets/images/icons/03.svg",
-  "/assets/images/icons/04.svg",
+  "/assets/images/icons/03.svg",
+  // "/assets/images/icons/04.svg",
 ];
 
 
