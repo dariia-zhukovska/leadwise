@@ -14,7 +14,7 @@ const TeamMemberSlider = () => {
         title={
           isMobile
             ? "Meet our team"
-            : "Clients Feedback Meet the frontline SDRs driving  revenue at LeadWise"
+            : "Meet the Frontline Lead Generation Specialists Driving Revenue at LeadWise."
         }
         isMembers
       >

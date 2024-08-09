@@ -17,22 +17,22 @@ export const partnerIcons = [
 
 
 export const miniCards = [
-  { id: "1", number: "40+", content: "Loyal Customers" },
-  { id: "2", number: "300+", content: "Appointments Scheduled" },
-  { id: "3", number: "10:1", content: "ROI Achieved" },
+  { id: "1", number: "20+", content: "Loyal Customers" },
+  { id: "2", number: "150+", content: "Appointments Scheduled" },
+  { id: "3", number: "5:1", content: "ROI Achieved" },
   { id: "4", number: "60%", content: "CAC Reduction" },
 ];
 
 export const timeline = [
-  { id: "1", number: "Mar 2023", content: "Foundation" },
-  { id: "2", number: "Apr 2023", content: "First Client" },
-  { id: "3", number: "Dec 2023", content: "4 clients" },
+  { id: "1", number: "Dec 2023", content: "Foundation" },
+  { id: "2", number: "Jan 2024", content: "First Client" },
+  { id: "3", number: "Mar 2024", content: "4 clients" },
 ];
 
 export const facts = [
-  { id: "1", number: "12", content: "Professionals in team" },
-  { id: "2", number: "3", content: "Years of Experience" },
-  { id: "3", number: "+200", content: "New Calls for our Clients" },
+  { id: "1", number: "10+", content: "Professionals in team" },
+  { id: "2", number: "1", content: "Year of Experience" },
+  { id: "3", number: "150+", content: "New Calls for our Clients" },
 ]
 
 export const matchList = [
