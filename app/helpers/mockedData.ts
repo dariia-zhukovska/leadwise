@@ -10,6 +10,9 @@ export const partnerIcons = [
   "/assets/images/icons/04.svg",
   "/assets/images/icons/05.svg",
   "/assets/images/icons/06.svg",
+  "/assets/images/icons/07.svg",
+  "/assets/images/icons/08.svg",
+  "/assets/images/icons/09.svg",
 ];
 
 
