@@ -5,14 +5,14 @@
     "subtitle": "Connect with top-tier clients on LinkedIn through our targeted strategies, reaching decision-makers and driving significant business growth.",
     "shortSubtitle": "Efficiently Fill Your Calendar with Qualified Prospects",
     "popular": true,
-    "slug": "appointment-setting"
+    "slug": "linkedin-lead-generation"
   },
   {
     "id": 2,
     "title": "UpWork Lead Generation",
     "subtitle": "Capture lucrative clients on UpWork with our proven techniques, securing high-value projects that maximize your earnings.",
     "shortSubtitle": "Stoke the Fires of Demand for Your Offerings",
-    "slug": "demand-generation"
+    "slug": "upwork-lead-generation"
   },
   {
     "id": 3,
@@ -26,13 +26,13 @@
     "title": "Content Marketing",
     "subtitle": "Craft captivating content that draws in and nurtures leads, turning interest into action and boosting your engagement and conversions.",
     "shortSubtitle": "Harness the Power of LinkedIn for Lead Generation",
-    "slug": "linkedin-marketing"
+    "slug": "content-marketing"
   },
   {
     "id": 5,
     "title": "SEO Optimization",
     "subtitle": "Enhance your search rankings and attract quality leads with our SEO optimization techniques, driving organic traffic and delivering measurable results.",
     "shortSubtitle": "Harness the Power of LinkedIn for Lead Generation",
-    "slug": "linkedin-marketing"
+    "slug": "seo-optimization"
   }
 ]

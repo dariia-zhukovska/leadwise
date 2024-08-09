@@ -53,15 +53,15 @@ export const notMatchList = [
 export const services = [
   {
     id: 1,
-    name: "Appointment Settings",
+    name: "LinkedIn Lead Generation",
     subtitle: "Efficiently Fill Your Calendar with Qualified Prospects",
-    slug: "appointment-setting"
+    slug: "linkedin-lead-generation"
   },
   {
     id: 2,
-    name: "Demand Generation",
+    name: "UpWork Lead Generation",
     subtitle: "Stoke the Fires of Demand for Your Offerings",
-    slug: "demand-generation"
+    slug: "upwork-lead-generation"
   },
   {
     id: 3,
@@ -72,9 +72,15 @@ export const services = [
 
   {
     id: 4,
-    name: "LinkedIn Marketing",
+    name: "Content Marketing",
     subtitle: "Harness the Power of LinkedIn for Lead Generation",
-    slug: "linkedin-marketing"
+    slug: "content-marketing"
+  },
+  {
+    id: 5,
+    name: "Seo Optimization",
+    subtitle: "Harness the Power of LinkedIn for Lead Generation",
+    slug: "seo-optimization"
   },
 ];
 

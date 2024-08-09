@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "slug": "appointment-setting",
+    "slug": "linkedin-lead-generation",
     "mainTitle": "Appointment setting",
     "subtitle": "Appointments that turn into deals",
     "description": "Get 16+ guaranteed meetings monthly with qualified, warmed-up leads.",
@@ -93,7 +93,7 @@
   },
   {
     "id": "2",
-    "slug": "demand-generation",
+    "slug": "upwork-lead-generation",
     "mainTitle": "Demand Generation",
     "subtitle": "Engage. Build relationships. Win loyal clients.",
     "description": "We help you grow visibility and trust with your potential customers and strike right to their hearts to close deals.",
@@ -237,7 +237,79 @@
   },
   {
     "id": "4",
-    "slug": "linkedin-marketing",
+    "slug": "content-marketing",
+    "mainTitle": "LINKEDIN MARKETING",
+    "subtitle": "Reach and engage leads via LinkedIn",
+    "description": "Unleash LinkedIn potential and close more deals by establishing your brand expertise and attracting quality leads from your company's or personal profile.",
+    "mainImg": "/assets/images/cards/main_04.png",
+    "secondaryTitle": "What's inside LinkedIn Marketing service?",
+    "secondarySubtitle": "Check out how we help you build meaningful relations with your audience until they become your clients.",
+    "cards": [
+      {
+        "cardId": "1",
+        "cardTitle": "01. LinkedIn lead generation",
+        "cardDescription": "Establishing your expertise and increasing your audience",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "Before starting looking for leads, we analyze and upgrade info on your LinkedIn profile to give it professional look and feel."
+          },
+          {
+            "id": "2",
+            "text": "To help you get seen by potential clients, we study your specifics, develop sophisticated outreach strategy, publish posts on your behalf, and stimulate your followers to interact."
+          },
+          {
+            "id": "3",
+            "text": "We monitor engagements, add those who reacted to posts to your pipeline, and continue nurturing them with relevant content."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_04_01.png"
+      },
+      {
+        "cardId": "2",
+        "cardTitle": "02. LinkedIn outreach",
+        "cardDescription": "Engaging into meaningful conversations with your connections",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "We define decision-makers who interact with your profile, qualify them, and send connection requests."
+          },
+          {
+            "id": "2",
+            "text": "When they add you to their network, we drop them a short personalized welcome message and briefly describe your offer."
+          },
+          {
+            "id": "3",
+            "text": "In case there's no response, we launch a sequence of messages to remind how you can help and book a call with them."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_04_02.png"
+      },
+      {
+        "cardId": "3",
+        "cardTitle": "03. Thought-leadership content",
+        "cardDescription": "",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "First, we research your TAM and competitors, as well as get acquainted with your ICP and their pain points to create a stellar content strategy and plan."
+          },
+          {
+            "id": "2",
+            "text": "Our copywriters produce exclusive content that resonates with your audience and drives impressions, reactions, and reposts."
+          },
+          {
+            "id": "3",
+            "text": "We track posts performance, and adjust the strategy to convert your followers into qualified leads, interested in your solutions."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_04_03.png"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "seo-optimization",
     "mainTitle": "LINKEDIN MARKETING",
     "subtitle": "Reach and engage leads via LinkedIn",
     "description": "Unleash LinkedIn potential and close more deals by establishing your brand expertise and attracting quality leads from your company's or personal profile.",
