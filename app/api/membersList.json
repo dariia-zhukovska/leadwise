@@ -14,7 +14,7 @@
   {
     "id": "3",
     "image": "/assets/images/memebrs/member-03.jpg",
-    "name": "Alina Hrab",
+    "name": "Natalia Saveliyuk",
     "description": "Lead Gen & Marketing Specialist"
   },
   {
@@ -23,10 +23,17 @@
     "name": "Diana Ishler",
     "description": "Lead Generation Specialist"
   },
+
   {
     "id": "5",
     "image": "/assets/images/memebrs/member-05.jpg",
     "name": "Eugene Shal",
     "description": "Lead Generation Specialist"
+  },
+  {
+    "id": "6",
+    "image": "/assets/images/memebrs/member-06.jpg",
+    "name": "Alina Hrab",
+    "description": "Lead Gen & Marketing Specialist"
   }
 ]
