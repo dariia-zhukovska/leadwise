@@ -117,7 +117,9 @@ const CaseStudy = () => {
                           <span className={styles.listItemTitle}>
                             {item.title}
                           </span>{" "}
-                          <span> {item.description}</span>
+                          <span className={styles.listItemDescription}>
+                            {item.description}
+                          </span>
                         </li>
                       ))}
                     </ol>
@@ -133,7 +135,9 @@ const CaseStudy = () => {
                           <span className={styles.listItemTitle}>
                             {item.title}{" "}
                           </span>
-                          <span>{item.description}</span>
+                          <span className={styles.listItemDescription}>
+                            {item.description}
+                          </span>
                         </li>
                       ))}
                     </ol>
@@ -141,7 +145,7 @@ const CaseStudy = () => {
                   <div className={styles.implementationWrapper}>
                     <h3 className={styles.title}>Implementation</h3>
                     <p className={styles.description}>
-                      In the implementation phase, LeadWise:
+                      {item.implementationDescription}
                     </p>
                     <ul className={styles.implementationList}>
                       {item["implementationList"] &&
@@ -152,6 +156,20 @@ const CaseStudy = () => {
                         ))}
                     </ul>
                   </div>
+                  {item.extendedBlock &&
+                    item.extendedBlock.map((extendedItem) => (
+                      <div
+                        className={styles.extendedBlock}
+                        key={extendedItem.id}
+                      >
+                        <p className={styles.extendedDescription}>
+                          <span className={styles.extendedTitle}>
+                            {extendedItem.extendedTitle}
+                          </span>
+                          {extendedItem.extendedDescription}
+                        </p>
+                      </div>
+                    ))}
                   <Image
                     src={item.resultImage}
                     alt={"result-image"}
@@ -214,7 +232,7 @@ const CaseStudy = () => {
                     }
                   })}
                   <div className={styles.bookCallButton}>
-                    <h3>Want 100+ qualified appointments yearly?</h3>
+                    <h3>Want 50+ qualified appointments yearly?</h3>
                     <p>
                       Let&rsquo;s map your winning lead generation strategy.
                     </p>
