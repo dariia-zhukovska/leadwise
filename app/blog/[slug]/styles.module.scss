@@ -112,45 +112,5 @@
     }
   }
 
-  .blogPostWrapper {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
 
-    @include breakpoint.mq(sm) {
-      max-width: 650px;
-      margin: 0 auto;
-    }
-
-    section {
-      margin: 24px 0;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-
-      h2 {
-        @include typography.title-24-700;
-      }
-
-      ul {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-      }
-
-      ol {
-        list-style-type: decimal;
-        list-style: red;
-      }
-    }
-
-    .paragraph {
-      @include typography.text-16-400;
-    }
-
-    .boldParagraph {
-      @include typography.text-16-700;
-    }
-  }
 }

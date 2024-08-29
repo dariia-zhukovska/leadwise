@@ -93,3 +93,30 @@ export interface caseStudy {
   }[];
   resultsEnding?: string;
 }
+
+// Blog 
+export interface ISubparagraph {
+  id: string;
+  boldText?: string; // Optional because not all subparagraphs have boldText
+  mainText: string;
+}
+
+export interface BlogPost01 {
+  id: string;
+  name: string;
+  paragraph01: string;
+  paragraphTitle02: string;
+  paragraph021: string;
+  paragraph022: string;
+  paragraphTitle03: string;
+  paragraph031: string;
+  paragraph032: string;
+  paragraphTitle04: string;
+  paragraph04: string;
+  subparagraphs04: ISubparagraph[];
+  paragraphTitle05: string;
+  subparagraphs05: ISubparagraph[];
+  conclusionTitle: string;
+  conclusionBold?: string;
+  conclusion: string;
+}
