@@ -55,7 +55,9 @@
     {
       "id": "3",
       "mainText": "Lead generation companies typically operate on three pricing models: "
-    },
+    }
+  ],
+  "subparagraphs06": [
     {
       "id": "4",
       "boldText": "Cost per Lead: ",
@@ -70,13 +72,9 @@
       "id": "6",
       "boldText": "Retainer: ",
       "mainText": "This prevailing model involves ongoing services, spanning from three months to two years. Monthly costs, including a profit margin, cover services like SEO, traffic-driving activities, sales funnel building, analytics, results monitoring, lead scraping, generation, and nurturing. Monthly fees vary from $800 to $20,000."
-    },
-    {
-      "id": "7",
-      "boldText": "The return on investment (ROI) ",
-      "mainText": "statistic is influenced by multiple factors such as season, type of service or product, and trends, and the provided information suggests an average return of $10 - $15 for every dollar invested in lead generation."
     }
   ],
+  "paragraph06": "The return on investment (ROI) statistic is influenced by multiple factors such as season, type of service or product, and trends, and the provided information suggests an average return of $10 - $15 for every dollar invested in lead generation.",
   "conclusionTitle": "Conclusion: ",
   "conclusionBold": "In 2024, lead generation remains a powerful tool for IT ",
   "conclusion": " companies to drive business growth. Acquiring new clients and nurturing relationships through effective lead generation strategies can yield significant benefits. By embracing these strategies and adapting to changing market dynamics, IT companies can unlock new opportunities and thrive in the digital age. The flow of a lead generation strategy outlined in this article serves as a roadmap for IT companies to maximize their lead generation efforts and achieve sustainable business growth."
