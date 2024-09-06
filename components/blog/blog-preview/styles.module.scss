@@ -1,0 +1,56 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+@use "/styles/breakpoint.scss";
+
+.blogPreviewWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: colors.$black;
+
+  padding: 32px;
+
+  @include breakpoint.mq(lax) {
+    padding: 64px
+  }
+
+
+
+  @include breakpoint.mq(xl) {
+    padding: 120px;
+  }
+
+
+  .topWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+
+    @include breakpoint.mq(lax) {
+      margin-bottom: 64px
+    }
+
+    .leftBlock {
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        @include typography.heading-44-600;
+        color: colors.$white;
+      }
+
+      p {
+        @include typography.text-20-400;
+        color: colors.$description;
+      }
+    }
+  }
+
+
+  .blogPostsList {
+    display: flex;
+    justify-content: space-between;
+
+  }
+}

@@ -7,9 +7,10 @@ import blogPostData from "@app/api/blog-posts/blogPostData.json";
 import { usePathname, useRouter } from "next/navigation";
 import Head from "next/head";
 
-import BlogPost01 from "@components/blog/blog-card/blog-posts/blog-post-01/blogPost01";
-import BlogPost02 from "@components/blog/blog-card/blog-posts/blog-post-02/blogPost02";
-import BlogPost03 from "@components/blog/blog-card/blog-posts/blog-post-03/blogPost03";
+import BlogPost01 from "@components/blog/blog-posts/blog-post-01/blogPost01";
+import BlogPost02 from "@components/blog/blog-posts/blog-post-02/blogPost02";
+import BlogPost03 from "@components/blog/blog-posts/blog-post-03/blogPost03";
+import PlogPreviewLayout from "@components/blog/blog-preview/PlogPreviewLayout";
 
 const BlogPost = () => {
   const pathname = usePathname();
@@ -24,7 +25,7 @@ const BlogPost = () => {
   }
 
   return (
-    <>
+    <div className={styles.pageWrapper}>
       <div className={styles.container}>
         <div key={item.id}>
           <div className={styles.topInfo}>
@@ -76,7 +77,8 @@ const BlogPost = () => {
           {item.id === "3" && <BlogPost03 />}
         </div>
       </div>
-    </>
+      <PlogPreviewLayout />
+    </div>
   );
 };
 

@@ -39,7 +39,7 @@ const Blog = () => {
         </div>
       </div>
       <main className={styles.wrapper}>
-        <div className={styles.caseStudiesList}>
+        <div className={styles.blogPostsList}>
           {blogList.map((item) => (
             <BlogCard
               key={item.id}

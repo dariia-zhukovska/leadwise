@@ -18,6 +18,7 @@
     background-image: url("../../public/assets/images/blog/blog-main.png");
     background-size: cover;
     background-position: center;
+
     .topInfo {
       width: 50%;
     }
@@ -33,7 +34,7 @@
     padding: 0 120px 120px;
   }
 
-  .caseStudiesList {
+  .blogPostsList {
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -69,6 +70,7 @@
     background-image: url("/assets/images/svg/calendar.svg");
     background-repeat: no-repeat;
   }
+
   .time {
     padding-left: 27px;
     background-image: url("/assets/images/svg/clock.svg");
