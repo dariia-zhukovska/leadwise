@@ -1,6 +1,7 @@
 @use "/styles/typography.scss";
 @use "/styles/colors.scss";
 @use "/styles/breakpoint.scss";
+
 .servicesContainer {
   position: relative;
   display: flex;
@@ -16,9 +17,13 @@
   @include breakpoint.mq(md) {
     justify-content: start;
   }
+
   @include breakpoint.mq(lax) {
     padding: 100px;
+    justify-content: space-between;
   }
+
+
 
   .background {
     position: absolute;
@@ -41,14 +46,26 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-  width: 410px;
+  width: 100%;
   padding-bottom: 40px;
   border-right: none;
   border-bottom: 1px solid colors.$description;
+
+
+  @include breakpoint.mq(md) {
+    width: 43vw;
+  }
+
   @include breakpoint.mq(lax) {
     border-right: 1px solid colors.$description;
     padding: 40px 24px;
+    width: 38vw;
   }
+
+  @include breakpoint.mq(xxxl) {
+    width: 420px;
+  }
+
 
   .serviseItemTop {
     display: flex;
