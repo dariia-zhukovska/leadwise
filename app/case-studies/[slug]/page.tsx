@@ -10,10 +10,12 @@ import clsx from "clsx";
 import Button from "@components/common/common-buttons/Button";
 import ReachOut from "@components/reach-out-us/ReachOut";
 import { CALENDLY_LINK } from "@app/helpers/mockedData";
+import useMediaQuery from "@hooks/useMediaQuery";
 
 const CaseStudy = () => {
   const pathname = usePathname();
   const router = useRouter();
+  const isMobile = useMediaQuery(576);
 
   return (
     <div className={styles.container}>
@@ -64,8 +66,8 @@ const CaseStudy = () => {
                 </div>
                 <Image
                   src={item.mainPicture}
-                  width={627}
-                  height={417}
+                  width={isMobile ? 350 : 627}
+                  height={isMobile ? 220 : 417}
                   alt="main-image"
                   style={{ borderRadius: "16px" }}
                   loading="lazy"
@@ -102,8 +104,8 @@ const CaseStudy = () => {
                   <Image
                     src={item.aboutImage}
                     alt={"about-case-image"}
-                    width={841}
-                    height={473}
+                    width={isMobile ? 350 : 841}
+                    height={isMobile ? 220 : 473}
                     loading="lazy"
                   />
                   <div className={styles.challangeWrapper}>
@@ -173,8 +175,8 @@ const CaseStudy = () => {
                   <Image
                     src={item.resultImage}
                     alt={"result-image"}
-                    width={841}
-                    height={473}
+                    width={isMobile ? 350 : 841}
+                    height={isMobile ? 220 : 473}
                     loading="lazy"
                   />
                   <div className={styles.resultsWrapper}>

@@ -50,11 +50,21 @@
     .topCardInfo {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      gap: 20px;
+      max-width: 100%;
+
+      @include breakpoint.mq(lax) {
+        max-width: 50%;
+        justify-content: space-between;
+      }
 
       .title {
-        @include typography.heading-44-600;
+        @include typography.heading-28-400;
         color: colors.$white;
+
+        @include breakpoint.mq(md) {
+          @include typography.heading-44-600;
+        }
       }
 
       .mainInfoNumbers {
@@ -76,12 +86,28 @@
 
   .list {
     display: flex;
-    justify-content: space-between;
+
     align-items: flex-start;
     padding: 40px 0;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    @include breakpoint.mq(mad) {
+      justify-content: space-between;
+    }
 
     .listItem {
-      width: 303px;
+      // width: 303px;
+      width: 100%;
+
+      @include breakpoint.mq(xs) {
+        width: 50%;
+      }
+
+      @include breakpoint.mq(md) {
+        width: max-content;
+      }
+
 
       .listItemTitle {
         @include typography.text-14-500;
@@ -122,7 +148,7 @@
   gap: 32px;
   color: colors.$white;
 
-  @include breakpoint.mq(xl) {
+  @include breakpoint.mq(xxl) {
     flex-direction: row;
     padding: 120px 0;
     gap: 128px;

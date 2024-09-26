@@ -89,18 +89,70 @@
       text-align: center;
     }
 
+    // .timeline {
+    //   display: flex;
+    //   gap: 63px;
+    //   position: relative;
+
+    //   .timeItems {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //     position: relative;
+
+    //     .timeStep {
+    //       // display: flex;
+    //       display: block;
+    //       width: 24px;
+    //       height: 24px;
+    //       align-self: center;
+    //       text-align: center;
+
+    //       @include typography.text-16-400;
+    //       color: colors.$white;
+    //       border-radius: 24px;
+    //       background-color: colors.$primary;
+    //     }
+
+    //     span {
+    //       @include typography.text-14-600;
+    //       color: colors.$white;
+    //       text-align: center;
+    //       margin-top: 8px;
+    //     }
+
+    //     p {
+    //       @include typography.text-14-400;
+    //       color: colors.$description;
+    //       text-align: center;
+    //     }
+    //   }
+    // }
     .timeline {
       display: flex;
       gap: 63px;
+      position: relative; // Ensure positioning of lines is correct
 
       .timeItems {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
+
+        // Add a line before each timeItems except the first one
+        &:not(:first-child)::before {
+          content: "";
+          position: absolute;
+          top: 25%;
+          left: -87px; // Adjust to match the gap
+          width: 108px; // Length of the line should match the gap
+          height: 1px;
+          background-color: colors.$primary;
+        }
 
         .timeStep {
-          // display: flex;
           display: block;
           width: 24px;
           height: 24px;
