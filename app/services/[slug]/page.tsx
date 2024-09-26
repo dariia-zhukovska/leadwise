@@ -81,8 +81,8 @@ const ServiceItem = () => {
       <div className={styles.facts}>
         <Facts />
       </div>
-      <FaQ />
       <TeamMemberSlider />
+      <FaQ />
       <ReachOut padding={isMobile ? "40px 20px" : "120px"} />
     </main>
   );

@@ -39,16 +39,19 @@ export const accordionData = [
         "Our pricing structure is adaptable to your unique needs, employing two collaboration forms",
       descriptionList: [
         {
+          id: 10,
           descriptionListTitle: "1. Bounce Form:",
           descriptionListDescription:
             "You pay only for calls and a percentage of the project. This offers flexibility and ensures you're investing directly in tangible results.",
         },
         {
+          id: 11,
           descriptionListTitle: "2. Monthly Retainer:",
           descriptionListDescription:
             "We offer a monthly retainer option where you pay a fixed fee. Additional calls beyond the agreed-upon target are incentivized with an extra reward, motivating optimal performance from our team.",
         },
         {
+          id: 12,
           descriptionListDescription:
             "The specific cost factors are influenced by variables such as industry domain, project scope, and unique requirements. Our goal is to provide a smart, customized solution that aligns with your budget while maximizing the value of our lead generation services. For a detailed quote tailored to your business, please contact us with more information about your specific needs.",
         },

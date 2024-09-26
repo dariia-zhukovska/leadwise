@@ -10,7 +10,7 @@ const ReachOut = ({ padding }: IProps) => {
     <div className={styles.container} style={{ padding: `${padding}` }}>
       <ReachOutCard
         title={"Want some sales-ready B2B leads?"}
-        description={"Reach out to get 20+ appointments each month."}
+        description={"Reach out to get 10+ appointments each month."}
       />
     </div>
   );

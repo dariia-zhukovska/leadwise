@@ -1,6 +1,7 @@
 @use "/styles/typography.scss";
 @use "/styles/colors.scss";
 @use "/styles/breakpoint.scss";
+
 .headerContainer {
   display: flex;
   flex-direction: column;
@@ -13,14 +14,16 @@
   @include breakpoint.mq(xl) {
     padding: 120px 0;
     flex-direction: row;
-    gap: 300px;
+    justify-content: space-between;
+    gap: 100px;
   }
 }
+
 .headerInfo {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  max-width: 400px;
+  max-width: 600px;
 
   .serviceTitle {
     color: colors.$dark-purpule;
@@ -32,6 +35,7 @@
     @include typography.heading-44-600;
 
     margin-bottom: 20px;
+
     @include breakpoint.mq(lax) {
       max-width: none;
       margin-bottom: 0;

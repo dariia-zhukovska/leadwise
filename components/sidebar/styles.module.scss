@@ -66,12 +66,16 @@
   flex-direction: column;
   padding-left: 20px;
 
+
+
   a {
     text-decoration: none;
     color: colors.$white;
-    padding: 8px 24px;
+    padding: 8px 7px;
     cursor: pointer;
     @include typography.text-20-400;
+
+
   }
 }
 

@@ -10,17 +10,20 @@ import clsx from "clsx";
 import Button from "@components/common/common-buttons/Button";
 import ReachOut from "@components/reach-out-us/ReachOut";
 import { CALENDLY_LINK } from "@app/helpers/mockedData";
+import useMediaQuery from "@hooks/useMediaQuery";
+import React from "react";
 
 const CaseStudy = () => {
   const pathname = usePathname();
   const router = useRouter();
+  const isMobile = useMediaQuery(576);
 
   return (
     <div className={styles.container}>
       {caseStudyData?.map((item) => {
         if (pathname === `/case-studies/${item.name}`) {
           return (
-            <>
+            <React.Fragment key={item.id}>
               <div onClick={() => router.back()} className={styles.backButton}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -64,8 +67,8 @@ const CaseStudy = () => {
                 </div>
                 <Image
                   src={item.mainPicture}
-                  width={627}
-                  height={417}
+                  width={isMobile ? 350 : 627}
+                  height={isMobile ? 220 : 417}
                   alt="main-image"
                   style={{ borderRadius: "16px" }}
                   loading="lazy"
@@ -102,8 +105,8 @@ const CaseStudy = () => {
                   <Image
                     src={item.aboutImage}
                     alt={"about-case-image"}
-                    width={841}
-                    height={473}
+                    width={isMobile ? 350 : 841}
+                    height={isMobile ? 220 : 473}
                     loading="lazy"
                   />
                   <div className={styles.challangeWrapper}>
@@ -117,7 +120,9 @@ const CaseStudy = () => {
                           <span className={styles.listItemTitle}>
                             {item.title}
                           </span>{" "}
-                          <span> {item.description}</span>
+                          <span className={styles.listItemDescription}>
+                            {item.description}
+                          </span>
                         </li>
                       ))}
                     </ol>
@@ -133,7 +138,9 @@ const CaseStudy = () => {
                           <span className={styles.listItemTitle}>
                             {item.title}{" "}
                           </span>
-                          <span>{item.description}</span>
+                          <span className={styles.listItemDescription}>
+                            {item.description}
+                          </span>
                         </li>
                       ))}
                     </ol>
@@ -141,7 +148,7 @@ const CaseStudy = () => {
                   <div className={styles.implementationWrapper}>
                     <h3 className={styles.title}>Implementation</h3>
                     <p className={styles.description}>
-                      In the implementation phase, LeadWise:
+                      {item.implementationDescription}
                     </p>
                     <ul className={styles.implementationList}>
                       {item["implementationList"] &&
@@ -152,11 +159,25 @@ const CaseStudy = () => {
                         ))}
                     </ul>
                   </div>
+                  {item.extendedBlock &&
+                    item.extendedBlock.map((extendedItem) => (
+                      <div
+                        className={styles.extendedBlock}
+                        key={extendedItem.id}
+                      >
+                        <p className={styles.extendedDescription}>
+                          <span className={styles.extendedTitle}>
+                            {extendedItem.extendedTitle}
+                          </span>
+                          {extendedItem.extendedDescription}
+                        </p>
+                      </div>
+                    ))}
                   <Image
                     src={item.resultImage}
                     alt={"result-image"}
-                    width={841}
-                    height={473}
+                    width={isMobile ? 350 : 841}
+                    height={isMobile ? 220 : 473}
                     loading="lazy"
                   />
                   <div className={styles.resultsWrapper}>
@@ -214,7 +235,7 @@ const CaseStudy = () => {
                     }
                   })}
                   <div className={styles.bookCallButton}>
-                    <h3>Want 100+ qualified appointments yearly?</h3>
+                    <h3>Want 50+ qualified appointments yearly?</h3>
                     <p>
                       Let&rsquo;s map your winning lead generation strategy.
                     </p>
@@ -230,7 +251,7 @@ const CaseStudy = () => {
                 </aside>
               </div>
               <ReachOut />
-            </>
+            </React.Fragment>
           );
         }
       })}

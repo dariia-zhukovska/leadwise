@@ -9,11 +9,10 @@ const ClientsLayout = () => {
       <div className={styles.background}></div>
       <div className={styles.contentWrapper}>
         <h2 className={styles.title}>
-          Companies driving revenue with Lead Wise.
+          Companies driving revenue with LeadWise.
         </h2>
         <p className={styles.subTitle}>
-          500+ sales leaders, marketers, and founders across industries trust us
-          to drive revenue.
+        20+ sales leaders, marketers, and founders across industries trust us to drive revenue.
         </p>
       </div>
 
@@ -33,11 +32,10 @@ const ClientsLayout = () => {
       </div>
       <div className={styles.contentWrapper}>
         <h2 className={styles.title}>
-          Lead Generation services that Win Clients
+        Lead Generation Solutions:
         </h2>
         <p className={styles.subTitle}>
-          You can put all your energy into scaling your business while we set up
-          a consistent stream of vetted business leads to your pipeline
+        Attract high-value clients with our proven lead generation solutions. Our tailored strategies ensure client acquisition and sustainable growth.
         </p>
       </div>
     </div>

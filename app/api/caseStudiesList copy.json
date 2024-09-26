@@ -21,7 +21,7 @@
 
   {
     "id": "3",
-    "slug": "freshtech",
+    "slug": "sodi",
     "casePicture": "/assets/images/case-studies/case-card-3.png",
     "data": "23/11/23",
     "time": "10 min read",
@@ -30,7 +30,7 @@
   },
   {
     "id": "4",
-    "slug": "one-click-code",
+    "slug": "nda",
     "casePicture": "/assets/images/case-studies/case-card-4.png",
     "data": "09/10/23",
     "time": "5 min read",

@@ -14,7 +14,7 @@
   @include breakpoint.mq(lax) {
     padding: 72px 70px;
     justify-content: space-between;
-    background-color: colors.$brown;
+    // background-color: colors.$brown;
   }
 
   .title {
@@ -51,6 +51,7 @@
       .number {
         @include typography.title-36-700;
         color: colors.$primary;
+
         @include breakpoint.mq(lax) {
           @include typography.heading-64-600;
         }
@@ -59,6 +60,8 @@
       .content {
         @include typography.text-16-400;
         color: colors.$white;
+        text-align: center;
+
         @include breakpoint.mq(lax) {
           @include typography.text-24-600;
         }
