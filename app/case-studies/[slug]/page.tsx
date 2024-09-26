@@ -11,6 +11,7 @@ import Button from "@components/common/common-buttons/Button";
 import ReachOut from "@components/reach-out-us/ReachOut";
 import { CALENDLY_LINK } from "@app/helpers/mockedData";
 import useMediaQuery from "@hooks/useMediaQuery";
+import React from "react";
 
 const CaseStudy = () => {
   const pathname = usePathname();
@@ -22,7 +23,7 @@ const CaseStudy = () => {
       {caseStudyData?.map((item) => {
         if (pathname === `/case-studies/${item.name}`) {
           return (
-            <>
+            <React.Fragment key={item.id}>
               <div onClick={() => router.back()} className={styles.backButton}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -250,7 +251,7 @@ const CaseStudy = () => {
                 </aside>
               </div>
               <ReachOut />
-            </>
+            </React.Fragment>
           );
         }
       })}

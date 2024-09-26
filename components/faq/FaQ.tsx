@@ -26,7 +26,7 @@ const FaQ = () => {
       <div className={styles.faqData}>
         {accordionData.map((item, index) => (
           <AccordionItem
-            key={index}
+            key={item.id}
             open={open === index}
             toggle={() => toggle(index)}
             title={item.title}

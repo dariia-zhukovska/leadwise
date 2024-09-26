@@ -1,6 +1,7 @@
 import styles from "./styles.module.scss";
 import { RxCross2, RxPlus } from "react-icons/rx";
 import { Collapse } from "react-collapse";
+import React from "react";
 
 interface IProps {
   open: any;
@@ -35,15 +36,15 @@ const AccordionItem = ({
         </div>
         {descriptionList && (
           <ul className={styles.descriptionList} style={{ maxWidth: "90%" }}>
-            {descriptionList.map((item: any, index: number) => (
-              <>
-                <li key={index} className={styles.descriptionListTitle}>
+            {descriptionList.map((item: any) => (
+              <React.Fragment key={item.id}>
+                <li className={styles.descriptionListTitle}>
                   {item.descriptionListTitle}
                 </li>
-                <p key={index} className={styles.descriptionListDescription}>
+                <p className={styles.descriptionListDescription}>
                   {item.descriptionListDescription}
                 </p>
-              </>
+              </React.Fragment>
             ))}
           </ul>
         )}
