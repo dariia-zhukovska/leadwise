@@ -35,24 +35,30 @@ const Footer = () => {
             <div className={styles.usefulLinks}>
               <Link
                 className={styles.link}
-                href={"/services/appointment-setting"}
+                href={"/services/linkedin-lead-generation"}
               >
-                Appointment Setting
+                LinkedIn Lead Generation
               </Link>
               <Link
                 className={styles.link}
-                href={"/services/demand-generation"}
+                href={"/services/upwork-lead-generation"}
               >
-                Demand Generation
+                UpWork Lead Generation
               </Link>
               <Link className={styles.link} href={"/services/email-outreach"}>
                 Cold Email Outreach
               </Link>
               <Link
                 className={styles.link}
-                href={"/services/linkedin-marketing"}
+                href={"/services/content-marketing"}
               >
-                LinkedIn Marketing
+                Content Marketing
+              </Link>
+              <Link
+                className={styles.link}
+                href={"/services/seo-optimization"}
+              >
+                Seo Optimization
               </Link>
             </div>
           </div>

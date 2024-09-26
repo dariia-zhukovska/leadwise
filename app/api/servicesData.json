@@ -1,31 +1,38 @@
 [
   {
     "id": 1,
-    "title": "Appointment Setting",
-    "subtitle": "Forge meaningful connections with potential clients. Our experts secure high-value appointments, paving the way for lucrative partnerships.",
+    "title": "LinkedIn Lead Generation",
+    "subtitle": "Connect with top-tier clients on LinkedIn through our targeted strategies, reaching decision-makers and driving significant business growth.",
     "shortSubtitle": "Efficiently Fill Your Calendar with Qualified Prospects",
     "popular": true,
-    "slug": "appointment-setting"
+    "slug": "linkedin-lead-generation"
   },
   {
     "id": 2,
-    "title": "Demand Generation",
-    "subtitle": "Fuel your business with a constant stream of high-quality leads. Our data-driven approach ensures a receptive audience for your brand.",
+    "title": "UpWork Lead Generation",
+    "subtitle": "Capture lucrative clients on UpWork with our proven techniques, securing high-value projects that maximize your earnings.",
     "shortSubtitle": "Stoke the Fires of Demand for Your Offerings",
-    "slug": "demand-generation"
+    "slug": "upwork-lead-generation"
   },
   {
     "id": 3,
     "title": "Cold Email Outreach",
-    "subtitle": "Break through the noise with captivating cold email campaigns. Transform cold contacts into warm leads eager to explore your services.",
+    "subtitle": "Transform your cold email outreach with our engaging campaigns, converting cold prospects into eager leads ready for conversion.",
     "shortSubtitle": "Unlock Cold Email's Potential for Lead Generation",
     "slug": "email-outreach"
   },
   {
     "id": 4,
-    "title": "LinkedIn Marketing",
-    "subtitle": "Elevate brand visibility and conversion rates with our result-oriented ad campaigns. we harness the power of diverse platforms for optimal results.",
+    "title": "Content Marketing",
+    "subtitle": "Craft captivating content that draws in and nurtures leads, turning interest into action and boosting your engagement and conversions.",
     "shortSubtitle": "Harness the Power of LinkedIn for Lead Generation",
-    "slug": "linkedin-marketing"
+    "slug": "content-marketing"
+  },
+  {
+    "id": 5,
+    "title": "SEO Optimization",
+    "subtitle": "Enhance your search rankings and attract quality leads with our SEO optimization techniques, driving organic traffic and delivering measurable results.",
+    "shortSubtitle": "Harness the Power of LinkedIn for Lead Generation",
+    "slug": "seo-optimization"
   }
 ]

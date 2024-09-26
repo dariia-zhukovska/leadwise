@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import clsx from "clsx";
 import styles from "./styles.module.scss";
 import Image from "next/image";
@@ -10,10 +10,28 @@ import Link from "next/link";
 
 const ServiceDropdown: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [dropdownRef]);
 
   const renderDropdownOptions = () => {
     if (!isOpen) {
@@ -63,7 +81,7 @@ const ServiceDropdown: React.FC = () => {
   };
 
   return (
-    <div className={styles.serviceDropdown}>
+    <div className={styles.serviceDropdown} ref={dropdownRef}>
       <div className={styles.selectedService} onClick={toggleDropdown}>
         Services
         <Image

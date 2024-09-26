@@ -41,17 +41,20 @@ const SideBar = ({ isOpen, onClose }: IProps) => {
         </div>
         {servicesDropdownOpen && (
           <div className={styles.dropdownContent}>
-            <Link href="/services/appointment-settings" onClick={closeMenu}>
-              Appointment Settings
+            <Link href="/services/linkedin-lead-generation" onClick={closeMenu}>
+              LinkedIn Lead Generation
             </Link>
-            <Link href="/services/demand-generation" onClick={closeMenu}>
-              Demand Generation
+            <Link href="/services/upwork-lead-generation" onClick={closeMenu}>
+              UpWork Lead Generation
             </Link>
             <Link href="/services/email-outreach" onClick={closeMenu}>
               Cold Email Outreach
             </Link>
-            <Link href="/services/linkedin-marketing" onClick={closeMenu}>
-              LinkedIn Marketing
+            <Link href="/services/content-marketing" onClick={closeMenu}>
+              Content Marketing
+            </Link>
+            <Link href="/services/seo-optimization" onClick={closeMenu}>
+              Seo Optimization
             </Link>
           </div>
         )}

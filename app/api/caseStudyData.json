@@ -1,134 +1,147 @@
 [
   {
-    "id": "2",
-    "name": "cowchain",
-    "mainPicture": "/assets/images/case-studies/case-card-2.png",
-    "icon": "/assets/images/case-studies/case-cowchain.svg",
-    "mainTitle": "ABM strategy for a Blockchain company that brought 35+ appointments and 144% KPI",
+    "id": "1",
+    "name": "iteraresearch",
+    "mainPicture": "/assets/images/case-studies/case-card-1.png",
+    "icon": "/assets/images/case-studies/case-it.svg",
+    "mainTitle": "Achieving High-Quality Engagement: 50 Prime Appointments in 6 Months for IoT and Fintech company",
     "numbers": [
       {
         "id": "1",
-        "title": "35+",
-        "description": "Appointments booked in 4 months"
+        "title": "50",
+        "description": "Appointments booked in 6 months"
       },
       {
         "id": "2",
-        "title": "144%",
+        "title": "150%",
         "description": "Avg. KPIs reached"
       }
     ],
-    "category": "Appointment Setting",
-    "industry": "Information Technology & Services",
-    "company-size": "11-50 employees",
-    "headquarters": "Warsaw, Poland",
-    "about": "About Zfort",
-    "description": "Cowchain is a forward-thinking Software and Blockchain Development company dedicated to providing innovative solutions that address real business challenges. With a strong commitment to technology and blockchain, Cowchain distinguishes itself not only through what it creates but also through how it innovates. Their services encompass a wide range of solutions, including asset marketplaces, decentralized exchanges, inventory management systems, coins management, and custom user profiles with unique fitness track records. Cowchain prides itself on exceeding client expectations, going beyond conventional software development practices.",
-    "aboutImage": "/assets/images/case-studies/case-02-main.png",
+    "category": "Linkedin Lead Generation",
+    "industry": "Software Development",
+    "company-size": "51-200 employees",
+    "headquarters": "Kharkiv, Ukraine",
+    "about": "Client Overview:",
+    "description": "Itera Research specializes in innovative IoT and fintech solutions, focusing on smart cities, industrial automation, and financial technology to drive efficiency and growth.",
+    "aboutImage": "/assets/images/case-studies/case-01-main.png",
 
-    "challengeDescription": "Cowchain faced specific challenges in their lead generation and sales efforts, requiring a strategic approach to overcome:",
+    "challengeDescription": "Despite their technical prowess and comprehensive service offerings, Itera Research faced significant challenges in generating a consistent flow of high-quality leads. The sales team struggled with:",
     "challengeList": [
       {
         "id": "1",
-        "title": "Need for growth.",
-        "description": "The client&rsquo;s No. 1 challenge was promoting their portable router, GO, to new markets since they had little experience in expansion."
+        "title": "Lack of Meetings: ",
+        "description": "with potential clients, hindering business development."
       },
       {
         "id": "2",
-        "title": "Limited in-house resources.",
-        "description": "The client didn&rsquo;t have a lead prospecting strategy that would cover all titles interested in the product. As most OTH customers came from referrals, the sales team hadn’t yet developed a specific ideal customer profile (ICP) that could be worked out into several customer personas and result in an effective title research."
+        "title": "Conference Engagement: ",
+        "description": "Insufficient engagement at conferences, limiting opportunities to showcase their expertise."
       },
       {
         "id": "3",
-        "title": "Covering new acquisition channels.",
-        "description": "They covered multiple acquisition channels like referral and events but wanted to go outbound. This is why the client started looking for agencies to outsource their lead generation. They chose LeadWise after receiving a lead sample: Our leads were within scope, and our onboarding process and campaign timelines were transparent and clear."
+        "title": "Difficulty in reaching decision-makers ",
+        "description": "within target industries, impacting their ability to close deals."
       }
     ],
-    "solutionDescription": "To address these challenges, LeadWise implemented strategic solutions to revamp Cowchain's lead generation and sales processes:",
+    "solutionDescription": "To address these challenges, we developed a tailored lead generation strategy focused on:",
     "solutionList": [
       {
         "id": "1",
-        "title": "Data-Driven Lead Generation.",
-        "description": "LeadWise introduced a data-driven approach, utilizing industry-specific insights to ensure a consistent flow of leads and a more predictable sales pipeline for Cowchain."
+        "title": "Targeted Outreach: ",
+        "description": "Identifying and connecting with key decision-makers in IoT and fintech sectors."
       },
       {
         "id": "2",
-        "title": "Streamlined Sales Process and Targeted Outreach.",
-        "description": "LeadWise optimized Cowchain's sales process by conducting comprehensive research to identify and target key decision-makers. Additionally, personalized outreach campaigns were designed and executed to nurture leads, ensuring prospects received the necessary information for informed decision-making."
-      }
-    ],
-    "implementationDescription": "To implement these solutions, LeadWise executed a series of strategic steps:",
-    "implementationList": [
-      {
-        "id": "1",
-        "description": "Conducted in-depth market research to identify target industries and key decision-makers."
-      },
-      {
-        "id": "2",
-        "description": "Crafted customized email and content marketing campaigns to engage and inform potential clients effectively."
+        "title": "Strategic Messaging: ",
+        "description": "Crafting personalized messages that highlighted Itera Research’s unique value propositions."
       },
       {
         "id": "3",
-        "description": "Introduced lead nurturing strategies to guide prospects seamlessly through the sales funnel."
+        "title": "Multi-Channel Engagement: ",
+        "description": "Utilizing LinkedIn and email campaigns to maximize reach and engagement."
+      },
+      {
+        "id": "4",
+        "title": "Conference Lead Generation: ",
+        "description": "Enhancing conference participation by generating leads specifically for upcoming industry events, ensuring meaningful interactions during these gatherings."
       }
     ],
-    "resultImage": "/assets/images/case-studies/case-02-2-main.png",
+    "implementationDescription": "The implementation involved several critical steps:",
+    "implementationList": [
+      {
+        "id": "1",
+        "description": "Audience Segmentation: Targeting the right audience by industry, role, and location."
+      },
+      {
+        "id": "2",
+        "description": "Customized Campaigns: Executing relevant outreach campaigns."
+      },
+      {
+        "id": "3",
+        "description": "Follow-Up Strategies: Nurturing leads systematically."
+      },
+      {
+        "id": "4",
+        "description": "Conference Preparation: Tailoring outreach for key events."
+      },
+      {
+        "id": "5",
+        "description": "Data-Driven Adjustments: Optimizing based on performance data."
+      }
+    ],
+    "extendedBlock": [
+      {
+        "id": "1",
+        "extendedTitle": "We extended Itera Research's ",
+        "extendedDescription": "product reach to encompass IT professionals and key C-suite roles responsible for finance, business development, and innovation. This strategic expansion significantly enhanced the product's outreach and engagement potential within the software development industry."
+      }
+    ],
+    "resultImage": "/assets/images/case-studies/case-01-2-main.png",
     "resultsList": [
       {
         "id": "1",
-        "title": "35+",
+        "title": "50",
         "description": "Appointments booked"
       },
       {
         "id": "2",
-        "title": "144%",
+        "title": "150%",
         "description": "Avg. KPIs achieved"
       },
       {
         "id": "3",
-        "title": "50%",
-        "description": "Cold email open rate"
+        "title": "40%",
+        "description": "LinkedIn open rate"
       }
     ],
-    "resultDescription": "The collaboration with LeadWise led to remarkable results for Cowchain:",
+    "resultDescription": "The collaboration with LeadWise led to remarkable results for Itera Research:",
     "resultDescriptionList": [
       {
         "id": "1",
-        "description": "97 booked appointments in 10 months, 56 of which were marked as either a very good or a perfect fit by the client."
+        "description": "Consistent Lead Generation: Our data-driven approach provided Itera Research with a steady flow of leads, ensuring a more predictable sales pipeline."
       },
       {
         "id": "2",
-        "description": "10 booked appointments from 200 leads within one of the event campaigns."
+        "description": "Improved Conversion Rates: Streamlined sales processes and targeted outreach resulted in a significant increase in conversion rates."
       },
       {
         "id": "3",
-        "description": "20 highly tailored cold outreach campaigns launched."
-      },
-      {
-        "id": "4",
-        "description": "Up to 65% open rate reached, with an average above 60%."
-      },
-      {
-        "id": "5",
-        "description": "Highest reply rate of 14%, twice higher than the industry average."
-      },
-      {
-        "id": "6",
-        "description": "Average KPI of 137% over 6 months, reaching 144% in the last quarter."
+        "description": "Enhanced Sales Team Alignment: The guidance and training we provided empowered Itera Research’s sales team to effectively communicate the company’s unique value proposition."
       }
     ],
-    "resultsEnding": ""
+    "resultsEnding": "These outcomes addressed the identified challenges and positioned Itera Research for continued growth and success in the IoT and fintech sectors."
   },
 
   {
-    "id": "4",
-    "name": "one-click-code",
-    "mainPicture": "/assets/images/case-studies/case-card-4.png",
-    "icon": "/assets/images/case-studies/case-occ.svg",
-    "mainTitle": "100% KPI performance for a Roofing Application and 25+ appointments in 3 month",
+    "id": "2",
+    "name": "blockjane",
+    "mainPicture": "/assets/images/case-studies/case-card-2.png",
+    "icon": "/assets/images/case-studies/case-blockjane.svg",
+    "mainTitle": "Elevating Client Acquisition: 13 High-Value Meetings in 3 Months for a Boutique Design Agency",
     "numbers": [
       {
         "id": "1",
-        "title": "24+",
+        "title": "13",
         "description": "Appointments booked in 3 months"
       },
       {
@@ -137,93 +150,404 @@
         "description": "Avg. KPIs reached"
       }
     ],
-    "category": "Appointment Setting",
-    "industry": "Building and Construction",
-    "company-size": "11-50 employees",
-    "headquarters": "Colorado, USA",
-    "about": "About OCC",
-    "aboutImage": "/assets/images/case-studies/case-04-main.png",
-    "description": "OneClick Code is a revolutionary application that provides quick and accurate access to address-specific roofing codes, facilitating code compliance for construction professionals.",
+    "category": "Linkedin Lead Generation",
+    "industry": "Software Development",
+    "company-size": "1-10 employees",
+    "headquarters": "Larnaca, Cyprus",
+    "about": "Client Overview:",
+    "aboutImage": "/assets/images/case-studies/case-02-main.png",
+    "description": "BlockJane is a design agency specializing in innovative product design, UI/UX design, and branding and marketing design. Their mission is to create visually striking and user-friendly designs that help businesses stand out in competitive markets.",
 
-    "challengeDescription": "OneClick Code faced several challenges in terms of expanding its user base and promoting its unique offering:",
+    "challengeDescription": "Embarking on their first lead generation initiative, Block Jane Ltd. faced several challenges:",
     "challengeList": [
       {
         "id": "1",
-        "title": "Negative experience collaborating with another lead generation company.",
-        "description": " Within a year of cooperation with an outsourced team, OCC Marketing Group dealt with unqualified leads, which resulted in zero booked appointments. The main reason for that was a misunderstanding of the client’s business specifics and needs."
+        "title": "Generating more clients ",
+        "description": "through LinkedIn."
       },
       {
         "id": "2",
-        "title": "A need for a consistent flow of qualified leads.",
-        "description": " TA client required not only validated leads but their nonstop flow on a regular basis."
+        "title": "Setting up an effective ",
+        "description": "lead generation process."
       },
       {
         "id": "3",
-        "title": "Need for multiple leads in a narrow niche",
-        "description": " in a highly competitive market."
+        "title": "Improving the quality ",
+        "description": "of previous meetings, which were not yielding high-value opportunities."
+      },
+      {
+        "id": "4",
+        "title": "Reaching and securing meetings ",
+        "description": "with decision-makers in their target industries."
       }
     ],
+    "solutionDescription": "To address these challenges, we developed and implemented a comprehensive lead generation strategy that included:",
     "solutionList": [
       {
         "id": 1,
-        "title": "Implementation of the local outreach campaign.",
-        "description": "We launched a face-to-face outreach campaign to target only local businesses based in Colorado in a limited range of industries. The main concept of the cold outreach was to target companies in the internal market, aiming to facilitate the growth of local businesses."
+        "title": "LinkedIn Optimization: ",
+        "description": "Enhancing Block Jane Ltd.'s LinkedIn profile to better showcase their portfolio and expertise."
       },
       {
         "id": 2,
-        "title": "Leads segmenting according to specific industry and applying a F2F approach.",
-        "description": "According to the client&rsquo;s requests, we applied only a F2F approach to foster deal closing. Our email writers crafted highly personalized templates targeting particular industries and incorporated social proofs and the company’s achievements that addressed specific prospects’ pain points."
+        "title": "Targeted Outreach: ",
+        "description": "Identifying and connecting with key decision-makers in target industries."
       },
       {
         "id": 3,
-        "title": "Management and support of real-time meetings with prospects.",
-        "description": "Since the F2F approach requires intensive communication with the client and the prospect, we facilitated this process with our active engagement and support at each step of the journey."
+        "title": "Personalized Messaging: ",
+        "description": "Crafting customized messages that highlighted Block Jane Ltd.'s unique value propositions."
+      },
+      {
+        "id": 4,
+        "title": "Multi-Channel Engagement: ",
+        "description": "Utilizing LinkedIn and email campaigns to maximize reach and engagement."
       }
     ],
-    "resultImage": "/assets/images/case-studies/case-04-2-main.png",
+    "resultImage": "/assets/images/case-studies/case-02-2-main.png",
+    "implementationDescription": "Key steps included:",
+    "implementationList": [
+      {
+        "id": "1",
+        "description": "Profile Enhancement: Optimizing Block Jane Ltd.'s LinkedIn profile to attract and engage potential clients."
+      },
+      {
+        "id": "2",
+        "description": "Audience Segmentation: Identifying and targeting the right audience by industry, role, and location."
+      },
+      {
+        "id": "3",
+        "description": "Customized Campaigns: Executing relevant outreach campaigns on LinkedIn and via email."
+      },
+      {
+        "id": "4",
+        "description": "Follow-Up Strategies: Implementing systematic follow-up strategies to nurture leads and maintain engagement."
+      },
+      {
+        "id": "5",
+        "description": "Data-Driven Adjustments: Continuously monitoring campaign performance and making data-driven adjustments to optimize results."
+      }
+    ],
+    "extendedBlock": [
+      {
+        "id": "1",
+        "extendedTitle": "The Primary Target Audience: ",
+        "extendedDescription": "We extended Block Jane Ltd.'s reach to encompass CEOs, Marketing Directors, Heads of Design, and Marketing and Communication professionals in need of product design, UI/UX design, and branding and marketing design services. This strategic focus targeted key markets in the USA, UK, Canada, and Australia, significantly enhancing their outreach and engagement potential."
+      }
+    ],
     "resultsList": [
       {
         "id": "1",
-        "title": "24+",
+        "title": "13",
         "description": "Appointments booked"
       },
       {
         "id": "2",
-        "title": "144%",
+        "title": "100%",
         "description": "Avg. KPIs achieved"
       },
       {
         "id": "3",
-        "title": "65%",
-        "description": "Cold email open rate"
+        "title": "37%",
+        "description": "LinkedIn open rate"
       }
     ],
-    "resultDescription": "The collaboration with LeadWise led to remarkable results for OCC:",
+
+    "resultDescription": "The collaboration with LeadWise led to outstanding results for Block Jane Ltd.:",
     "resultDescriptionList": [
       {
         "id": 1,
-        "description": "We set up approximately 10 appointments each month, which resulted in 24+ F2F meetings in 3 months in total."
+        "description": "13 Generated Meetings in 3 Months: Successfully secured 13 high-value meetings with potential clients."
       },
       {
         "id": 2,
-        "description": "So far, the total number of deals closed is 5."
+        "description": "Consistent Lead Generation: Provided a steady flow of leads, ensuring a more predictable sales pipeline."
       },
       {
         "id": 3,
-        "description": "KPI benchmarks reached 100%."
+        "description": "Improved Meeting Quality: Enhanced the quality of meetings, leading to more meaningful and productive engagements."
       },
       {
         "id": 4,
-        "description": "The highest open rate reached 54%, while the reply rate was 6–7%."
+        "description": "Improved LinkedIn Engagement: Enhanced LinkedIn presence and engagement, resulting in better visibility and reach."
       },
       {
         "id": 5,
-        "description": "In total, we generated 4k+ leads."
+        "description": "Effective Communication: Empowered Block Jane Ltd.'s team to effectively communicate their unique value proposition."
+      }
+    ],
+    "resultsEnding": "These outcomes addressed the identified challenges and positioned Block Jane Ltd. for continued growth and success in the design industry."
+  },
+  {
+    "id": "3",
+    "name": "sodi",
+    "mainPicture": "/assets/images/case-studies/case-card-3.png",
+    "icon": "/assets/images/case-studies/case-sodi.svg",
+    "mainTitle": "Driving Client Engagement: 25 High-Value Meetings in 4 Months for a Recruitment Agency",
+    "numbers": [
+      {
+        "id": "1",
+        "title": "25",
+        "description": "Appointments booked in 4 months"
       },
       {
-        "id": 6,
-        "description": "The client&rsquo;s active involvement in in-person meetings with prospects and LeadWise handcrafted approach toward lead qualification ensured an approximate 20% of the closed rate."
+        "id": "2",
+        "title": "100%",
+        "description": "Avg. KPIs reached"
       }
-    ]
+    ],
+    "category": "Linkedin Lead Generation",
+    "industry": "Software Development",
+    "company-size": "1-10 employees",
+    "headquarters": "Lviv, Ukraine",
+    "about": "Client Overview:",
+    "aboutImage": "/assets/images/case-studies/case-03-main.png",
+    "description": "SODI Recruitment Agency specializes in connecting top-tier talent with leading companies across various industries. Their mission is to provide comprehensive recruitment solutions that help businesses find the right candidates to drive their success.",
+
+    "challengeDescription": "As SODI aimed to expand their client base, they faced several challenges:",
+    "challengeList": [
+      {
+        "id": "1",
+        "title": "Limited Client Acquisition: ",
+        "description": "Difficulty in generating new clients through traditional methods."
+      },
+      {
+        "id": "2",
+        "title": "Ineffective Lead Generation: ",
+        "description": "Lack of a structured lead generation process."
+      },
+      {
+        "id": "3",
+        "title": "Poor Meeting Quality: ",
+        "description": "Previous meetings with potential clients were not yielding high-value opportunities.."
+      },
+      {
+        "id": "4",
+        "title": "Targeting Decision-Makers: ",
+        "description": "Challenges in reaching and securing meetings with key decision-makers in target industries."
+      }
+    ],
+    "solutionDescription": "To address these challenges, we developed and implemented a tailored lead generation strategy for SODI Recruitment Agency that focused on:",
+    "solutionList": [
+      {
+        "id": 1,
+        "title": "LinkedIn Optimization: ",
+        "description": "Enhancing SODI's LinkedIn profile to showcase their expertise, success stories, and unique value propositions."
+      },
+      {
+        "id": 2,
+        "title": "Targeted Outreach: ",
+        "description": "Identifying and connecting with key decision-makers such as HR professionals, hiring managers, and C-suite executives."
+      },
+
+      {
+        "id": 3,
+        "title": "Personalized Messaging: ",
+        "description": "Crafting customized messages that resonated with potential clients and highlighted SODI's strengths."
+      },
+      {
+        "id": 4,
+        "title": "Multi-Channel Engagement: ",
+        "description": "Utilizing LinkedIn and email campaigns to increase reach and engagement with potential clients."
+      }
+    ],
+    "resultImage": "/assets/images/case-studies/case-03-2-main.png",
+    "implementationDescription": "Key steps in our approach included:",
+    "implementationList": [
+      {
+        "id": "1",
+        "description": "Profile Enhancement: Optimizing SODI's LinkedIn profile to attract and engage potential clients more effectively."
+      },
+      {
+        "id": "2",
+        "description": "Audience Segmentation: Identifying and targeting the right audience by industry, role, and location to ensure the outreach was precise and relevant."
+      },
+      {
+        "id": "3",
+        "description": "Customized Campaigns: Executing personalized outreach campaigns on LinkedIn and via email to engage potential clients."
+      },
+      {
+        "id": "4",
+        "description": "Follow-Up Strategies: Implementing systematic follow-up strategies to nurture leads and maintain engagement."
+      },
+      {
+        "id": "5",
+        "description": "Data-Driven Adjustments: Continuously monitoring campaign performance and making adjustments based on data insights to improve results."
+      }
+    ],
+    "extendedBlock": [
+      {
+        "id": "1",
+        "extendedTitle": "The Primary Target Audience: ",
+        "extendedDescription": "Our efforts focused on reaching HR professionals, hiring managers, and key C-suite roles responsible for talent acquisition and business growth. This strategic focus targeted key markets in Ukraine and beyond, significantly enhancing SODI's outreach and engagement potential."
+      }
+    ],
+    "resultsList": [
+      {
+        "id": "1",
+        "title": "25",
+        "description": "Appointments booked"
+      },
+      {
+        "id": "2",
+        "title": "150%",
+        "description": "Avg. KPIs achieved"
+      },
+      {
+        "id": "3",
+        "title": "28%",
+        "description": "LinkedIn open rate"
+      }
+    ],
+
+    "resultDescription": "The collaboration with LeadWise led to significant outcomes for SODI Recruitment Agency:",
+    "resultDescriptionList": [
+      {
+        "id": 1,
+        "description": "25 Generated Meetings in 4 Months: Successfully secured 25 high-value meetings with potential clients."
+      },
+      {
+        "id": 2,
+        "description": "Consistent Lead Generation: Established a steady flow of leads, ensuring a more predictable sales pipeline."
+      },
+      {
+        "id": 3,
+        "description": "Enhanced Meeting Quality: Improved the quality of meetings, leading to more meaningful and productive engagements."
+      },
+      {
+        "id": 4,
+        "description": "Improved LinkedIn Engagement: Boosted LinkedIn presence and engagement, resulting in better visibility and reach."
+      },
+      {
+        "id": 5,
+        "description": "Effective Communication: Enabled SODI's team to effectively communicate their unique value proposition and build stronger client relationships."
+      }
+    ],
+    "resultsEnding": "These outcomes addressed SODI's challenges and positioned them for continued growth and success in the recruitment industry."
+  },
+
+  {
+    "id": "4",
+    "name": "nda",
+    "mainPicture": "/assets/images/case-studies/case-card-4.png",
+    "icon": "/assets/images/case-studies/case-nda.svg",
+    "mainTitle": "Generating High-Value Blockchain Clients through Custom Proposals on Upwork",
+    "numbers": [
+      {
+        "id": "1",
+        "title": "13",
+        "description": "Appointments booked in 3 months"
+      },
+      {
+        "id": "2",
+        "title": "100%",
+        "description": "Avg. KPIs reached"
+      }
+    ],
+    "category": "Linkedin Lead Generation",
+    "industry": "Software Development",
+    "company-size": "1-10 employees",
+    "headquarters": "Tallinn, Estonia",
+    "about": "Client Overview:",
+    "aboutImage": "/assets/images/case-studies/case-04-main.png",
+    "description": "Our client is a company specializing in blockchain development, offering innovative solutions that transform industries through secure and transparent digital transactions.",
+
+    "challengeDescription": "Before engaging our services, the client faced several challenges in generating quality leads and clients on Upwork:",
+    "challengeList": [
+      {
+        "id": "1",
+        "title": "Inconsistent Lead Quality: ",
+        "description": "Struggled to attract and convert high-quality clients."
+      },
+      {
+        "id": "2",
+        "title": "Low Conversion Rates: ",
+        "description": "Difficulty in turning leads into paying customers."
+      },
+      {
+        "id": "3",
+        "title": "Lack of Targeted Proposals: ",
+        "description": "Generic proposals that did not resonate with potential clients searching for blockchain development services."
+      }
+    ],
+    "solutionDescription": "To address these challenges, we developed and implemented a targeted lead generation strategy on Upwork that included:",
+    "solutionList": [
+      {
+        "id": 1,
+        "title": "Custom Proposals: ",
+        "description": "Crafting tailored proposals that showcased the client's expertise and provided clear value propositions to potential clients."
+      },
+      {
+        "id": 2,
+        "title": "Value-Driven Messaging: ",
+        "description": "Highlighting the unique benefits and solutions offered by the client, ensuring proposals were relevant and compelling."
+      },
+      {
+        "id": 3,
+        "title": "Targeted Outreach: ",
+        "description": "Identifying and focusing on clients specifically searching for blockchain development services."
+      }
+    ],
+    "resultImage": "/assets/images/case-studies/case-04-2-main.png",
+    "implementationDescription": "Targeted Outreach: Identifying and focusing on clients specifically searching for blockchain development services.",
+    "implementationList": [
+      {
+        "id": "1",
+        "description": "Detailed Research: Conducting thorough research on potential clients and their specific needs to craft personalized proposals."
+      },
+      {
+        "id": "2",
+        "description": "Custom Proposal Creation: Developing custom proposals that addressed client pain points and demonstrated how the client's services could provide value."
+      },
+      {
+        "id": "3",
+        "description": "Follow-Up Strategies: Implementing systematic follow-up strategies to maintain engagement and move leads through the sales funnel."
+      },
+      {
+        "id": "4",
+        "description": "Performance Monitoring: Continuously tracking the performance of proposals and making data-driven adjustments to improve outcomes."
+      }
+    ],
+    "extendedBlock": [
+      {
+        "id": "1",
+        "extendedTitle": "The Primary Target Audience: ",
+        "extendedDescription": "Our efforts focused on reaching businesses and individuals actively searching for blockchain development services on Upwork. This included: Startups and established companies looking to integrate blockchain technology into their operations and Clients seeking secure and transparent digital transaction solutions."
+      }
+    ],
+    "resultsList": [
+      {
+        "id": "1",
+        "title": "13",
+        "description": "Appointments booked"
+      },
+      {
+        "id": "2",
+        "title": "150%",
+        "description": "Avg. KPIs achieved"
+      },
+      {
+        "id": "3",
+        "title": "3%",
+        "description": "Reply rate"
+      }
+    ],
+
+    "resultDescription": "The collaboration led to outstanding results for the client:",
+    "resultDescriptionList": [
+      {
+        "id": 1,
+        "description": "1% Conversion Rate: Achieved a 1% conversion rate from proposals to clients."
+      },
+      {
+        "id": 2,
+        "description": "5% Deal Closure Rate: Of the converted clients, 5% were closed deals."
+      },
+      {
+        "id": 3,
+        "description": "6 High-Value Clients in 4 Months: Successfully generated 6 high-value clients within four months."
+      }
+    ],
+    "resultsEnding": "These outcomes addressed the client's challenges and positioned them for continued growth and success in the blockchain development industry. Our strategic approach on Upwork significantly enhanced their lead generation efforts and delivered measurable business results."
   }
 ]

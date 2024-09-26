@@ -8,18 +8,29 @@
   flex-direction: column;
   width: 100%;
   background-color: colors.$black;
-  padding: 0 20px;
-  @include breakpoint.mq(lax) {
-    padding: 0 120px;
+  // padding: 0 20px;
+
+  // @include breakpoint.mq(lax) {
+  //   padding: 0 120px;
+  // }
+
+  .topInfoContainer {
+    padding: 0 20px;
+
+    @include breakpoint.mq(lax) {
+      padding: 0 120px;
+    }
   }
 
   .minicards {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 40px 0;
+    padding: 40px 20px;
+
+
     @include breakpoint.mq(lax) {
-      padding: 120px 0;
+      padding: 120px;
       flex-direction: row;
       justify-content: space-between;
     }
@@ -31,6 +42,7 @@
     align-items: center;
     gap: 40px;
     padding: 40px 0;
+
     @include breakpoint.mq(lax) {
       padding: 0 0 120px;
       // justify-content: space-between;
@@ -57,6 +69,7 @@
     gap: 40px;
     width: 100%;
     padding: 40px 0;
+
     .title {
       text-align: center;
       @include typography.title-24-700;
@@ -76,18 +89,70 @@
       text-align: center;
     }
 
+    // .timeline {
+    //   display: flex;
+    //   gap: 63px;
+    //   position: relative;
+
+    //   .timeItems {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     align-items: center;
+    //     position: relative;
+
+    //     .timeStep {
+    //       // display: flex;
+    //       display: block;
+    //       width: 24px;
+    //       height: 24px;
+    //       align-self: center;
+    //       text-align: center;
+
+    //       @include typography.text-16-400;
+    //       color: colors.$white;
+    //       border-radius: 24px;
+    //       background-color: colors.$primary;
+    //     }
+
+    //     span {
+    //       @include typography.text-14-600;
+    //       color: colors.$white;
+    //       text-align: center;
+    //       margin-top: 8px;
+    //     }
+
+    //     p {
+    //       @include typography.text-14-400;
+    //       color: colors.$description;
+    //       text-align: center;
+    //     }
+    //   }
+    // }
     .timeline {
       display: flex;
       gap: 63px;
+      position: relative; // Ensure positioning of lines is correct
 
       .timeItems {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
+
+        // Add a line before each timeItems except the first one
+        &:not(:first-child)::before {
+          content: "";
+          position: absolute;
+          top: 25%;
+          left: -87px; // Adjust to match the gap
+          width: 108px; // Length of the line should match the gap
+          height: 1px;
+          background-color: colors.$primary;
+        }
 
         .timeStep {
-          // display: flex;
           display: block;
           width: 24px;
           height: 24px;
@@ -117,9 +182,20 @@
 
     .facts {
       width: 100%;
+
       @include breakpoint.mq(lax) {
         background-color: colors.$brown;
       }
+    }
+
+
+  }
+
+  .customersBlock {
+    padding: 0 20px;
+
+    @include breakpoint.mq(lax) {
+      padding: 0 120px;
     }
 
     .customers {
@@ -155,12 +231,14 @@
 
       .partnersContainer {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: 88px;
-        gap: 50px;
+        gap: 3vw;
         flex-wrap: wrap;
         max-width: 900px;
+        margin-top: 10px;
+
 
         @include breakpoint.mq(lax) {
           gap: 90px;
@@ -168,4 +246,14 @@
       }
     }
   }
+
+  .reachOutBlock {
+    padding: 0 20px;
+
+    @include breakpoint.mq(lax) {
+      padding: 0 120px;
+    }
+
+  }
+
 }
