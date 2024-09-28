@@ -20,7 +20,7 @@
     gap: 20px;
 
     h2 {
-      @include typography.title-24-700;
+      @include typography.title-32-700;
     }
 
     ul {
@@ -48,11 +48,11 @@
   }
 
   .paragraph {
-    @include typography.text-16-400;
+    @include typography.text-18-400;
   }
 
   .boldParagraph {
-    @include typography.text-16-700;
+    @include typography.text-18-700;
   }
 
 }
