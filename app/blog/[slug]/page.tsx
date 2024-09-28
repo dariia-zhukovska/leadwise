@@ -10,6 +10,7 @@ import Head from "next/head";
 import BlogPost01 from "@components/blog/blog-posts/blog-post-01/blogPost01";
 import BlogPost02 from "@components/blog/blog-posts/blog-post-02/blogPost02";
 import BlogPost03 from "@components/blog/blog-posts/blog-post-03/blogPost03";
+import BlogPost04 from "@components/blog/blog-posts/blog-post-04/blogPost04";
 import PlogPreviewLayout from "@components/blog/blog-preview/PlogPreviewLayout";
 
 const BlogPost = () => {
@@ -75,6 +76,7 @@ const BlogPost = () => {
           {item.id === "1" && <BlogPost01 />}
           {item.id === "2" && <BlogPost02 />}
           {item.id === "3" && <BlogPost03 />}
+          {item.id === "4" && <BlogPost04 />}
         </div>
       </div>
       <PlogPreviewLayout />

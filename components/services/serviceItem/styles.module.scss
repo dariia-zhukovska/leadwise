@@ -6,13 +6,28 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 410px;
+  width: 100%;
   padding: 48px 0 24px;
   // border-right: 1px solid colors.$description;
   border-bottom: 1px solid colors.$description;
+
+  @include breakpoint.mq(md) {
+    width: 43vw;
+  }
+
   @include breakpoint.mq(lax) {
     border-right: 1px solid colors.$description;
+    width: 38vw;
+
   }
+
+
+
+  @include breakpoint.mq(xxxl) {
+    width: 420px;
+  }
+
+
 
   .serviseItemTop {
     display: flex;

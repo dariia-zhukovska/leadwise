@@ -1,10 +1,11 @@
 // import { BlogPost01 } from "@interfaces/interfaces";
+import { helvetica } from "@app/layout";
 import styles from "./styles.module.scss";
-import blogItem from "@app/api/blog-posts/blog-post-01.json";
+import blogItem from "@app/api/blog-posts/blog-post-04.json";
 
-const BlogPost01 = () => {
+const BlogPost04 = () => {
   return (
-    <div className={styles.blogPostWrapper}>
+    <div className={`${styles.blogPostWrapper} ${helvetica.className}`}>
       <div className={styles.mainWrapper}>
         <section className="">
           <p className={styles.paragraph}>
@@ -19,12 +20,23 @@ const BlogPost01 = () => {
         </section>
         <section>
           <h2>{blogItem.paragraphTitle03}</h2>
-          <p className={styles.paragraph}>{blogItem.paragraph031}</p>
-          <p className={styles.paragraph}>{blogItem.paragraph032}</p>
+          <ul>
+            {blogItem.subparagraphs03.map((subparagraph03) => (
+              <ol key={subparagraph03.id} className={styles.subparagraph}>
+                <span>{subparagraph03.id}. </span>
+                <span className={styles.boldParagraph}>
+                  {subparagraph03.boldText}
+                </span>
+                {subparagraph03.mainText}
+              </ol>
+            ))}
+          </ul>
         </section>
         <section>
           <h2>{blogItem.paragraphTitle04}</h2>
           <p className={styles.paragraph}>{blogItem.paragraph04}</p>
+          <p className={styles.paragraph}>{blogItem.paragraph041}</p>
+          <p className={styles.paragraph}>{blogItem.paragraph042}</p>
           <ul>
             {blogItem.subparagraphs04.map((subparagraph04) => (
               <ol key={subparagraph04.id} className={styles.subparagraph}>
@@ -39,7 +51,38 @@ const BlogPost01 = () => {
         </section>
         <section>
           <h2>{blogItem.paragraphTitle05}</h2>
+          <p className={styles.paragraph}>{blogItem.paragraph051}</p>
+          <p className={styles.paragraph}>{blogItem.paragraph052}</p>
+          <p className={styles.paragraph}>{blogItem.paragraph053}</p>
           {blogItem.subparagraphs05.map((subparagraph) => (
+            <p key={subparagraph.id} className={styles.subparagraph}>
+              <span className={styles.boldParagraph}>
+                {subparagraph.boldText}
+              </span>
+              {subparagraph.mainText}
+            </p>
+          ))}
+        </section>
+        <section>
+          <h2>{blogItem.paragraphTitle06}</h2>
+          <p className={styles.paragraph}>{blogItem.paragraph061}</p>
+          <p className={styles.paragraph}>{blogItem.paragraph062}</p>
+          <p className={styles.paragraph}>{blogItem.paragraph063}</p>
+          {blogItem.subparagraphs06.map((subparagraph) => (
+            <p key={subparagraph.id} className={styles.subparagraph}>
+              <span className={styles.boldParagraph}>
+                {subparagraph.boldText}
+              </span>
+              {subparagraph.mainText}
+            </p>
+          ))}
+        </section>
+        <section>
+          <h2>{blogItem.paragraphTitle07}</h2>
+          <p className={styles.paragraph}>{blogItem.paragraph071}</p>
+          <p className={styles.paragraph}>{blogItem.paragraph072}</p>
+          <p className={styles.paragraph}>{blogItem.paragraph073}</p>
+          {blogItem.subparagraphs07.map((subparagraph) => (
             <p key={subparagraph.id} className={styles.subparagraph}>
               <span className={styles.boldParagraph}>
                 {subparagraph.boldText}
@@ -51,10 +94,11 @@ const BlogPost01 = () => {
         <section>
           <h2>{blogItem.conclusionTitle}</h2>
           <p className={styles.paragraph}>{blogItem.conclusion}</p>
+          <p className={styles.paragraph}>{blogItem.conclusion02}</p>
         </section>
       </div>
     </div>
   );
 };
 
-export default BlogPost01;
+export default BlogPost04;

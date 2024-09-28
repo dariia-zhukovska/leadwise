@@ -10,22 +10,25 @@ $screen: (
   // Інерційна прокрутка та паралакс увімкнені вище 1025px
   xl: 1200px,
   xxl: 1400px,
-) !default;
+  xxxl: 1600px,
+  ) !default;
 
 @mixin mq($size, $width: min) {
   $result: 0;
 
-  @if (type-of($size) == number) {
+  @if (type-of($size)==number) {
     $result: $size;
-  } @else {
+  }
+
+  @else {
     @each $key, $value in $screen {
-      @if ($key == $size) {
+      @if ($key ==$size) {
         $result: $value;
       }
     }
   }
 
-  @if ($width == max) {
+  @if ($width ==max) {
     $result: $result - 1;
   }
 

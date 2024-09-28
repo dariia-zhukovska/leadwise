@@ -1,20 +1,38 @@
 [
   {
-    "id": "2",
-    "slug": "cowchain",
-    "casePicture": "/assets/images/case-studies/case-card-2.png",
-    "data": "24/11/23",
+    "id": "1",
+    "slug": "iteraresearch",
+    "casePicture": "/assets/images/case-studies/case-card-1.png",
+    "data": "15/04/24",
     "time": "10 min read",
-    "cardTitle": "HC strategy for a Blockchain company that brought 35+ appointments and 144% KPI",
-    "cardDescription": "Explore a compelling case study showcasing how the HC strategy supercharged a Blockchain company, delivering 35 appointments and a remarkable 144% KPI achievement. Witness the strategic mastery that redefined success in the industry."
+    "cardTitle": "Achieving High-Quality Engagement: 50 Prime Appointments in 6 Months for IoT and Fintech company",
+    "cardDescription": "Learn how an IoT and fintech company secured 50 valuable appointments in six months. Discover the effective strategies we used to enhance their engagement and drive significant business growth."
+  },
+  {
+    "id": "2",
+    "slug": "blockjane",
+    "casePicture": "/assets/images/case-studies/case-card-2.png",
+    "data": "24/02/24",
+    "time": "7 min read",
+    "cardTitle": "Elevating Client Acquisition: 13 High-Value Meetings in 3 Months for a Boutique Design Agency",
+    "cardDescription": "Discover how Block Jane Ltd. used a strategic LinkedIn lead generation process to secure 12 high-value meetings in three months. Explore the tailored strategies that enhanced engagement quality and laid the foundation for their ongoing success in the design industry."
+  },
+  {
+    "id": "3",
+    "slug": "sodi",
+    "casePicture": "/assets/images/case-studies/case-card-3.png",
+    "data": "12/01/24",
+    "time": "10 min read",
+    "cardTitle": "Driving Client Engagement: 25 High-Value Meetings in 4 Months for a Recruitment Agency",
+    "cardDescription": "Discover how SODI Recruitment Agency utilized a strategic LinkedIn lead generation process to secure 25 high-value meetings in just four months. Explore the innovative strategies that enhanced engagement quality and helped them overcome their lead generation challenges in the recruitment industry."
   },
   {
     "id": "4",
-    "slug": "one-click-code",
+    "slug": "nda",
     "casePicture": "/assets/images/case-studies/case-card-4.png",
-    "data": "09/10/23",
+    "data": "20/11/23",
     "time": "5 min read",
-    "cardTitle": "100% KPI performance for a Roofing Application and 24+ appointments in 3 month",
-    "cardDescription": "Explore a case study highlighting the exceptional performance of a Roofing Application, achieving 100% KPI fulfillment and securing 24+ appointments in just three months. Discover the strategies that drove this remarkable success."
+    "cardTitle": "Generating High-Value Blockchain Clients through Custom Proposals on Upwork",
+    "cardDescription": "Discover how we leveraged Upwork to generate high-quality blockchain development clients, securing 6 clients and over $300,000 in contracts in just four months. Explore the tailored strategies that enhanced client engagement and drove significant business growth."
   }
 ]

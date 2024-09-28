@@ -126,6 +126,14 @@
   line-height: 88px;
 }
 
+@mixin heading-46-400 {
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
 @mixin heading-44-600 {
   font-size: 44px;
   font-style: normal;
@@ -133,12 +141,12 @@
   line-height: 52px;
 }
 
-@mixin heading-46-400 {
-  font-size: 46px;
+@mixin heading-28-400 {
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%;
-  text-transform: uppercase;
+  line-height: 120%;
+
 }
 
 // -------------------

@@ -1,17 +1,24 @@
 import type { Metadata } from "next";
 import ProximaNova from "next/font/local";
+import Helvetica from "next/font/local";
+
 import "@styles/globals.scss";
 import Nav from "@components/nav/Nav";
 import Footer from "@components/footer/Footer";
+import next from "next";
 
 const proximaNova = ProximaNova({
   src: "../styles/fonts/ProximaNova-Regular.woff",
 });
 
-export const metadata: Metadata = {
-  title: "Leadwise",
-  description: "Tool for your buisness",
-};
+export const helvetica = Helvetica({
+  src: "../styles/fonts/Helvetica.woff",
+});
+
+// export const metadata: Metadata = {
+//   title: "Leadwise",
+//   description: "Tool for your buisness",
+// };
 
 export default function RootLayout({
   children,

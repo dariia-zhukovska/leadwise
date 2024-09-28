@@ -1,10 +1,11 @@
 // import { BlogPost01 } from "@interfaces/interfaces";
+import { helvetica } from "@app/layout";
 import styles from "./styles.module.scss";
 import blogItem from "@app/api/blog-posts/blog-post-03.json";
 
 const BlogPost01 = () => {
   return (
-    <div className={styles.blogPostWrapper}>
+    <div className={`${styles.blogPostWrapper} ${helvetica.className}`}>
       <div className={styles.mainWrapper}>
         <section className="">
           <p className={styles.paragraph}>

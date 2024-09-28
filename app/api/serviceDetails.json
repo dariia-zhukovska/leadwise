@@ -1,309 +1,501 @@
 [
   {
     "id": "1",
-    "slug": "appointment-setting",
+    "slug": "linkedin-lead-generation",
     "mainTitle": "Appointment setting",
-    "subtitle": "Appointments that turn into deals",
-    "description": "Get 16+ guaranteed meetings monthly with qualified, warmed-up leads.",
+    "subtitle": "LinkedIn Lead Generation ",
+    "description": "We connect you with high-value LinkedIn prospects, enhance your profile, and develop personalized outreach that turns connections into valuable business opportunities.",
     "mainImg": "/assets/images/cards/main_01.png",
-    "secondaryTitle": "How appointment setting works",
-    "secondarySubtitle": "We`ve got you covered on each step of the process to bring you ready-to-buy leads.",
+    "secondaryTitle": "How LinkedIn Lead Generation works",
+    "secondarySubtitle": "We’ve got you covered on each step of the process to bring you ready-to-buy leads.",
     "cards": [
       {
         "cardId": "1",
-        "cardTitle": "01. Lead research",
+        "cardTitle": "01. Discovery TA",
         "cardDescription": "Preliminary analysis, search, and qualification",
         "cardItems": [
           {
             "id": "1",
-            "text": "To make targeting precise, we review your ICP and analyze TAM to define whether there are matching decision-makers."
+            "text": "Ideal Client Profile (ICP): We define your Ideal Client Profile by analyzing key traits, industry specifics, and pain points to focus on the right leads."
           },
           {
             "id": "2",
-            "text": "Our team searches for people to correspond with your criteria and filters out those without the potential to buy."
-          },
-          {
-            "id": "3",
-            "text": "Finally, we segment the remaining leads and gather more details about them to be able to deliver custom messages."
+            "text": "Message Strategy: We create a message strategy using custom and template approaches, ensuring personalized and efficient communication."
           }
         ],
         "cardImg": "/assets/images/cards/card_01_01.png"
       },
       {
         "cardId": "2",
-        "cardTitle": "02. LinkedIn outreach",
-        "cardDescription": "Preliminary analysis, search, and qualification",
+        "cardTitle": "02. Profile Optimization",
+        "cardDescription": "Enhancing LinkedIn Profile for Professional Appeal",
         "cardItems": [
           {
             "id": "1",
-            "text": "Based on your ICP and research data, we develop outreach strategy and prepare templates of personalized emails."
-          },
-          {
-            "id": "2",
-            "text": "At the same time, our tech experts configure and warm up mailboxes to make sure your emails are delivered and seen."
-          },
-          {
-            "id": "3",
-            "text": "After launching the campaigns, we constantly monitor their vital metrics and adjust strategy if needed."
+            "text": "LinkedIn Profile Enhancement: We update your profile picture, headline, summary, and experience sections to present a professional and appealing image to your target audience."
           }
         ],
         "cardImg": "/assets/images/cards/card_01_02.png"
       },
       {
         "cardId": "3",
-        "cardTitle": "03. Email outreach",
-        "cardDescription": "Designing and launching tailored campaigns",
+        "cardTitle": "03. Outreach",
+        "cardDescription": "Engaging Potential Clients through Strategic Messaging",
         "cardItems": [
           {
             "id": "1",
-            "text": "Designing and launching tailored campaigns."
+            "text": "Lead Base Generation: We build a list of potential leads based on your ICP, ensuring relevance and high conversion potential."
           },
           {
             "id": "2",
-            "text": "At the same time, our tech experts configure and warm up mailboxes to make sure your emails are delivered and seen."
+            "text": "Writing Messages: Our team crafts engaging messages designed to start meaningful conversations and build relationships."
           },
           {
             "id": "3",
-            "text": "After launching the campaigns, we constantly monitor their vital metrics and adjust strategy if needed."
+            "text": "Communication: We handle all interactions with your leads, ensuring professional and engaging communication to nurture these relationships."
           }
         ],
         "cardImg": "/assets/images/cards/card_01_03.png"
       },
       {
         "cardId": "4",
-        "cardTitle": "04. Appointment scheduling",
-        "cardDescription": "Booking meetings with ready-to-buy leads",
+        "cardTitle": "04. Engagement and Follow-Up",
+        "cardDescription": "Maintaining Interest and Building Relationships",
         "cardItems": [
           {
             "id": "1",
-            "text": "SDRs get in touch with the leads who respond to emails and suggest scheduling a call at your available time slots."
+            "text": "Engagement Monitoring: We monitor your posts and messages, adding engaged leads to your pipeline for further nurturing."
           },
           {
             "id": "2",
-            "text": "Before appointments, our sales people send gentle reminders to your leads about upcoming meetings."
-          },
-          {
-            "id": "3",
-            "text": "In case of no-show, we follow up with this person to reschedule the meeting, as our goal is to bring you as many calls as possible."
+            "text": "Follow-Up Messages: We send follow-up messages to interested leads who haven't yet booked a meeting, ensuring no potential client is overlooked."
           }
         ],
         "cardImg": "/assets/images/cards/card_01_04.png"
+      },
+      {
+        "cardId": "5",
+        "cardTitle": "05. Meetings Setup",
+        "cardDescription": "Organizing and Confirming Appointments with Prospects",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "Setting Up Meetings: We arrange meetings with interested leads, ensuring your calendar is filled with quality prospects."
+          },
+          {
+            "id": "2",
+            "text": "Meeting Reminders: We send reminders before each appointment to ensure punctuality."
+          },
+          {
+            "id": "3",
+            "text": "Follow-Ups for No-Shows: We follow up with no-shows to reschedule, maximizing the number of meaningful conversations and opportunities."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_01_05.png"
       }
     ]
   },
   {
     "id": "2",
-    "slug": "demand-generation",
-    "mainTitle": "Demand Generation",
-    "subtitle": "Engage. Build relationships. Win loyal clients.",
-    "description": "We help you grow visibility and trust with your potential customers and strike right to their hearts to close deals.",
+    "slug": "upwork-lead-generation",
+    "mainTitle": "Project acquisition",
+    "subtitle": "UpWork Lead Generation",
+    "description": "We help you attract high-value clients on UpWork, optimize your profile, and craft compelling proposals that convert into profitable deals.",
     "mainImg": "/assets/images/cards/main_02.png",
-    "secondaryTitle": "How demand generation service works",
-    "secondarySubtitle": "Outbound tactics that create demand? Sounds intriguing. Have a look at our workflow to leave no question unanswered.",
+    "secondaryTitle": "How UpWork Lead Generation works",
+    "secondarySubtitle": "We’ve got you covered on each step of the process to bring you ready-to-buy leads.",
     "cards": [
       {
         "cardId": "1",
-        "cardTitle": "01. Defining audience",
-        "cardDescription": "Shaping your TAM, ICP, and value prop",
+        "cardTitle": "01. Discovery Phase",
+        "cardDescription": "Understanding Your Ideal Clients",
         "cardItems": [
           {
             "id": "1",
-            "text": "First, we study your market, service or product, core pain points you address, and your distinctive features."
+            "text": "Ideal Client Profile (ICP): We begin by defining your Ideal Client Profile. This involves understanding the key characteristics, industry specifics, and pain points of your target audience to ensure we focus on the right leads."
           },
           {
             "id": "2",
-            "text": "After that, we draft and approve your ICP if you don`t have one, or propose adjustments to the existing ICP to make our outreach super targeted."
-          },
-          {
-            "id": "3",
-            "text": "We create several UVPs for the chosen client profiles. This helps us analyze the potential demand existing in your niche."
+            "text": "Bid Strategy: We develop a custom bid strategy tailored to your target clients, ensuring your proposals are both compelling and targeted."
           }
         ],
         "cardImg": "/assets/images/cards/card_02_01.png"
       },
       {
         "cardId": "2",
-        "cardTitle": "02. Pilot campaigns",
-        "cardDescription": "Creating and testing tailored email campaigns",
+        "cardTitle": "02. Profile Optimization",
+        "cardDescription": "Enhancing Your UpWork Presence",
         "cardItems": [
           {
             "id": "1",
-            "text": "Experienced writers craft several sequences of emails for each group of ICPs, addressing their pain points."
+            "text": "Profile Enhancement: We optimize your UpWork profile to ensure it stands out. This includes updating your profile picture, headline, summary, and portfolio to look professional and attract potential clients."
           },
           {
             "id": "2",
-            "text": "Our tech specialists take care of domain and mailbox configuration to prevent possible spam issues."
-          },
-          {
-            "id": "3",
-            "text": "We launch email waves and monitor performance to understand which templates resonate and drive the highest results."
+            "text": "Showcasing Skills and Projects: We highlight your key skills and successful projects to showcase your expertise and build credibility."
           }
         ],
         "cardImg": "/assets/images/cards/card_02_02.png"
       },
       {
         "cardId": "3",
-        "cardTitle": "03. Full-fledged outreach",
-        "cardDescription": "Launching mass campaigns and booking appointments",
+        "cardTitle": "03. Outreach and Bidding",
+        "cardDescription": "Engaging Clients with Strategic Proposals",
         "cardItems": [
           {
             "id": "1",
-            "text": "After the pilot campaigns are over, our SDRs provide you with a detailed report on prospects` engagement, basic KPIs of email outreach, and the most popular positive/negative replies."
+            "text": "Lead Generation: We compile a list of potential clients based on your ICP using advanced tools and techniques to ensure these leads are relevant and have high conversion potential."
           },
           {
             "id": "2",
-            "text": "Also, we analyze the acquired results, improve the pilot VP, and sharpen the ICPs if needed."
-          },
-          {
-            "id": "3",
-            "text": "Finally, we initiate full-fledged lead research and outreach, filling your pipeline with appointments."
+            "text": "Crafting Proposals: Our team writes compelling bids and proposals tailored to each job posting, ensuring your submissions address client needs, showcase relevant experience, and propose actionable solutions."
           }
         ],
         "cardImg": "/assets/images/cards/card_02_03.png"
+      },
+      {
+        "cardId": "4",
+        "cardTitle": "04. Interaction and Progress Tracking",
+        "cardDescription": "Building Relationships and Ensuring Response",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "Tracking Performance: Monitoring the performance of your bids and proposals, analyzing client interactions and feedback to refine our approach."
+          },
+          {
+            "id": "2",
+            "text": "Follow-Up on Proposals: Following up on submitted proposals to ensure no potential client is overlooked, increasing your chances of securing projects."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_02_04.png"
+      },
+      {
+        "cardId": "5",
+        "cardTitle": "05. Project Management",
+        "cardDescription": "Organizing and Confirming Engagements",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "Setting Up Projects: Assisting in setting up projects with interested clients, ensuring all details are clear and agreed upon."
+          },
+          {
+            "id": "2",
+            "text": "Reminders and Alignment: Sending reminders before project starts to ensure both you and the client are prepared and aligned."
+          },
+          {
+            "id": "3",
+            "text": "Handling Non-Responses: Following up with non-responsive clients to maximize the number of project engagements."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_02_05.png"
       }
     ]
   },
   {
     "id": "3",
     "slug": "email-outreach",
-    "mainTitle": "COLD EMAIL OUTREACH",
-    "subtitle": "Tailored outreach that turns 'No' into 'Yes'",
-    "description": "Reach out to 100% of the lead list with hand-crafted, consistent email cadences.",
+    "mainTitle": "Lead Engagement",
+    "subtitle": "Cold Email Outreach",
+    "description": "We help you effectively engage with new prospects, drive conversions, and build lasting relationships through targeted email campaigns. Here’s our comprehensive process:",
     "mainImg": "/assets/images/cards/main_03.png",
-    "secondaryTitle": "How cold email service works",
-    "secondarySubtitle": "We`ve elaborated the result-oriented process based on team work. This is how it goes.",
+    "secondaryTitle": "How Cold Email Outreach works",
+    "secondarySubtitle": "We’ve got you covered on each step of the process to bring you ready-to-buy leads.",
     "cards": [
       {
         "cardId": "1",
-        "cardTitle": "01. Audit and tech setup",
-        "cardDescription": "Analyzing current situation and configuring infrastructure",
+        "cardTitle": "01. Discovery and Strategy",
+        "cardDescription": "Understanding Your Audience and Goals",
         "cardItems": [
           {
             "id": "1",
-            "text": "We study your history of outreach, database quality, email templates, and follow-up tactics to find points of improvement."
+            "text": "Audience Segmentation: Identifying and segmenting your audience based on demographics, behavior, and preferences to ensure your messages are relevant and personalized."
           },
           {
             "id": "2",
-            "text": "Our tech specialists examine your domain reputation and determine factors that affected it. They analyze domain zones risks and pick another domain if needed."
-          },
-          {
-            "id": "3",
-            "text": "Finally, we set up DNS, create and warm up mailboxes."
+            "text": "Campaign Strategy: Developing a comprehensive email outreach strategy tailored to your business goals, including content planning, frequency, and key performance indicators (KPIs)."
           }
         ],
         "cardImg": "/assets/images/cards/card_03_01.png"
       },
       {
         "cardId": "2",
-        "cardTitle": "02. Mass mailings",
-        "cardDescription": "Developing and delivering personalized templates",
+        "cardTitle": "02. Lead Generation",
+        "cardDescription": "Building a High-Quality Lead Base",
         "cardItems": [
           {
             "id": "1",
-            "text": "Our writers take into account your ICP and prospects' pain points to craft tailored and catchy emails. They prepare the sequences that consist of 1 intro and at least 4 follow-ups."
-          },
-          {
-            "id": "2",
-            "text": "Our SDRs fine-tune profiles for mailboxes and start sending bulk emails to the hand-picked leads on your behalf."
-          },
-          {
-            "id": "3",
-            "text": "We track replies, send canned responses, and lead the prospects down the funnel to connect them with your sales team."
+            "text": "Lead Base Generation: Compiling a comprehensive list of potential leads with verified email addresses, ensuring relevance and high conversion potential."
           }
         ],
         "cardImg": "/assets/images/cards/card_03_02.png"
       },
       {
         "cardId": "3",
-        "cardTitle": "03. Tracking and A/B testing",
-        "cardDescription": "Monitoring cadences performance and testing approaches",
+        "cardTitle": "03. Domain Warm-Up",
+        "cardDescription": "Preparing Your Domain for Successful Campaigns",
         "cardItems": [
           {
             "id": "1",
-            "text": "When the campaigns are active, our delivery team tracks KPIs of each and reports on the results to you."
-          },
-          {
-            "id": "2",
-            "text": "We also conduct A/B testing of templates and approaches to find those delivering the highest open and reply rates with further conversion into appointments."
-          },
-          {
-            "id": "3",
-            "text": "Our tech experts also keep their finger on the pulse of the sequences and quickly eliminate spam issues."
+            "text": "Domain Warm-Up: Gradually increasing your email sending volume to build domain reputation and ensure high deliverability rates."
           }
         ],
         "cardImg": "/assets/images/cards/card_03_03.png"
+      },
+      {
+        "cardId": "4",
+        "cardTitle": "04. Content Creation",
+        "cardDescription": "Crafting Compelling and Unique Email Content",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "Engaging Copy: Creating compelling and persuasive email copy that captures attention and drives action."
+          },
+          {
+            "id": "2",
+            "text": "Visual Design: Designing visually appealing email templates that align with your brand and enhance the overall user experience."
+          },
+          {
+            "id": "3",
+            "text": "Personalization: Developing customizable email chains that look unique to each recipient, making each email feel personalized and relevant."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_03_04.png"
+      },
+      {
+        "cardId": "5",
+        "cardTitle": "05. Campaign Execution and Follow-Up",
+        "cardDescription": "Delivering Effective Campaigns and Converting Leads",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "Automation Setup: Setting up automated email workflows to ensure timely and consistent communication with your audience."
+          },
+          {
+            "id": "2",
+            "text": "Segmentation and Targeting: Sending targeted emails to specific audience segments to increase engagement and conversion rates."
+          },
+          {
+            "id": "3",
+            "text": "Regular Follow-Ups: Keeping potential clients engaged with timely follow-ups on sent emails, enhancing your chances of securing responses and conversions."
+          },
+          {
+            "id": "4",
+            "text": "Setting Up Meetings: Arranging meetings with interested leads, ensuring your calendar is filled with high-quality prospects."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_03_05.png"
       }
     ]
   },
   {
     "id": "4",
-    "slug": "linkedin-marketing",
-    "mainTitle": "LINKEDIN MARKETING",
-    "subtitle": "Reach and engage leads via LinkedIn",
-    "description": "Unleash LinkedIn potential and close more deals by establishing your brand expertise and attracting quality leads from your company's or personal profile.",
+    "slug": "content-marketing",
+    "mainTitle": "Lead Engagement",
+    "subtitle": "Content Marketing",
+    "description": "We help you attract, engage, and convert your target audience through compelling and strategic content. Here’s our streamlined process:",
     "mainImg": "/assets/images/cards/main_04.png",
-    "secondaryTitle": "What's inside LinkedIn Marketing service?",
-    "secondarySubtitle": "Check out how we help you build meaningful relations with your audience until they become your clients.",
+    "secondaryTitle": "Content Marketing process ",
+    "secondarySubtitle": "We’ve got you covered on each step of the process to bring you ready-to-buy leads.",
     "cards": [
       {
         "cardId": "1",
-        "cardTitle": "01. LinkedIn lead generation",
-        "cardDescription": "Establishing your expertise and increasing your audience",
+        "cardTitle": "01. Strategy Development",
+        "cardDescription": "Understanding Your Audience and Goals",
         "cardItems": [
           {
             "id": "1",
-            "text": "Before starting looking for leads, we analyze and upgrade info on your LinkedIn profile to give it professional look and feel."
+            "text": "Audience Research: Conducting research to understand your target audience, their preferences, and pain points."
           },
           {
             "id": "2",
-            "text": "To help you get seen by potential clients, we study your specifics, develop sophisticated outreach strategy, publish posts on your behalf, and stimulate your followers to interact."
-          },
-          {
-            "id": "3",
-            "text": "We monitor engagements, add those who reacted to posts to your pipeline, and continue nurturing them with relevant content."
+            "text": "Content Planning: Developing a content strategy that aligns with your business goals, including content types, distribution channels, and key performance indicators (KPIs)."
           }
         ],
         "cardImg": "/assets/images/cards/card_04_01.png"
       },
       {
         "cardId": "2",
-        "cardTitle": "02. LinkedIn outreach",
-        "cardDescription": "Engaging into meaningful conversations with your connections",
+        "cardTitle": "02. Content Creation",
+        "cardDescription": "Crafting High-Quality and Engaging Content",
         "cardItems": [
           {
             "id": "1",
-            "text": "We define decision-makers who interact with your profile, qualify them, and send connection requests."
+            "text": "Writing and Design: Creating high-quality, engaging, and SEO-optimized content, including blog posts, articles, whitepapers, infographics, videos, and social media graphics."
           },
           {
             "id": "2",
-            "text": "When they add you to their network, we drop them a short personalized welcome message and briefly describe your offer."
-          },
-          {
-            "id": "3",
-            "text": "In case there's no response, we launch a sequence of messages to remind how you can help and book a call with them."
+            "text": "Personalization: Tailoring content to different audience segments to ensure relevance and higher engagement."
           }
         ],
         "cardImg": "/assets/images/cards/card_04_02.png"
       },
       {
         "cardId": "3",
-        "cardTitle": "03. Thought-leadership content",
-        "cardDescription": "",
+        "cardTitle": "03. Distribution and Promotion",
+        "cardDescription": "Maximizing Reach and Engagement",
         "cardItems": [
           {
             "id": "1",
-            "text": "First, we research your TAM and competitors, as well as get acquainted with your ICP and their pain points to create a stellar content strategy and plan."
+            "text": "Multi-Channel Distribution: Sharing content across various platforms, including your website, blog, social media, email newsletters, and third-party websites."
           },
           {
             "id": "2",
-            "text": "Our copywriters produce exclusive content that resonates with your audience and drives impressions, reactions, and reposts."
+            "text": "SEO and SEM: Optimizing content for search engines and utilizing search engine marketing (SEM) strategies to enhance visibility."
           },
           {
             "id": "3",
-            "text": "We track posts performance, and adjust the strategy to convert your followers into qualified leads, interested in your solutions."
+            "text": "Social Media Promotion: Leveraging social media to promote your content, engage with your audience, and increase brand awareness."
           }
         ],
         "cardImg": "/assets/images/cards/card_04_03.png"
+      },
+      {
+        "cardId": "4",
+        "cardTitle": "04. Performance and Optimization",
+        "cardDescription": "Measuring and Improving Results",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "Analytics Tracking: Monitoring key metrics like website traffic, engagement rates, and conversions."
+          },
+          {
+            "id": "2",
+            "text": "Data Analysis: Analyzing data to gain insights into content performance."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_04_04.png"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "seo-optimization",
+    "mainTitle": "Lead Engagement",
+    "subtitle": "SEO Optimization",
+    "description": "We help you to enhance your online presence, drive organic traffic, and improve your search engine rankings. Here’s our comprehensive process:",
+    "mainImg": "/assets/images/cards/main_05.png",
+    "secondaryTitle": "How LinkedIn SEO optimization works",
+    "secondarySubtitle": "We’ve got you covered on each step of the process to bring you ready-to-buy leads.",
+    "cards": [
+      {
+        "cardId": "1",
+        "cardTitle": "01. Website Audit",
+        "cardDescription": "Analyzing Your Current Performance",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "Technical SEO Audit: Conducting a thorough audit of your website to identify technical issues that may affect your search engine rankings."
+          },
+          {
+            "id": "2",
+            "text": "On-Page SEO Audit: Reviewing your website’s content, meta tags, headings, and internal linking structure to ensure they are optimized for search engines."
+          },
+          {
+            "id": "3",
+            "text": "Off-Page SEO Audit: Assessing your backlink profile and overall online presence to identify opportunities for improvement."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_05_01.png"
+      },
+      {
+        "cardId": "2",
+        "cardTitle": "02. Keyword Research",
+        "cardDescription": "Identifying High-Value Keywords",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "Keyword Identification: Researching and identifying high-value keywords relevant to your business and target audience."
+          },
+          {
+            "id": "2",
+            "text": "Competitor Analysis: Analyzing your competitors’ keyword strategies to identify gaps and opportunities."
+          },
+          {
+            "id": "3",
+            "text": "Long-Tail Keywords: Identifying long-tail keywords that can drive targeted traffic to your website."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_05_02.png"
+      },
+      {
+        "cardId": "3",
+        "cardTitle": "03. On-Page Optimization",
+        "cardDescription": "Enhancing Your Website Content and Structure",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "Content Optimization: Creating and optimizing high-quality, relevant content that resonates with your target audience and search engines."
+          },
+          {
+            "id": "2",
+            "text": "Meta Tags and Headings: Optimizing meta tags, titles, and headings to improve your website’s visibility in search engine results."
+          },
+          {
+            "id": "3",
+            "text": "Internal Linking: Implementing an effective internal linking strategy to enhance user experience and improve crawlability."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_05_03.png"
+      },
+      {
+        "cardId": "4",
+        "cardTitle": "04. Technical SEO",
+        "cardDescription": "Ensuring Your Website Meets Technical Standards",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "Site Speed Optimization: Improving your website’s loading speed to enhance user experience and search engine rankings."
+          },
+          {
+            "id": "2",
+            "text": "Mobile Optimization: Ensuring your website is mobile-friendly and provides a seamless experience across all devices."
+          },
+          {
+            "id": "3",
+            "text": "XML Sitemaps and Robots.txt: Creating and optimizing XML sitemaps and robots.txt files to ensure search engines can efficiently crawl and index your site."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_05_04.png"
+      },
+      {
+        "cardId": "5",
+        "cardTitle": "05. Off-Page Optimization",
+        "cardDescription": "Building Your Online Authority",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "Backlink Building: Acquiring high-quality backlinks from authoritative websites to improve your website’s domain authority and search engine rankings."
+          },
+          {
+            "id": "2",
+            "text": "Social Media Integration: Leveraging social media platforms to increase your online presence and drive traffic to your website."
+          },
+          {
+            "id": "3",
+            "text": "Local SEO: Optimizing your online presence for local search queries to attract customers from your geographic area."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_05_05.png"
+      },
+      {
+        "cardId": "6",
+        "cardTitle": "06. Monitoring and Reporting",
+        "cardDescription": "Tracking Performance and Making Data-Driven Decisions",
+        "cardItems": [
+          {
+            "id": "1",
+            "text": "Performance Tracking: Monitoring key metrics such as organic traffic, keyword rankings, and conversion rates to gauge the success of your SEO efforts."
+          },
+          {
+            "id": "2",
+            "text": "Data Analysis: Analyzing data to gain insights into user behavior and website performance."
+          },
+          {
+            "id": "3",
+            "text": "Regular Reporting: Providing detailed reports on your website’s SEO performance and making recommendations for continuous improvement."
+          }
+        ],
+        "cardImg": "/assets/images/cards/card_05_06.png"
       }
     ]
   }

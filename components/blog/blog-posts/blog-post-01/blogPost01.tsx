@@ -1,10 +1,11 @@
 // import { BlogPost01 } from "@interfaces/interfaces";
+import { helvetica } from "@app/layout";
 import styles from "./styles.module.scss";
 import blogItem from "@app/api/blog-posts/blog-post-01.json";
 
 const BlogPost01 = () => {
   return (
-    <div className={styles.blogPostWrapper}>
+    <div className={`${styles.blogPostWrapper} ${helvetica.className}`}>
       <div className={styles.mainWrapper}>
         <section className="">
           <p className={styles.paragraph}>
@@ -40,6 +41,16 @@ const BlogPost01 = () => {
         <section>
           <h2>{blogItem.paragraphTitle05}</h2>
           {blogItem.subparagraphs05.map((subparagraph) => (
+            <p key={subparagraph.id} className={styles.subparagraph}>
+              {/* <span className={styles.boldParagraph}>
+                {subparagraph.boldText}
+              </span> */}
+              {subparagraph.mainText}
+            </p>
+          ))}
+        </section>
+        <section>
+          {blogItem.subparagraphs06.map((subparagraph) => (
             <p key={subparagraph.id} className={styles.subparagraph}>
               <span className={styles.boldParagraph}>
                 {subparagraph.boldText}
