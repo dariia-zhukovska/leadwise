@@ -11,7 +11,8 @@
     "timeToRead": "3 min read",
     "date": "Jan 4, 2024",
     "mainTitle": "Is lead generation still effective in 2024: strategies, cost and ROI?",
-    "mainPicture": "/assets/images/blog/mainPost-01.png"
+    "mainPicture": "/assets/images/blog/mainPost-01.png",
+    "blogPicture": "/assets/images/blog/mainPost-02-test.png"
   },
   {
     "id": "2",
@@ -26,6 +27,7 @@
     "date": "Sept 09, 2024",
     "mainTitle": "How to Automate LinkedIn Processes for Effective Lead Generation",
     "mainPicture": "/assets/images/blog/mainPost-02.png",
+    "blogPicture": "/assets/images/blog/mainPost-02-test.png",
     "paragraph01": "LinkedIn has become a powerhouse for lead generation, especially for B2B marketers. In fact, businesses that effectively utilize LinkedIn see up to 80% of their B2B leads coming from the platform. However, managing your LinkedIn activities manually can be time-consuming and inefficient. This article focuses on automating LinkedIn processes to enhance efficiency and effectiveness in lead generation, helping you make the most of this powerful platform.",
     "paragraphTitle02": "Benefits of Automating LinkedIn Processes",
     "subparagraphs02": [
@@ -164,7 +166,8 @@
     "timeToRead": "5 min read",
     "date": "Sept 15, 2024",
     "mainTitle": "Inbound vs Outbound Marketing: Which Approach is More Effective for Lead Generation?",
-    "mainPicture": "/assets/images/blog/mainPost-03.png"
+    "mainPicture": "/assets/images/blog/mainPost-03.png",
+    "blogPicture": "/assets/images/blog/mainPost-02-test.png"
   },
   {
     "id": "4",
@@ -178,6 +181,7 @@
     "timeToRead": "5 min read",
     "date": "Sept 09, 2024",
     "mainTitle": "5 Strategies For Effective Cold Outreach On LinkedIn for Lead Generation",
-    "mainPicture": "/assets/images/blog/mainPost-04.png"
+    "mainPicture": "/assets/images/blog/mainPost-04.png",
+    "blogPicture": "/assets/images/blog/mainPost-02-test.png"
   }
 ]

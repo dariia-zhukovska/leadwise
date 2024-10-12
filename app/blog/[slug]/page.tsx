@@ -29,7 +29,7 @@ const BlogPost = () => {
         <meta name="description" content={item.paragraph01} />
         <meta property="og:title" content={item.mainTitle} />
         <meta property="og:description" content={item.paragraph01} />
-        <meta property="og:image" content={item.mainPicture} />
+        <meta property="og:image" content={item.blogPicture} />
         <meta
           property="og:url"
           content={`https://leadwise-blogs-git-blogposts-dariiazhukovskas-projects.vercel.app/blog/${pathname}`}
