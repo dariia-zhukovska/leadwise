@@ -42,6 +42,7 @@ const BlogCard = ({
         loading="lazy"
         className={styles.image}
       />
+
       <div className={styles.description}>
         <div className={styles.tags}>
           <div className={styles.date}>{data}</div>
