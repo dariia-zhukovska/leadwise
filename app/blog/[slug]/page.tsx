@@ -26,9 +26,9 @@ const BlogPost = () => {
     <>
       <Head>
         <title>{item.mainTitle}</title>
-        {/* <meta name="description" content={item.description} /> */}
+        <meta name="description" content={item.paragraph01} />
         <meta property="og:title" content={item.mainTitle} />
-        {/* <meta property="og:description" content={item.description} /> */}
+        <meta property="og:description" content={item.paragraph01} />
         <meta property="og:image" content={item.mainPicture} />
         <meta
           property="og:url"
