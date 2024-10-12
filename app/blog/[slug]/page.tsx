@@ -32,7 +32,7 @@ const BlogPost = () => {
         <meta property="og:image" content={item.mainPicture} />
         <meta
           property="og:url"
-          content={`https://leadwise.agency/blog/${pathname}`}
+          content={`https://leadwise-blogs-git-blogposts-dariiazhukovskas-projects.vercel.app/blog/${pathname}`}
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
