@@ -32,7 +32,13 @@
   {
     "id": "6",
     "image": "/assets/images/memebrs/member-06.jpg",
-    "name": "Alina Hrab",
+    "name": "Oksana Laba",
+    "description": "Sales Development Representative"
+  },
+  {
+    "id": "7",
+    "image": "/assets/images/memebrs/member-07.jpg",
+    "name": "Olena Diachuk ",
     "description": "Lead Gen & Marketing Specialist"
   }
 ]

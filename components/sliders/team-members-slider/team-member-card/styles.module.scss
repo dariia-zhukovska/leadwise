@@ -10,16 +10,26 @@
   padding: 0 16px 40px;
   // width: auto;
   width: 350px;
-  height: 499px;
+  height: 490px;
 
   @include breakpoint.mq(xl) {
     width: 411px;
     height: 550px;
   }
+  img {
+    max-height: 410px;
+    object-fit: cover;
+    border-radius: 16px;
+
+    @include breakpoint.mq(xl) {
+      max-height: 490px;
+   
+    }
+  }
   .memberDetails {
     position: absolute;
     bottom: 0;
-    padding: 16px 28px;
+    padding: 16px 20px;
     background: rgba(255, 255, 255, 0.1);
     width: 70%;
     &:hover {
@@ -37,9 +47,14 @@
     }
 
     .memberDescription {
-      @include typography.text-16-400;
+      @include typography.text-12-400;
       color: colors.$white;
       margin-bottom: 8px;
+
+      @include breakpoint.mq(xl) {
+        @include typography.text-16-400;
+     
+      }
     }
   }
 }
