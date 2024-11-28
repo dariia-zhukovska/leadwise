@@ -52,11 +52,11 @@ const BlogPreviewCard = ({
           <div className={styles.cardTitleLink}>
             <h2 className={styles.title}>{cardTitle}</h2>
             <Link href={`/blog/${slug}`}>
-              <Button
-                size={isMobile ? "S" : "M"}
-                variant={"link"}
-                state={"default"}
-                placeholder={"Button"}
+              <Image
+                src={"/assets/images/icons/icon.svg"}
+                alt={""}
+                width={24}
+                height={24}
               />
             </Link>
           </div>

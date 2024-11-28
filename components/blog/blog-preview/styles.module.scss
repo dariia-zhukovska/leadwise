@@ -50,7 +50,8 @@
 
   .blogPostsList {
     display: flex;
-    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
 
   }
 }
