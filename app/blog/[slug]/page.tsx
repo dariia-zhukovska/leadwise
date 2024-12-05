@@ -79,8 +79,11 @@ const BlogPost = () => {
                 src={item.blogPicture}
                 alt="main-image"
                 fill={true}
-                sizes="100vw"
-                style={{ borderRadius: "16px" }}
+                // sizes="10vw"
+                style={{
+                  borderRadius: "16px",
+                  maxWidth: "80%",
+                }}
                 loading="lazy"
               />
             </div>
