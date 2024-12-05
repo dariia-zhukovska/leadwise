@@ -29,7 +29,7 @@ const BlogPost01 = () => {
           <ul>
             {blogItem.subparagraphs04.map((subparagraph04) => (
               <ol key={subparagraph04.id} className={styles.subparagraph}>
-                <span>{subparagraph04.id}. </span>
+                <span className={styles.decimal}>{subparagraph04.id}. </span>
                 <span className={styles.boldParagraph}>
                   {subparagraph04.boldText}
                 </span>
@@ -51,12 +51,12 @@ const BlogPost01 = () => {
         </section>
         <section>
           {blogItem.subparagraphs06.map((subparagraph) => (
-            <p key={subparagraph.id} className={styles.subparagraph}>
+            <li key={subparagraph.id} className={styles.subparagraph}>
               <span className={styles.boldParagraph}>
                 {subparagraph.boldText}
               </span>
               {subparagraph.mainText}
-            </p>
+            </li>
           ))}
         </section>
         <section>

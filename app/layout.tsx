@@ -11,8 +11,24 @@ const proximaNova = ProximaNova({
   src: "../styles/fonts/ProximaNova-Regular.woff",
 });
 
+// export const helvetica = Helvetica({
+//   src: "../public/fonts/helvetica_regular.otf",
+// });
+
 export const helvetica = Helvetica({
-  src: "../styles/fonts/Helvetica.woff",
+  src: [
+    {
+      path: "../public/fonts/helvetica_regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    // {
+    //   path: "/fonts/Helvetica-Bold.woff2",
+    //   weight: "700",
+    //   style: "normal",
+    // },
+  ],
+  variable: "--helvetica",
 });
 
 // export const metadata: Metadata = {

@@ -56,7 +56,7 @@ const BlogPost02 = () => {
               <p className={styles.subparagraph}>{subparagraph.paragraph}</p>
 
               {subparagraph.subparagraphs051 && (
-                <ul>
+                <ul className={styles.subparagraph}>
                   {subparagraph.subparagraphs051.map((ulsubparagraph) => (
                     <li
                       key={ulsubparagraph.id}

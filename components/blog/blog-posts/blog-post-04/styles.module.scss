@@ -7,6 +7,9 @@
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  color: colors.$blog;
+
+  font-family: helvetica;
 
   @include breakpoint.mq(sm) {
     max-width: 650px;
@@ -23,15 +26,30 @@
       @include typography.title-32-700;
     }
 
+    h2.subparagraph {
+      @include typography.text-24-600;
+    }
+
     ul {
       display: flex;
       flex-direction: column;
       gap: 20px;
+
     }
 
     ol {
       list-style-type: decimal;
       list-style: red;
+    }
+
+    ul.subparagraph {
+      li {
+        margin-left: 8px;
+        list-style-type: disc;
+        list-style-position: inside;
+        line-height: 27px;
+        @include typography.text-18-400;
+      }
     }
   }
 

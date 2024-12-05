@@ -19,16 +19,15 @@ const BlogPost04 = () => {
           <p className={styles.paragraph}>{blogItem.paragraph022}</p>
         </section>
         <section>
-          <h2>{blogItem.paragraphTitle03}</h2>
+          <h2 className={styles.subparagraph}>{blogItem.paragraphTitle03}</h2>
           <ul>
             {blogItem.subparagraphs03.map((subparagraph03) => (
-              <ol key={subparagraph03.id} className={styles.subparagraph}>
-                <span>{subparagraph03.id}. </span>
-                <span className={styles.boldParagraph}>
+              <ul key={subparagraph03.id} className={styles.subparagraph}>
+                <li>
                   {subparagraph03.boldText}
-                </span>
-                {subparagraph03.mainText}
-              </ol>
+                  {subparagraph03.mainText}
+                </li>
+              </ul>
             ))}
           </ul>
         </section>
@@ -39,13 +38,12 @@ const BlogPost04 = () => {
           <p className={styles.paragraph}>{blogItem.paragraph042}</p>
           <ul>
             {blogItem.subparagraphs04.map((subparagraph04) => (
-              <ol key={subparagraph04.id} className={styles.subparagraph}>
-                <span>{subparagraph04.id}. </span>
-                <span className={styles.boldParagraph}>
+              <ul key={subparagraph04.id} className={styles.subparagraph}>
+                <li className={styles.boldParagraph}>
                   {subparagraph04.boldText}
-                </span>
-                {subparagraph04.mainText}
-              </ol>
+                  {subparagraph04.mainText}{" "}
+                </li>
+              </ul>
             ))}
           </ul>
         </section>
@@ -54,41 +52,48 @@ const BlogPost04 = () => {
           <p className={styles.paragraph}>{blogItem.paragraph051}</p>
           <p className={styles.paragraph}>{blogItem.paragraph052}</p>
           <p className={styles.paragraph}>{blogItem.paragraph053}</p>
-          {blogItem.subparagraphs05.map((subparagraph) => (
-            <p key={subparagraph.id} className={styles.subparagraph}>
-              <span className={styles.boldParagraph}>
-                {subparagraph.boldText}
-              </span>
-              {subparagraph.mainText}
-            </p>
-          ))}
+          <ul>
+            {blogItem.subparagraphs05.map((subparagraph) => (
+              <ul key={subparagraph.id} className={styles.subparagraph}>
+                <li>
+                  {subparagraph.boldText}
+                  {subparagraph.mainText}
+                </li>
+              </ul>
+            ))}
+          </ul>
         </section>
         <section>
           <h2>{blogItem.paragraphTitle06}</h2>
           <p className={styles.paragraph}>{blogItem.paragraph061}</p>
           <p className={styles.paragraph}>{blogItem.paragraph062}</p>
           <p className={styles.paragraph}>{blogItem.paragraph063}</p>
-          {blogItem.subparagraphs06.map((subparagraph) => (
-            <p key={subparagraph.id} className={styles.subparagraph}>
-              <span className={styles.boldParagraph}>
-                {subparagraph.boldText}
-              </span>
-              {subparagraph.mainText}
-            </p>
-          ))}
+          <ul>
+            {" "}
+            {blogItem.subparagraphs06.map((subparagraph) => (
+              <ul key={subparagraph.id} className={styles.subparagraph}>
+                <li>
+                  {subparagraph.boldText}
+                  {subparagraph.mainText}
+                </li>
+              </ul>
+            ))}
+          </ul>
         </section>
         <section>
           <h2>{blogItem.paragraphTitle07}</h2>
           <p className={styles.paragraph}>{blogItem.paragraph071}</p>
           <p className={styles.paragraph}>{blogItem.paragraph072}</p>
           <p className={styles.paragraph}>{blogItem.paragraph073}</p>
+          <ul></ul>
           {blogItem.subparagraphs07.map((subparagraph) => (
-            <p key={subparagraph.id} className={styles.subparagraph}>
-              <span className={styles.boldParagraph}>
+            <ul key={subparagraph.id} className={styles.subparagraph}>
+              <li>
+                {" "}
                 {subparagraph.boldText}
-              </span>
-              {subparagraph.mainText}
-            </p>
+                {subparagraph.mainText}
+              </li>
+            </ul>
           ))}
         </section>
         <section>
