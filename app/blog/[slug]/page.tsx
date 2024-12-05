@@ -76,7 +76,7 @@ const BlogPost = () => {
             </div>
             <div className={styles.topCardWrapper}>
               <Image
-                src={item.mainPicture}
+                src={item.blogPicture}
                 alt="main-image"
                 fill={true}
                 sizes="100vw"
