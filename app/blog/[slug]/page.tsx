@@ -32,7 +32,7 @@ const BlogPost = () => {
         <meta name="image" property="og:image" content={item.blogPicture} />
         <meta
           property="og:url"
-          content={`https://leadwise-blogs-git-blogposts-dariiazhukovskas-projects.vercel.app/blog/${pathname}`}
+          content={`https://leadwise-blogs-git-blogposts-dariiazhukovskas-projects.vercel.app/${pathname}`}
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
@@ -76,7 +76,7 @@ const BlogPost = () => {
             </div>
             <div className={styles.topCardWrapper}>
               <Image
-                src={item.mainPicture}
+                src={item.blogPicture}
                 alt="main-image"
                 fill={true}
                 sizes="100vw"
