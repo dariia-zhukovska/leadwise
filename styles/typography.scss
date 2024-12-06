@@ -57,6 +57,14 @@
   line-height: 32px;
 }
 
+@mixin text-18-700 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
 @mixin text-18-400 {
   font-size: 18px;
   font-style: normal;
