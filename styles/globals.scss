@@ -109,6 +109,11 @@
 @use "/styles/colors.scss";
 @use "/styles/breakpoint.scss";
 
+// :root {
+//   --helvetica: 'Helvetica',
+//     sans-serif;
+// }
+
 *,
 *::before,
 *::after {
@@ -178,10 +183,9 @@ input:-webkit-autofill:focus {
   transition: height 500ms;
 }
 
-.slick-slide {
-}
+.slick-slide {}
 
-.slick-slide > div {
+.slick-slide>div {
   // width: fit-content;
 }
 

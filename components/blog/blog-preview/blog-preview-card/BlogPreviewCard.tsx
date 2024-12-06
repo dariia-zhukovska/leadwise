@@ -16,7 +16,7 @@ interface IProps {
   cardDescription: string;
 }
 
-const BlogCard = ({
+const BlogPreviewCard = ({
   casePicture,
   cardTitle,
   data,
@@ -35,14 +35,13 @@ const BlogCard = ({
       <Image
         src={casePicture}
         alt={"item-image"}
-        // width={520}
-        // height={293}
+        // width={410}
+        // height={210}
         sizes="100vw"
         fill={true}
         loading="lazy"
         className={styles.image}
       />
-
       <div className={styles.description}>
         <div className={styles.tags}>
           <div className={styles.date}>{data}</div>
@@ -50,20 +49,22 @@ const BlogCard = ({
           <div className={styles.hashtag}>{hashtag}</div>
         </div>
         <div className={styles.textData}>
-          <h2 className={styles.title}>{cardTitle}</h2>
+          <div className={styles.cardTitleLink}>
+            <h2 className={styles.title}>{cardTitle}</h2>
+            <Link href={`/blog/${slug}`}>
+              <Image
+                src={"/assets/images/icons/icon.svg"}
+                alt={""}
+                width={24}
+                height={24}
+              />
+            </Link>
+          </div>
           <p className={styles.description}>{cardDescription}</p>
         </div>
-        <Link href={`/blog/${slug}`}>
-          <Button
-            size={isMobile ? "S" : "M"}
-            variant={"link"}
-            state={"default"}
-            placeholder={"Read more"}
-          />
-        </Link>
       </div>
     </div>
   );
 };
 
-export default BlogCard;
+export default BlogPreviewCard;
