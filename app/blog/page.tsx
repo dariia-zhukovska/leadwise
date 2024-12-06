@@ -40,18 +40,21 @@ const Blog = () => {
       </div>
       <main className={styles.wrapper}>
         <div className={styles.blogPostsList}>
-          {blogList.map((item) => (
-            <BlogCard
-              key={item.id}
-              data={item.data}
-              time={item.time}
-              hashtag={item.hashtag}
-              cardDescription={item.cardDescription}
-              cardTitle={item.cardTitle}
-              casePicture={item.casePicture}
-              slug={item.slug}
-            />
-          ))}
+          {blogList
+            .slice(0, 1)
+            .sort((a: any, b: any) => b.id - a.id)
+            .map((item) => (
+              <BlogCard
+                key={item.id}
+                data={item.data}
+                time={item.time}
+                hashtag={item.hashtag}
+                cardDescription={item.cardDescription}
+                cardTitle={item.cardTitle}
+                casePicture={item.casePicture}
+                slug={item.slug}
+              />
+            ))}
         </div>
       </main>
     </>

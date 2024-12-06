@@ -1,43 +1,42 @@
 [
   {
     "id": "1",
-    "slug": "is-lead-generation-still-effective-in-2024-311",
+    "slug": "is-lead-generation-still-effective-in-2025-311",
     "casePicture": "/assets/images/blog/blog-card-01.png",
-    "data": "04/01/24",
+    "data": "04/12/24",
     "time": "5 min read",
     "hashtag": "Business Development",
-    "cardTitle": "Is lead generation still effective in 2024: strategies, cost and ROI?",
-    "cardDescription": "Is lead generation still effective in 2024? This is a pressing question in today's business landscape. As businesses strive to connect with customers in the digital age, the significance of acquiring new clients and driving growth through lead..."
+    "cardTitle": "Is lead generation still effective in 2025: strategies, cost and ROI?",
+    "cardDescription": "Is lead generation still effective in 2025? This is a pressing question in today's business landscape. As businesses strive to connect with customers in the digital age, the significance of acquiring new clients and driving growth through lead..."
   },
-
   {
     "id": "2",
-    "slug": "how-to-automate-linkedin-processes-for-effective-lead-generation-02",
+    "slug": "inbound-vs-outbound-marketing-02",
     "casePicture": "/assets/images/blog/blog-card-02.png",
-    "data": "09/09/24",
-    "time": "5 min read",
-    "hashtag": "Lead Generation",
-    "cardTitle": "How to Automate LinkedIn Processes for Effective Lead Generation",
-    "cardDescription": "Is manual LinkedIn management slowing you down? Discover how automating LinkedIn processes can enhance your lead generation efforts, making it easier and more efficient to capture high-quality leads..."
-  },
-  {
-    "id": "3",
-    "slug": "inbound-vs-outbound-marketing-03",
-    "casePicture": "/assets/images/blog/blog-card-03.png",
-    "data": "15/09/24",
+    "data": "18/12/24",
     "time": "5 min read",
     "hashtag": "Lead Generation",
     "cardTitle": "Inbound vs Outbound Marketing: Which Approach is More Effective for Lead Generation?",
     "cardDescription": "Inbound or outbound marketing: which one wins in lead generation? This article breaks down both strategies, helping you choose the most effective approach for attracting and converting new leads..."
   },
   {
-    "id": "4",
-    "slug": "strategies-for-effective-cold-outreach-on-linkedin-04",
-    "casePicture": "/assets/images/blog/blog-card-04.png",
-    "data": "03/10/24",
+    "id": "3",
+    "slug": "strategies-for-effective-cold-outreach-on-linkedin-03",
+    "casePicture": "/assets/images/blog/blog-card-03.png",
+    "data": "14/01/25",
     "time": "5 min read",
     "hashtag": "Lead Generation",
     "cardTitle": "5 Strategies For Effective Cold Outreach On LinkedIn for Lead Generation",
     "cardDescription": "Can LinkedIn cold outreach still deliver results? This article reveals five strategic approaches to transform your outreach efforts into a powerful lead generation tool, driving meaningful connections and growth..."
+  },
+  {
+    "id": "4",
+    "slug": "how-to-automate-linkedin-processes-for-effective-lead-generation-04",
+    "casePicture": "/assets/images/blog/blog-card-04.png",
+    "data": "29/01/25",
+    "time": "5 min read",
+    "hashtag": "Lead Generation",
+    "cardTitle": "How to Automate LinkedIn Processes for Effective Lead Generation",
+    "cardDescription": "Is manual LinkedIn management slowing you down? Discover how automating LinkedIn processes can enhance your lead generation efforts, making it easier and more efficient to capture high-quality leads..."
   }
 ]

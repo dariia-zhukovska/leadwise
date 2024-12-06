@@ -3,7 +3,7 @@ import { helvetica } from "@app/layout";
 import styles from "./styles.module.scss";
 import blogItem from "@app/api/blog-posts/blog-post-02.json";
 
-const BlogPost02 = () => {
+const BlogPost01 = () => {
   return (
     <div className={`${styles.blogPostWrapper} ${helvetica.className}`}>
       <div className={styles.mainWrapper}>
@@ -48,27 +48,7 @@ const BlogPost02 = () => {
         </section>
         <section>
           <h2>{blogItem.paragraphTitle05}</h2>
-          {blogItem.subparagraphs05.map((subparagraph) => (
-            <div key={subparagraph.id} className={styles.subparagraphList}>
-              <p className={styles.subparagraph}>
-                {subparagraph.titleOfParagraph}
-              </p>
-              <p className={styles.subparagraph}>{subparagraph.paragraph}</p>
-
-              {subparagraph.subparagraphs051 && (
-                <ul className={styles.subparagraph}>
-                  {subparagraph.subparagraphs051.map((ulsubparagraph) => (
-                    <li
-                      key={ulsubparagraph.id}
-                      className={styles.subparagraphUl}
-                    >
-                      {ulsubparagraph.mainText}
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
-          ))}
+          <p className={styles.paragraph}>{blogItem.paragraph05}</p>
         </section>
         <section>
           <h2>{blogItem.conclusionTitle}</h2>
@@ -80,4 +60,4 @@ const BlogPost02 = () => {
   );
 };
 
-export default BlogPost02;
+export default BlogPost01;

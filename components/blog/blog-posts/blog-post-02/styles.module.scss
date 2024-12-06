@@ -8,7 +8,6 @@
   flex-direction: column;
   max-width: 100%;
   color: colors.$blog;
-  font-family: helvetica;
 
   @include breakpoint.mq(sm) {
     max-width: 650px;
@@ -29,27 +28,16 @@
       @include typography.text-24-600;
     }
 
+
     ul {
       display: flex;
       flex-direction: column;
       gap: 20px;
-
     }
 
     ol {
       list-style-type: decimal;
       list-style: red;
-    }
-
-    ul.subparagraph {
-
-
-      li {
-        list-style-type: disc;
-        list-style-position: inside;
-        line-height: 27px;
-        @include typography.text-18-400;
-      }
     }
   }
 
@@ -64,16 +52,7 @@
     }
   }
 
-  .subparagraphUl {
-    list-style-type: disc;
-    margin-left: 20px;
-  }
 
-  .subparagraphList {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
 
   .paragraph {
     @include typography.text-18-400;
@@ -82,5 +61,4 @@
   .boldParagraph {
     @include typography.text-18-700;
   }
-
 }
