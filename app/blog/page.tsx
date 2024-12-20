@@ -41,7 +41,7 @@ const Blog = () => {
       <main className={styles.wrapper}>
         <div className={styles.blogPostsList}>
           {blogList
-            .slice(0, 1)
+            .slice(0,2)
             .sort((a: any, b: any) => b.id - a.id)
             .map((item) => (
               <BlogCard

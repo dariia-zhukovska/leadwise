@@ -25,7 +25,10 @@ const PlogPreviewLayout = () => {
       </div>
       <main className={styles.bottomWrapper}>
         <div className={styles.blogPostsList}>
-          {blogList.slice(0, 1).map((item) => (
+          {blogList
+           .slice(0, 2)
+           .sort((a: any, b: any) => b.id - a.id)
+          .map((item) => (
             <BlogPreviewCard
               key={item.id}
               data={item.data}

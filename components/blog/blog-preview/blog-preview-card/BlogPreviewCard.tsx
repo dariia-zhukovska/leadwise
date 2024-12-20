@@ -35,10 +35,10 @@ const BlogPreviewCard = ({
       <Image
         src={casePicture}
         alt={"item-image"}
-        // width={410}
-        // height={210}
-        sizes="100vw"
-        fill={true}
+        width={410}
+        height={210}
+        // sizes="100vw"
+        // fill={true}
         loading="lazy"
         className={styles.image}
       />
