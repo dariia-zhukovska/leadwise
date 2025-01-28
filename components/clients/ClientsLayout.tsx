@@ -12,12 +12,13 @@ const ClientsLayout = () => {
           Companies driving revenue with LeadWise.
         </h2>
         <p className={styles.subTitle}>
-        20+ sales leaders, marketers, and founders across industries trust us to drive revenue.
+          20+ sales leaders, marketers, and founders across industries trust us
+          to drive revenue.
         </p>
       </div>
 
       <div className={styles.bookCall}>
-        <div className={styles.partnersContainer}>
+        {/* <div className={styles.partnersContainer}>
           {partnerIcons.map((icon, index) => (
             <Image
               key={index}
@@ -28,14 +29,14 @@ const ClientsLayout = () => {
               loading="lazy"
             />
           ))}
-        </div>
+        </div> */}
       </div>
       <div className={styles.contentWrapper}>
-        <h2 className={styles.title}>
-        Lead Generation Solutions:
-        </h2>
+        <h2 className={styles.title}>Lead Generation Solutions:</h2>
         <p className={styles.subTitle}>
-        Attract high-value clients with our proven lead generation solutions. Our tailored strategies ensure client acquisition and sustainable growth.
+          Attract high-value clients with our proven lead generation solutions.
+          Our tailored strategies ensure client acquisition and sustainable
+          growth.
         </p>
       </div>
     </div>
