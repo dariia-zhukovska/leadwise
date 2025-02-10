@@ -1,7 +1,10 @@
 const monthNow = new Date().getMonth() + 1;
 const yearNow = new Date().getFullYear();
 
-export const CALENDLY_LINK = `https://calendly.com/dmytroishler/meeting?month=${yearNow}-${monthNow}`
+// export const CALENDLY_LINK = `https://calendly.com/dmytroishler/meeting?month=${yearNow}-${monthNow}`
+export const CALENDLY_LINK = `https://calendly.com/oksanalaba-leadwise/30min?month=${yearNow}-${monthNow}`
+
+
 
 export const partnerIcons = [
   "/assets/images/icons/01.svg",

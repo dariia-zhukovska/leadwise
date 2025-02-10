@@ -7,36 +7,42 @@
   },
   {
     "id": "2",
+    "image": "/assets/images/memebrs/member-10.jpg",
+    "name": "Dariia Zhukovska",
+    "description": "CEO at Lead Wise"
+  },
+  {
+    "id": "3",
     "image": "/assets/images/memebrs/member-02.jpg",
     "name": "Lyubov Savchuk",
     "description": "Lead Generation Specialist"
   },
   {
-    "id": "3",
-    "image": "/assets/images/memebrs/member-03.jpg",
-    "name": "Natalia Saveliyuk",
-    "description": "Lead Gen & Marketing Specialist"
-  },
-  {
     "id": "4",
-    "image": "/assets/images/memebrs/member-04.jpg",
-    "name": "Diana Ishler",
-    "description": "Lead Generation Specialist"
-  },
-  {
-    "id": "5",
-    "image": "/assets/images/memebrs/member-05.jpg",
-    "name": "Eugene Shal",
-    "description": "Lead Generation Specialist"
-  },
-  {
-    "id": "6",
     "image": "/assets/images/memebrs/member-06.jpg",
     "name": "Oksana Laba",
     "description": "Sales Development Representative"
   },
   {
+    "id": "5",
+    "image": "/assets/images/memebrs/member-04.jpg",
+    "name": "Diana Ishler",
+    "description": "Lead Generation Specialist"
+  },
+  {
+    "id": "6",
+    "image": "/assets/images/memebrs/member-03.jpg",
+    "name": "Natalia Saveliyuk",
+    "description": "Lead Gen & Marketing Specialist"
+  },
+  {
     "id": "7",
+    "image": "/assets/images/memebrs/member-05.jpg",
+    "name": "Eugene Shal",
+    "description": "Lead Gen & Marketing Specialist"
+  },
+  {
+    "id": "8",
     "image": "/assets/images/memebrs/member-07.jpg",
     "name": "Olena Diachuk ",
     "description": "Lead Gen & Marketing Specialist"

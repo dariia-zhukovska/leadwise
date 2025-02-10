@@ -18,7 +18,7 @@ const ClientsLayout = () => {
       </div>
 
       <div className={styles.bookCall}>
-        {/* <div className={styles.partnersContainer}>
+        <div className={styles.partnersContainer}>
           {partnerIcons.map((icon, index) => (
             <Image
               key={index}
@@ -29,7 +29,7 @@ const ClientsLayout = () => {
               loading="lazy"
             />
           ))}
-        </div> */}
+        </div>
       </div>
       <div className={styles.contentWrapper}>
         <h2 className={styles.title}>Lead Generation Solutions:</h2>
