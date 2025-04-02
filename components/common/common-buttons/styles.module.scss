@@ -28,6 +28,7 @@
     height: 40px;
     @include typography.button-16-400;
     gap: 12px;
+
     svg {
       width: 10px;
       height: 10px;
@@ -48,6 +49,7 @@
     color: colors.$primary;
     border: 1px solid colors.$primary;
     background: transparent;
+
     svg path {
       stroke: colors.$primary;
     }
@@ -56,6 +58,7 @@
       color: colors.$white;
 
       background: transparent;
+
       svg path {
         stroke: colors.$white;
       }
