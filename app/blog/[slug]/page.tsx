@@ -5,9 +5,9 @@ import Head from "next/head";
 import Image from "next/image";
 import blogPostData from "@app/api/blog-posts/blogPostData.json";
 import BlogPost01 from "@components/blog/blog-posts/blog-post-01/blogPost01";
-import BlogPost02 from "@components/blog/blog-posts/blog-post-04/blogPost04";
-import BlogPost03 from "@components/blog/blog-posts/blog-post-02/blogPost02";
-import BlogPost04 from "@components/blog/blog-posts/blog-post-03/blogPost03";
+import BlogPost02 from "@components/blog/blog-posts/blog-post-02/blogPost02";
+import BlogPost03 from "@components/blog/blog-posts/blog-post-03/blogPost03";
+import BlogPost04 from "@components/blog/blog-posts/blog-post-04/blogPost04";
 import PlogPreviewLayout from "@components/blog/blog-preview/PlogPreviewLayout";
 import styles from "./styles.module.scss";
 
