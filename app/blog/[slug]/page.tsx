@@ -88,8 +88,8 @@ const BlogPost = () => {
               />
             </div>
             {item.id === "1" && <BlogPost01 />}
-            {item.id === "2" && <BlogPost02 />}
-            {item.id === "3" && <BlogPost03 />}
+            {item.id === "3" && <BlogPost02 />}
+            {item.id === "2" && <BlogPost03 />}
             {item.id === "4" && <BlogPost04 />}
           </div>
         </div>

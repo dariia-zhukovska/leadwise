@@ -3,7 +3,7 @@ import { helvetica } from "@app/layout";
 import styles from "./styles.module.scss";
 import blogItem from "@app/api/blog-posts/blog-post-04.json";
 
-const BlogPost02 = () => {
+const BlogPost04 = () => {
   return (
     <div className={`${styles.blogPostWrapper} ${helvetica.className}`}>
       <div className={styles.mainWrapper}>
@@ -80,4 +80,4 @@ const BlogPost02 = () => {
   );
 };
 
-export default BlogPost02;
+export default BlogPost04;

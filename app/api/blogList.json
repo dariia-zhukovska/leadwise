@@ -11,16 +11,6 @@
   },
   {
     "id": "2",
-    "slug": "inbound-vs-outbound-marketing",
-    "casePicture": "/assets/images/blog/blog-card-02.png",
-    "data": "18/12/24",
-    "time": "5 min read",
-    "hashtag": "Lead Generation",
-    "cardTitle": "Inbound vs Outbound Marketing: Which Approach is More Effective for Lead Generation?",
-    "cardDescription": "Inbound or outbound marketing: which one wins in lead generation? This article breaks down both strategies, helping you choose the most effective approach for attracting and converting new leads..."
-  },
-  {
-    "id": "3",
     "slug": "strategies-for-effective-cold-outreach-on-linkedin",
     "casePicture": "/assets/images/blog/blog-card-03.png",
     "data": "04/04/25",
@@ -28,6 +18,16 @@
     "hashtag": "Lead Generation",
     "cardTitle": "5 Strategies For Effective Cold Outreach On LinkedIn for Lead Generation",
     "cardDescription": "Can LinkedIn cold outreach still deliver results? This article reveals five strategic approaches to transform your outreach efforts into a powerful lead generation tool, driving meaningful connections and growth..."
+  },
+  {
+    "id": "3",
+    "slug": "inbound-vs-outbound-marketing",
+    "casePicture": "/assets/images/blog/blog-card-02.png",
+    "data": "12/04/24",
+    "time": "5 min read",
+    "hashtag": "Lead Generation",
+    "cardTitle": "Inbound vs Outbound Marketing: Which Approach is More Effective for Lead Generation?",
+    "cardDescription": "Inbound or outbound marketing: which one wins in lead generation? This article breaks down both strategies, helping you choose the most effective approach for attracting and converting new leads..."
   },
   {
     "id": "4",
