@@ -1,0 +1,63 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+@use "/styles/breakpoint.scss";
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0 16px 40px;
+  // width: auto;
+  width: 350px;
+  height: 490px;
+
+  @include breakpoint.mq(xl) {
+    width: 411px;
+    height: 550px;
+  }
+
+  img {
+    max-height: 410px;
+    object-fit: cover;
+    border-radius: 16px;
+
+    @include breakpoint.mq(xl) {
+      max-height: 490px;
+
+    }
+  }
+
+  .feedbackDetails {
+    position: absolute;
+    bottom: 0;
+    padding: 16px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 70%;
+
+    &:hover {
+      background: var(--gradient,
+          linear-gradient(266deg, #5f51de 0%, #ad5dd3 100%));
+    }
+
+    border-radius: 8px;
+
+    .feedbackName {
+      @include typography.title-24-700;
+      color: colors.$white;
+      margin-bottom: 8px;
+    }
+
+    .feedbackDescription {
+      @include typography.text-12-400;
+      color: colors.$white;
+      margin-bottom: 8px;
+
+      @include breakpoint.mq(xl) {
+        @include typography.text-16-400;
+
+      }
+    }
+  }
+}

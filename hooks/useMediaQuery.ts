@@ -15,7 +15,6 @@ const useMediaQuery = (width: number) => {
     const media = window.matchMedia(`(max-width: ${width}px)`);
     media.addEventListener("change", updateTarget);
 
-    // Check on mount (callback is not called until a change occurs)
     if (media.matches) {
       setTargetReached(true);
     }

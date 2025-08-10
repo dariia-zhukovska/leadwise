@@ -81,12 +81,12 @@ export const services = [
     subtitle: "Harness the Power of LinkedIn for Lead Generation",
     slug: "content-marketing"
   },
-  {
-    id: 5,
-    name: "Seo Optimization",
-    subtitle: "Harness the Power of LinkedIn for Lead Generation",
-    slug: "seo-optimization"
-  },
+  // {
+  //   id: 5,
+  //   name: "Seo Optimization",
+  //   subtitle: "Harness the Power of LinkedIn for Lead Generation",
+  //   slug: "seo-optimization"
+  // },
 ];
 
 
