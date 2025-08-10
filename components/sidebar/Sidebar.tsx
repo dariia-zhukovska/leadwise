@@ -53,9 +53,9 @@ const SideBar = ({ isOpen, onClose }: IProps) => {
             <Link href="/services/content-marketing" onClick={closeMenu}>
               Content Marketing
             </Link>
-            <Link href="/services/seo-optimization" onClick={closeMenu}>
+            {/* <Link href="/services/seo-optimization" onClick={closeMenu}>
               Seo Optimization
-            </Link>
+            </Link> */}
           </div>
         )}
         <Link

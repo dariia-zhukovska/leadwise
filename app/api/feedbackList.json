@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "companyLogo": "/public/assets/images/feedbacks/logos/client-logo-01.png",
+    "ceoImgLarge": "/public/assets/images/feedbacks/clients/client-01.png",
+    "ceoImgSmall": "/public/assets/images/feedbacks/clients/client-01-sm.png",
+    "ceoName": "Maksym Horobets",
+    "ceoTitle": "Founder & CEO at SSP",
+    "feedbackDescription": "“Leadwise delivered exactly what we were looking for. Over the course of our engagement, they booked 16 calls with genuinely qualified leads—people who had a real interest in our services and were ready to have serious conversations. What stood out was their ability to understand our value proposition quickly and communicate it effectively to prospects. Their outreach wasn’t spammy or generic—it was targeted and well thought out. They also kept us in the loop with regular updates and were responsive anytime we had feedback or needed changes.”"
+  },
+  {
+    "id": "2",
+    "companyLogo": "/public/assets/images/feedbacks/logos/client-logo-02.png",
+    "ceoImgLarge": "/public/assets/images/feedbacks/clients/client-02.png",
+    "ceoImgSmall": "/public/assets/images/feedbacks/clients/client-02-sm.png",
+    "ceoName": "Karina Kurbanova",
+    "ceoTitle": "Head of Business Development at Sonerim",
+    "feedbackDescription": "“I’ve been working with LeadWise for a few months now, and it’s been a great experience. Dmytro and his team have been fantastic — super professional, well-organized, and a pleasure to collaborate with. Their lead generation process runs like clockwork, and the whole team really knows their stuff. If I ever need help again, I’ll absolutely reach out to LeadWise. Highly recommend!”"
+  },
+  {
+    "id": "3",
+    "companyLogo": "",
+    "ceoImgLarge": "",
+    "ceoImgSmall": "",
+    "ceoName": "",
+    "ceoTitle": "",
+    "feedbackDescription": ""
+  },
+  {
+    "id": "4",
+    "companyLogo": "",
+    "ceoImgLarge": "",
+    "ceoImgSmall": "",
+    "ceoName": "",
+    "ceoTitle": "",
+    "feedbackDescription": ""
+  },
+  {
+    "id": "5",
+    "companyLogo": "",
+    "ceoImgLarge": "",
+    "ceoImgSmall": "",
+    "ceoName": "",
+    "ceoTitle": "",
+    "feedbackDescription": ""
+  },
+  {
+    "id": "6",
+    "companyLogo": "",
+    "ceoImgLarge": "",
+    "ceoImgSmall": "",
+    "ceoName": "",
+    "ceoTitle": "",
+    "feedbackDescription": ""
+  }
+]

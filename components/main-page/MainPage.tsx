@@ -36,7 +36,6 @@ const MainPage = () => {
             placeholder={"Book a Call"}
           />
         </Link>
-
         <Image
           src={"/assets/images/main-picture.png"}
           alt={"main-picture"}
