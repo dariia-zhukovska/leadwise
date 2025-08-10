@@ -3,6 +3,8 @@ import Image from "next/image";
 import styles from "./styles.module.scss";
 import MonumentExtendedBold from "next/font/local";
 import clsx from "clsx";
+import Link from "@node_modules/next/link";
+import { CALENDLY_LINK } from "@app/helpers/mockedData";
 
 const monumentExtended = MonumentExtendedBold({
   src: "../../styles/fonts/MonumentExtended-Regular.otf",
@@ -32,12 +34,14 @@ const TopInfo = ({
 
         <h1 className={styles.serviceSubtitle}>{subtitle}</h1>
         <span className={styles.serviceDescription}>{description}</span>
-        <Button
-          size={"S"}
-          variant={"primary"}
-          state={"default"}
-          placeholder={buttonPlaceholder}
-        />
+        <Link href={CALENDLY_LINK} target="_blank">
+          <Button
+            size={"S"}
+            variant={"primary"}
+            state={"default"}
+            placeholder={buttonPlaceholder}
+          />
+        </Link>
       </div>
       <Image
         src={imageSrc}
