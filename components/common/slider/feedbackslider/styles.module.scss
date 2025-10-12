@@ -1,0 +1,113 @@
+@use "/styles/typography.scss";
+@use "/styles/colors.scss";
+@use "/styles/breakpoint.scss";
+
+.sliderSection {
+  background: colors.$black;
+  color: colors.$white;
+  overflow: hidden;
+  padding: 40px 20px;
+
+  @include breakpoint.mq(xl) {
+    padding: 80px;
+  }
+
+  @include breakpoint.mq(xxl) {
+    padding: 120px;
+  }
+}
+
+.header {
+  max-width: 1200px;
+
+  @include breakpoint.mq(lax) {
+    margin-bottom: 48px;
+  }
+}
+
+.serviceTitle {
+  color: colors.$dark-purple;
+  @include typography.title-14-400;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-bottom: 8px;
+}
+
+.title {
+  @include typography.title-24-700;
+  margin: 0;
+  color: colors.$white;
+
+  @include breakpoint.mq(lax) {
+    @include typography.heading-44-600;
+  }
+}
+
+/* Базові правила для slick — максимально нейтральні,
+   щоб НЕ впливати на інші компоненти */
+.slick :global(.slick-track) {
+  display: flex !important;
+}
+
+.slick :global(.slick-slide) {
+  display: flex !important;
+  /* контент кожного слайда в нас лежить у .slideContainer */
+}
+
+.slideContainer {
+  width: 100%;
+}
+
+/* ===== ВАРІАНТ: TESTIMONIAL =====
+   Центруємо 1 картку, додаємо відступи та стрілки — лише в цьому варіанті */
+.variantTestimonial {
+  .header {
+    max-width: 1200px;
+  }
+
+  .slideContainer {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .slick :global(.slick-list) {
+    overflow: visible;
+    padding: 8px 0;
+  }
+
+  .slick :global(.slick-slider) {
+    overflow: visible;
+  }
+
+  /* Стрілки над правим краєм (можеш підкрутити цифри) */
+  .slick :global(.slick-arrow) {
+    z-index: 2;
+    top: -64px;
+    transform: none;
+  }
+
+  .slick :global(.slick-prev) {
+    right: 96px;
+    left: auto;
+  }
+
+  .slick :global(.slick-next) {
+    right: 32px;
+  }
+
+  :global(.slick-arrow.slick-disabled) {
+    opacity: .4;
+    pointer-events: none;
+  }
+}
+
+/* ===== ВАРІАНТ: COMPACT (для інших списків, якщо треба щільніше) ===== */
+.variantCompact {
+  .slideContainer {
+    padding: 6px;
+  }
+}

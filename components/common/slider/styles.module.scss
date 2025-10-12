@@ -30,3 +30,21 @@
     height: 100%;
   }
 }
+
+.feedbackTitle {
+  display: flex;
+  text-wrap: wrap;
+  max-width: 50%;
+  height: max-content;
+
+  @include breakpoint.mq(lax) {
+    max-width: 100%;
+
+  }
+
+}
+
+.serviceTitle {
+  color: colors.$dark-purple;
+  @include typography.title-14-400;
+}

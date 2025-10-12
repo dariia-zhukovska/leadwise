@@ -10,6 +10,7 @@ import TeamMemberSlider from "@components/sliders/team-members-slider/TeamMember
 import CaseStudySlider from "@components/sliders/case-stydies-slider/CaseStudySlider";
 import FaQ from "@components/faq/FaQ";
 import GoogleAnalytics from "@analitics/GoogleAnalitics";
+import FeedbackSlider from "@components/sliders/feedback-slider/FeedbackSlider";
 
 export default function Home() {
   const isMobile = useMediaQuery(768);
@@ -26,6 +27,7 @@ export default function Home() {
         <Ticker items={tickerItems} interval={tickerInterval} />
         <ClientsLayout />
         <ServicesLayout />
+        <FeedbackSlider />
         <CaseStudySlider />
         <TeamMemberSlider />
         <FaQ />

@@ -4,60 +4,155 @@
 
 .cardWrapper {
   display: flex;
+  // justify-content: space-between;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  gap: 32px;
   position: relative;
-  padding: 0 16px 40px;
-  // width: auto;
-  width: 350px;
-  height: 490px;
+  margin-left: 20px;
+
+
 
   @include breakpoint.mq(xl) {
-    width: 411px;
-    height: 550px;
+    flex-direction: row;
+    gap: 100px;
+
   }
 
-  img {
-    max-height: 410px;
-    object-fit: cover;
-    border-radius: 16px;
 
-    @include breakpoint.mq(xl) {
-      max-height: 490px;
+}
+
+.leftWrapper {
+  position: relative;
+  min-width: fit-content;
+
+  .ceoImg {
+    border-radius: 16px;
+    object-fit: cover;
+    width: 298px;
+    height: 217px;
+    margin: 55px 0 0 60px;
+
+    @include breakpoint.mq(lax) {
+      margin: 100px 0 0 108px;
+      width: 488px;
+      height: 366px;
 
     }
+  }
+
+  .companyLogo {
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    width: 110px;
+    height: 110px;
+
+    @include breakpoint.mq(lax) {
+      width: 200px;
+      height: 200px;
+
+    }
+  }
+}
+
+.rightWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  max-width: 488px;
+
+  @include breakpoint.mq(lax) {
+    margin-top: 164px;
+  }
+
+
+  .ceoAvatar {
+    border-radius: 100%;
   }
 
   .feedbackDetails {
-    position: absolute;
-    bottom: 0;
-    padding: 16px 20px;
-    background: rgba(255, 255, 255, 0.1);
-    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 8px;
+    width: 100%;
 
-    &:hover {
-      background: var(--gradient,
-          linear-gradient(266deg, #5f51de 0%, #ad5dd3 100%));
+
+
+
+    .titleData {
+      display: flex;
+      flex-direction: row;
+      gap: 12px;
     }
 
-    border-radius: 8px;
-
-    .feedbackName {
+    .ceoName {
       @include typography.title-24-700;
       color: colors.$white;
+      margin-bottom: 4px;
+    }
+
+    .ceoTitle {
+      @include typography.text-16-400;
+      color: colors.$description;
       margin-bottom: 8px;
     }
 
     .feedbackDescription {
-      @include typography.text-12-400;
+      @include typography.text-20-400;
       color: colors.$white;
-      margin-bottom: 8px;
-
-      @include breakpoint.mq(xl) {
-        @include typography.text-16-400;
-
-      }
     }
   }
+}
+
+// Mobile styles
+
+.mobileTopSection {
+  position: relative;
+
+  .ceoImgMobile {
+    width: 290px;
+    height: 217px;
+    border-radius: 16px;
+    object-fit: cover;
+    margin: 55px 0 0 61px;
+  }
+
+  .companyLogoMobile {
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    width: 110px;
+    height: 110px;
+
+  }
+}
+
+.ceoSmallInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+
+  .ceoAvatar {
+    border-radius: 100%;
+  }
+
+  .ceoName {
+    @include typography.title-20-700;
+    color: colors.$white;
+  }
+
+  .ceoTitle {
+    @include typography.text-14-400;
+    color: colors.$white;
+  }
+}
+
+.feedbackDescription {
+  @include typography.text-16-400;
+  color: colors.$white;
+  margin-top: 16px;
 }

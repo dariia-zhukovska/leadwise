@@ -5,6 +5,7 @@ import CommonSlider from "@components/common/slider/Slider";
 import useMediaQuery from "@hooks/useMediaQuery";
 import CaseStudyCard from "./case-study-card/CaseStudyCard";
 import caseStudiesList from "@app/api/caseStudiesList.json";
+import CommonFeedbackSlider from "@components/common/slider/feedbackslider/CommonFeedbackSlider";
 
 const CaseStudySlider = () => {
   const isMobile = useMediaQuery(768);
@@ -21,7 +22,6 @@ const CaseStudySlider = () => {
             cardTitle={item.cardTitle}
             casePicture={item.casePicture}
             slug={item.slug}
-
           />
         ))}
       </CommonSlider>

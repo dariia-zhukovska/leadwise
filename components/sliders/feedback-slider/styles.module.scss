@@ -1,12 +1,30 @@
 @use "/styles/typography.scss";
 @use "/styles/colors.scss";
 @use "/styles/breakpoint.scss";
-.sliderContainer {
+
+.sliderSection {
+
+  background-color: colors.$black;
+
+  padding: 40px 20px;
+  overflow-x: hidden;
+
+  @include breakpoint.mq(xl) {
+    padding: 80px 80px 60px;
+  }
+
+  @include breakpoint.mq(xxl) {
+    padding: 120px 120px 60px;
+  }
+
+
 }
+
+
 
 .memberList {
   padding: 40px 20px;
-  background-color: colors.$brown;
+  background-color: colors.$black;
   overflow-x: hidden;
 
   @include breakpoint.mq(xl) {
@@ -17,5 +35,5 @@
     padding: 120px;
   }
 
-  
+
 }

@@ -19,35 +19,85 @@ const FeedbackCard = ({
   ceoTitle,
   feedbackDescription,
 }: IProps) => {
-  const isMobile = useMediaQuery(768);
+  const isMobile = useMediaQuery(1200);
+
   return (
     <div className={styles.cardWrapper}>
-      <Image
-        src={ceoImgLarge}
-        alt="team-feedback-image"
-        width={0}
-        height={0}
-        // width={isMobile ? 350 : 379}
-        // height={isMobile ? 476 : 510}
-        sizes="100vw"
-        style={{ width: "100%", height: "auto" }}
-        loading="lazy"
-      />
-      <Image
-        src={ceoImgSmall}
-        alt="team-feedback-image"
-        width={0}
-        height={0}
-        // width={isMobile ? 350 : 379}
-        // height={isMobile ? 476 : 510}
-        sizes="100vw"
-        style={{ width: "100%", height: "auto" }}
-        loading="lazy"
-      />
-      <div className={styles.feedbackDetails}>
-        <h5 className={styles.feedbackName}>{ceoName}</h5>
-        <p className={styles.feedbackDescription}>{feedbackDescription}</p>
-      </div>
+      {isMobile ? (
+        <>
+          <div className={styles.ceoSmallInfo}>
+            <Image
+              src={ceoImgSmall}
+              alt={ceoName}
+              width={60}
+              height={60}
+              className={styles.ceoAvatar}
+            />
+            <div>
+              <h5 className={styles.ceoName}>{ceoName}</h5>
+              <p className={styles.ceoTitle}>{ceoTitle}</p>
+            </div>
+          </div>
+          <div className={styles.mobileTopSection}>
+            <Image
+              src={ceoImgLarge}
+              alt="CEO"
+              width={350}
+              height={476}
+              className={styles.ceoImgMobile}
+            />
+            <Image
+              src={companyLogo}
+              alt="Company Logo"
+              width={60}
+              height={60}
+              className={styles.companyLogoMobile}
+            />
+          </div>
+
+          <p className={styles.feedbackDescription}>{feedbackDescription}</p>
+        </>
+      ) : (
+        <>
+          <div className={styles.leftWrapper}>
+            <Image
+              src={companyLogo}
+              alt="Company Logo"
+              width={200}
+              height={200}
+              className={styles.companyLogo}
+            />
+            <Image
+              src={ceoImgLarge}
+              alt="CEO"
+              width={488}
+              height={366}
+              className={styles.ceoImg}
+            />
+          </div>
+          <div className={styles.rightWrapper}>
+            <div className={styles.feedbackDetails}>
+              <p className={styles.feedbackDescription}>
+                {feedbackDescription}
+              </p>
+              <div>___</div>
+              <div className={styles.titleData}>
+                <Image
+                  src={ceoImgSmall}
+                  alt={ceoName}
+                  width={60}
+                  height={60}
+                  className={styles.ceoAvatar}
+                />
+                <div>
+                  <h5 className={styles.ceoName}>{ceoName}</h5>
+                  <p className={styles.ceoTitle}>{ceoTitle}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </>
+      )}
     </div>
   );
 };

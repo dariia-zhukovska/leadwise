@@ -1,56 +1,56 @@
 [
   {
     "id": "1",
-    "companyLogo": "/public/assets/images/feedbacks/logos/client-logo-01.png",
-    "ceoImgLarge": "/public/assets/images/feedbacks/clients/client-01.png",
-    "ceoImgSmall": "/public/assets/images/feedbacks/clients/client-01-sm.png",
+    "companyLogo": "/assets/images/feedbacks/logos/client-logo-01.png",
+    "ceoImgLarge": "/assets/images/feedbacks/clients/client-01.png",
+    "ceoImgSmall": "/assets/images/feedbacks/clients/client-01-sm.png",
     "ceoName": "Maksym Horobets",
     "ceoTitle": "Founder & CEO at SSP",
     "feedbackDescription": "“Leadwise delivered exactly what we were looking for. Over the course of our engagement, they booked 16 calls with genuinely qualified leads—people who had a real interest in our services and were ready to have serious conversations. What stood out was their ability to understand our value proposition quickly and communicate it effectively to prospects. Their outreach wasn’t spammy or generic—it was targeted and well thought out. They also kept us in the loop with regular updates and were responsive anytime we had feedback or needed changes.”"
   },
   {
     "id": "2",
-    "companyLogo": "/public/assets/images/feedbacks/logos/client-logo-02.png",
-    "ceoImgLarge": "/public/assets/images/feedbacks/clients/client-02.png",
-    "ceoImgSmall": "/public/assets/images/feedbacks/clients/client-02-sm.png",
+    "companyLogo": "/assets/images/feedbacks/logos/client-logo-02.png",
+    "ceoImgLarge": "/assets/images/feedbacks/clients/client-02.png",
+    "ceoImgSmall": "/assets/images/feedbacks/clients/client-02-sm.png",
     "ceoName": "Karina Kurbanova",
     "ceoTitle": "Head of Business Development at Sonerim",
     "feedbackDescription": "“I’ve been working with LeadWise for a few months now, and it’s been a great experience. Dmytro and his team have been fantastic — super professional, well-organized, and a pleasure to collaborate with. Their lead generation process runs like clockwork, and the whole team really knows their stuff. If I ever need help again, I’ll absolutely reach out to LeadWise. Highly recommend!”"
   },
   {
     "id": "3",
-    "companyLogo": "",
-    "ceoImgLarge": "",
-    "ceoImgSmall": "",
-    "ceoName": "",
-    "ceoTitle": "",
-    "feedbackDescription": ""
+    "companyLogo": "/assets/images/feedbacks/logos/client-logo-03.png",
+    "ceoImgLarge": "/assets/images/feedbacks/clients/client-03.png",
+    "ceoImgSmall": "/assets/images/feedbacks/clients/client-03-sm.png",
+    "ceoName": "Yevhen Kliakhin",
+    "ceoTitle": "CEO/Founder at {DevHandler}",
+    "feedbackDescription": "“I had the pleasure of working with the LeadWise team on lead generation and marketing materials, and the experience was excellent from start to finish. Communication was smooth and expectations were always clear. The team delivered high-quality work efficiently and professionally, making the entire collaboration seamless. I highly recommend LeadWise to any business looking for expert support in lead generation and marketing strategy.”"
   },
   {
     "id": "4",
-    "companyLogo": "",
-    "ceoImgLarge": "",
-    "ceoImgSmall": "",
-    "ceoName": "",
-    "ceoTitle": "",
-    "feedbackDescription": ""
+    "companyLogo": "/assets/images/feedbacks/logos/client-logo-04.png",
+    "ceoImgLarge": "/assets/images/feedbacks/clients/client-04.png",
+    "ceoImgSmall": "/assets/images/feedbacks/clients/client-04-sm.png",
+    "ceoName": "Zhanna Kapitsa",
+    "ceoTitle": "Founder & CEO at 4TEAM",
+    "feedbackDescription": "“Working with LeadWise was exactly what we needed. Securing our first client in just one month was a major milestone, providing us with the momentum to build on. Their approach was direct, effective, and perfectly aligned with our needs, making the entire process smooth and efficient. LeadWise’s strategy gave us confidence in our next steps, and we’re looking forward to seeing even more results as we continue to grow.”"
   },
   {
     "id": "5",
-    "companyLogo": "",
-    "ceoImgLarge": "",
-    "ceoImgSmall": "",
-    "ceoName": "",
-    "ceoTitle": "",
-    "feedbackDescription": ""
+    "companyLogo": "/assets/images/feedbacks/logos/client-logo-05.png",
+    "ceoImgLarge": "/assets/images/feedbacks/clients/client-05.png",
+    "ceoImgSmall": "/assets/images/feedbacks/clients/client-05-sm.png",
+    "ceoName": "Andriy Pavlyuk",
+    "ceoTitle": "Co-founder/CEO at In Silico",
+    "feedbackDescription": "“We've been working with LeadWise for over a year now. Their strategic approach, clear communication, and consistent delivery of high-quality leads have made a real difference in our business development efforts. If you're looking for a reliable partner to boost your sales pipeline, I highly recommend LeadWise.”"
   },
   {
     "id": "6",
-    "companyLogo": "",
-    "ceoImgLarge": "",
-    "ceoImgSmall": "",
-    "ceoName": "",
-    "ceoTitle": "",
-    "feedbackDescription": ""
+    "companyLogo": "/assets/images/feedbacks/logos/client-logo-06.png",
+    "ceoImgLarge": "/assets/images/feedbacks/clients/client-06.png",
+    "ceoImgSmall": "/assets/images/feedbacks/clients/client-06-sm.png",
+    "ceoName": "Artem Gaidai",
+    "ceoTitle": "CEO at Sonerim",
+    "feedbackDescription": "“LeadWise successfully filled the client's sales pipeline with high-quality, relevant leads, contributing to their growth and engagement. LeadWise met all KPIs, delivering 13 qualified meetings and maintaining a 25% reply rate. The team impressed the client with their communication and results.”"
   }
 ]
