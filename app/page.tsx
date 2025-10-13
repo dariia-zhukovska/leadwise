@@ -27,9 +27,9 @@ export default function Home() {
         <Ticker items={tickerItems} interval={tickerInterval} />
         <ClientsLayout />
         <ServicesLayout />
-        <FeedbackSlider />
+        {/* <FeedbackSlider /> */}
         <CaseStudySlider />
-        {/* <TeamMemberSlider /> */}
+        <TeamMemberSlider />
         <FaQ />
         <ReachOut padding={isMobile ? "40px 20px" : "120px"} />
       </main>
