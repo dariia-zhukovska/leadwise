@@ -27,7 +27,7 @@ export default function Home() {
         <Ticker items={tickerItems} interval={tickerInterval} />
         <ClientsLayout />
         <ServicesLayout />
-        {/* <FeedbackSlider /> */}
+        <FeedbackSlider />
         <CaseStudySlider />
         <TeamMemberSlider />
         <FaQ />
