@@ -1,6 +1,7 @@
 @use "/styles/typography.scss";
 @use "/styles/colors.scss";
 @use "/styles/breakpoint.scss";
+
 .footer {
   position: relative;
   display: flex;
@@ -33,6 +34,8 @@
       display: flex;
       flex-direction: column;
       gap: 24px;
+
+      p,
       span {
         @include typography.text-16-400;
         color: colors.$white;
@@ -52,6 +55,7 @@
       display: flex;
       flex-direction: column;
       gap: 8px;
+
       .link {
         @include typography.text-16-400;
         color: colors.$white;
@@ -87,11 +91,9 @@
 
   top: -256px;
   border-radius: 492.693px;
-  background: linear-gradient(
-    0deg,
-    rgba(95, 81, 222, 0.4) 0%,
-    rgba(95, 81, 222, 0.4) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(95, 81, 222, 0.4) 0%,
+      rgba(95, 81, 222, 0.4) 100%);
 
   background-size: 100%;
 

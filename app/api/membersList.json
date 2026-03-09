@@ -7,44 +7,53 @@
   },
   {
     "id": "2",
-    "image": "/assets/images/memebrs/member-10.jpg",
+    "image": "/assets/images/memebrs/member-02.jpg",
     "name": "Dariia Zhukovska",
     "description": "CEO at Lead Wise"
   },
   {
     "id": "3",
-    "image": "/assets/images/memebrs/member-02.jpg",
+    "image": "/assets/images/memebrs/member-03.jpg",
     "name": "Lyubov Savchuk",
-    "description": "Lead Generation Specialist"
+    "description": "Business Development Manager"
   },
   {
     "id": "4",
-    "image": "/assets/images/memebrs/member-06.jpg",
-    "name": "Oksana Laba",
-    "description": "Sales Development Representative"
+    "image": "/assets/images/memebrs/member-04.jpg",
+    "name": "Olena Diachuk ",
+    "description": "Lead Gen & Marketing Specialist"
   },
+
   {
     "id": "5",
-    "image": "/assets/images/memebrs/member-04.jpg",
-    "name": "Diana Ishler",
+    "image": "/assets/images/memebrs/member-05.jpg",
+    "name": "Solomiia Ishchuk",
     "description": "Lead Generation Specialist"
   },
   {
     "id": "6",
-    "image": "/assets/images/memebrs/member-03.jpg",
-    "name": "Natalia Saveliyuk",
-    "description": "Lead Gen & Marketing Specialist"
+    "image": "/assets/images/memebrs/member-06.jpg",
+    "name": "Diana Ishler",
+    "description": "Lead Generation Specialist"
   },
+
   {
     "id": "7",
-    "image": "/assets/images/memebrs/member-05.jpg",
-    "name": "Eugene Shal",
+    "image": "/assets/images/memebrs/member-07.jpg",
+    "name": "Pavlo Kamenshchuk",
     "description": "Lead Gen & Marketing Specialist"
   },
   {
     "id": "8",
-    "image": "/assets/images/memebrs/member-07.jpg",
-    "name": "Olena Diachuk ",
-    "description": "Lead Gen & Marketing Specialist"
+    "image": "/assets/images/memebrs/member-08.jpg",
+    "name": "Olesia Chycheliuk",
+    "description": "Lead Generation Specialist"
+  },
+
+  {
+    "id": "9",
+    "image": "/assets/images/memebrs/member-09.jpg",
+    "name": "Andriy Ivanchyshyn ",
+    "description": "Lead Generation Specialist"
   }
 ]

@@ -21,9 +21,9 @@ const Footer = () => {
 
         <div className={styles.footerWrapper}>
           <div className={styles.rights}>
-            <span>
-              © 2023 LeadWise <br /> All rights reserved.
-            </span>
+            <p>
+              © {new Date().getFullYear()} LeadWise <br /> All rights reserved.
+            </p>
             <span>
               Lviv, Lviv oblast
               <br /> Ukraine
@@ -89,7 +89,7 @@ const Footer = () => {
                 loading="lazy"
               />
             </Link>
-            <Link href="https://twitter.com/LeadWiseAgency" target="_blank">
+            {/* <Link href="https://twitter.com/LeadWiseAgency" target="_blank">
               <Image
                 src={"/assets/images/svg/twitter.svg"}
                 alt={"social-network-logo"}
@@ -97,7 +97,7 @@ const Footer = () => {
                 height={24}
                 loading="lazy"
               />
-            </Link>
+            </Link> */}
             <Link
               href="https://www.linkedin.com/company/lwagency"
               target="_blank"
