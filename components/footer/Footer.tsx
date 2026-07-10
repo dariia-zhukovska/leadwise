@@ -1,8 +1,16 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import styles from "./styles.module.scss";
 
 const Footer = () => {
+  const pathname = usePathname();
+
+  if (pathname.startsWith("/presentation")) {
+    return null;
+  }
   return (
     <div>
       <footer className={styles.footer}>
