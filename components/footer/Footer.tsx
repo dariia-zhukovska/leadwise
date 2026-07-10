@@ -1,8 +1,16 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import styles from "./styles.module.scss";
 
 const Footer = () => {
+  const pathname = usePathname();
+
+  if (pathname.startsWith("/presentation")) {
+    return null;
+  }
   return (
     <div>
       <footer className={styles.footer}>
@@ -54,10 +62,7 @@ const Footer = () => {
               >
                 Content Marketing
               </Link>
-              <Link
-                className={styles.link}
-                href={"/services/seo-optimization"}
-              >
+              <Link className={styles.link} href={"/services/seo-optimization"}>
                 Seo Optimization
               </Link>
             </div>
@@ -80,7 +85,10 @@ const Footer = () => {
             </div>
           </div>
           <div className={styles.socialLinks}>
-            <Link href="https://www.facebook.com/profile.php?id=61554688681769" target="_blank">
+            <Link
+              href="https://www.facebook.com/profile.php?id=61554688681769"
+              target="_blank"
+            >
               <Image
                 src={"/assets/images/svg/facebook.svg"}
                 alt={"social-network-logo"}
@@ -98,7 +106,10 @@ const Footer = () => {
                 loading="lazy"
               />
             </Link>
-            <Link href="https://www.linkedin.com/company/lwagency" target="_blank">
+            <Link
+              href="https://www.linkedin.com/company/lwagency"
+              target="_blank"
+            >
               <Image
                 src={"/assets/images/svg/linkedin.svg"}
                 alt={"social-network-logo"}
@@ -107,7 +118,10 @@ const Footer = () => {
                 loading="lazy"
               />
             </Link>
-            <Link href="https://www.instagram.com/leadwise_agency/" target="_blank">
+            <Link
+              href="https://www.instagram.com/leadwise_agency/"
+              target="_blank"
+            >
               <Image
                 src={"/assets/images/svg/instagram.svg"}
                 alt={"social-network-logo"}

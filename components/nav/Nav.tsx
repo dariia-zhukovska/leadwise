@@ -24,6 +24,10 @@ const Nav = () => {
   const isTablet = useMediaQuery(1025);
   const [isSidebarOpen, setSidebarOpen] = useState(false);
 
+  if (pathname.startsWith("/presentation")) {
+    return null;
+  }
+
   const toggleSidebar = () => {
     setSidebarOpen(!isSidebarOpen);
   };
