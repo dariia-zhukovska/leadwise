@@ -36,17 +36,10 @@ export const accordionData = [
     title: "How much does your lead generation service cost?",
     description: {
       descriptionTitle:
-        "Our pricing structure is adaptable to your unique needs, employing two collaboration forms",
+        "",
       descriptionList: [
         {
-          id: 10,
-          descriptionListTitle: "1. Bounce Form:",
-          descriptionListDescription:
-            "You pay only for calls and a percentage of the project. This offers flexibility and ensures you're investing directly in tangible results.",
-        },
-        {
           id: 11,
-          descriptionListTitle: "2. Monthly Retainer:",
           descriptionListDescription:
             "We offer a monthly retainer option where you pay a fixed fee. Additional calls beyond the agreed-upon target are incentivized with an extra reward, motivating optimal performance from our team.",
         },
